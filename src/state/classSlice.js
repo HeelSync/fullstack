@@ -5,8 +5,6 @@ const initialClassesState = {
     classNames: [],
 }
 
-
-
 const classesSlice = createSlice({
     name: 'classes', // Name of the slice
     initialState: initialClassesState,
@@ -32,3 +30,5 @@ const classesSlice = createSlice({
 });
 export const {addClassTime, addClassName, removeClassTime, removeClassName} = classesSlice.actions;
 export default classesSlice.reducer;
+
+// crashout tuesday august 20 2024
