@@ -13,6 +13,7 @@ import Settings from "./pages/Settings";
 
 
 function App() {
+  console.log("HISHDAIUSHDIUASHDIU");
   return (
     <Provider store={store}>
       <BrowserRouter>
