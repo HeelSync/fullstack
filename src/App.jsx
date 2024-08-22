@@ -9,7 +9,7 @@ import Calendar from './pages/Calendar';
 import ClassRegistration from './pages/ClassRegistration';
 import StudyAbroadPlanner from './pages/StudyAbroadPlanner';
 import Settings from "./pages/Settings";
-
+import Links from "./pages/Links";
 
 
 function App() {
@@ -23,8 +23,10 @@ function App() {
             <Route path="dashboard" element={<Dashboard />}/>
             <Route path="calendar" element={<Calendar />}/>
             <Route path="registration" element={<ClassRegistration />}/>
+            <Route path="links" element={<Links />}/>
             <Route path="studyabroadplanner" element={<StudyAbroadPlanner />}/>
             <Route path="settings" element={<Settings />} />
+            
           </Route>    
         </Routes>
     </BrowserRouter>

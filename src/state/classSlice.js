@@ -13,22 +13,23 @@ const classesSlice = createSlice({
         addClassTime(state, action) {
             state.classTimes.push(action.payload);
         },
-        removeClassTime(state, action) {
-            const index = action.payload;
-            state.classNames = state.classTimes.filter(name => name !== index);
-        },
+        
         // Reducer to add a new class name
         addClassName(state, action) {
             state.classNames.push(action.payload);
         },
-        removeClassName(state, action) {
+        removeClass(state, action) {
             const index = action.payload;
-            state.classNames = state.classNames.filter(name => name !== index);
+           // state.classNames = state.classNames.filter(name => name !== index);
+            //state.classTimes = state.classTimes.filter(name => name !== index);
+            state.classTimes.splice(index, 1);
+            state.classNames.splice(index, 1);
         }
 
     },
 });
-export const {addClassTime, addClassName, removeClassTime, removeClassName} = classesSlice.actions;
+export const { addClassTime, addClassName, removeClass } = classesSlice.actions;
 export default classesSlice.reducer;
 
 // crashout tuesday august 20 2024
+

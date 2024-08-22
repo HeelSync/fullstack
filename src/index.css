@@ -49,3 +49,7 @@ body {
     background-position: 0% 50%, 50% 50%, 100% 100%;
   }
 }
+
+.navLink {
+  @apply flex items-center gap-4 text-carolina-blue text-lg font-medium py-3 px-6 transition-colors duration-300 hover:text-blue-600 hover:bg-gray-50 active:text-gray-800 active:bg-gray-50 rounded-sm
+}
