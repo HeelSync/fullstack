@@ -1,20 +1,16 @@
 /** @type {import('tailwindcss').Config} */
-
-// eslint-disable-next-line
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      pizza: "Roboto"
-    },
-    
     extend: {
-      height: {
-        screen: "100dvh",
-    },
+      backgroundImage: {
+        'wakeid-login': "url('/links/wakeid-login.jpg')",
+        'wakeid-login-gradient': "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/links/wakeid-login.jpg')",
+        // Add more background images here as needed
+      },
       colors: {
         carolina: {
           blue: "#4B9CD3",
@@ -22,9 +18,10 @@ export default {
           tarheelblue: "#7BAFD4"
         },
       },
-  
-  },
+      fontFamily: {
+        pizza: ['Roboto', 'sans-serif'], // Ensuring fallback to sans-serif
+      },
+    },
   },
   plugins: [],
 }
-

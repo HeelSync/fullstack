@@ -7,7 +7,8 @@ function LinkButton({ children, to }) {
       hover:text-blue-600 hover:underline" onClick={() => navigate(-1)}>{children}</button>
     return (
         <Link target="_blank" to={to} className="text-2xl text-stone-800 text-center border-solid border-2 border-carolina-blue
-      py-20 rounded-md transition-all duration-250 ease-in-out hover:text-transparent"><span className=" inline-block">{children}</span></Link>
+      py-20 rounded-md transition-all duration-250 ease-in-out hover:text-transparent">
+        <span className=" inline-block">{children}</span></Link>
     )
 }
 
