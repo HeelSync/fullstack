@@ -1,3 +1,5 @@
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -10,6 +12,26 @@ export default {
         'wakeid-login': "url('/links/wakeid-login.jpg')",
         'wakeid-login-gradient': "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/links/wakeid-login.jpg')",
         // Add more background images here as needed
+        'canvas': "url('/src/backgrounds/CanvasBG.png')",
+        'catalog': "url('/src/backgrounds/CatalogBG.png')",
+        'cds': "url('/src/backgrounds/CDSBG.png')",
+        'connect-carolina': "url('/src/backgrounds/ConnectCarolinaBG.png')",
+        'gradescope': "url('/src/backgrounds/GradescopeBG.png')",
+        'handshake': "url('/src/backgrounds/HandshakeBG.png')",
+        'heelmail': "url('/src/backgrounds/HeelMailBG.png')",
+        'libraries': "url('/src/backgrounds/LibrariesBG.png')",
+        'piazza': "url('/src/backgrounds/PiazzaBG.png')",
+        'rec': "url('/src/backgrounds/RecBG.png')",
+        'canvas-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CanvasBG.png')`,
+        'catalog-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CatalogBG.png')`,
+        'cds-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CDSBG.png')`,
+        'connect-carolina-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/ConnectCarolinaBG.png')`,
+        'gradescope-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/GradescopeBG.png')`,
+        'handshake-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HandshakeBG.png')`,
+        'heelmail-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HeelMailBG.png')`,
+        'libraries-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/LibrariesBG.png')`,
+        'piazza-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/PiazzaBG.png')`,
+        'rec-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/RecBG.png')`
       },
       colors: {
         carolina: {
