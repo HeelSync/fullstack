@@ -17,6 +17,17 @@ export default {
           navy: "#13294B",
           tarheelblue: "#7BAFD4"
         },
+        sidebar: {
+          apurwa1: "#AFECFF",
+          apurwa2: "#70C3FF"
+        },
+        better: {
+          white: "#f8f8ff"
+        }
+      },
+      boxShadow: {
+        bar: '7px 4px 10.8px rgba(0, 0, 0, 0.22)',
+        header: '7px 4px 10.8px rgba(0, 0, 0, 0.22)'
       },
       fontFamily: {
         pizza: ['Roboto', 'sans-serif'], // Ensuring fallback to sans-serif

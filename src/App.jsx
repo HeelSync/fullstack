@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 
 import AppLayout from "./ui/AppLayout";
 import Dashboard from "./pages/Dashboard";
-import Calendar from './pages/Calendar';
+import CalendarTool from './pages/CalendarTool';
 import ClassRegistration from './pages/ClassRegistration';
 import StudyAbroadPlanner from './pages/StudyAbroadPlanner';
 import Settings from "./pages/Settings";
@@ -21,7 +21,7 @@ function App() {
           <Route element={<AppLayout />}>
             <Route index element={<Navigate replace to="dashboard" />}/>
             <Route path="dashboard" element={<Dashboard />}/>
-            <Route path="calendar" element={<Calendar />}/>
+            <Route path="calendar" element={<CalendarTool />}/>
             <Route path="registration" element={<ClassRegistration />}/>
             <Route path="links" element={<Links />}/>
             <Route path="studyabroadplanner" element={<StudyAbroadPlanner />}/>

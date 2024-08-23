@@ -10,61 +10,25 @@ function Dashboard() {
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
 
-    const [selectedClassTime, setSelectedClassTime] = useState("");
-    const [selectedClassName, setSelectedClassName] = useState("");
 
 
-    function handleAddClassTime() {
-        if (selectedClassTime === "" && selectedClassName === "") return;
-        const classtime = selectedClassTime;
-        dispatch(addClassTime(classtime));
-        setSelectedClassTime("");
-    }
-    function handleAddClassName() {
-        if (selectedClassName === "" && selectedClassTime === "") return;
-        const classname = selectedClassName;
-        dispatch(addClassName(classname));
-        setSelectedClassName("");
-    }
-
-    function handleAddClass() {
-        if (selectedClassName !== "" && selectedClassTime !== "") {
-            dispatch(addClassName(selectedClassName));
-            dispatch(addClassTime(selectedClassTime));
-            setSelectedClassTime("");
-            setSelectedClassName("");
-        }
-    }
-
-    function handleDeleteClass(index) {
-        dispatch(removeClass(index));
-    }
+    
     return (
         <>
-            <div>
-                <img className="h-60 w-62"
-                src={ramses} alt="Image of UNC mascot Ramses"/>
-                <h5>Circle Time</h5>
-                <h5>Circle Text</h5>
-            </div>
-            <div>
-                <span>Todays date</span>
-                <form onSubmit={e => {
-                    e.preventDefault();
-                    handleAddClass();
-                }}>
-                    <input type="text" placeholder="class name" value={selectedClassName} onChange={e => setSelectedClassName(e.target.value)} />
-                    <input type="text" placeholder="class time" value={selectedClassTime} onChange={e => setSelectedClassTime(e.target.value)} />
-                    <button type="submit">Add</button>
-                </form>
-               
+            <div className="flex flex-col justify-stretch items-center h-screen gap-10">
+              
+                <h3 className="text-6xl font-semibold pt-20">01:23:37</h3>
+                <h5 className="text-3xl font-light text-carolina-blue">Until LOOKSMAXXING 550</h5>
                 <ul>
-                    {classTimes.map((time, index) => (
-                    <li key={index}>{classNames[index]} at {time}
-                    <button className="px-10" onClick={() => handleDeleteClass(index)}>Delete</button>
-                    </li>))}
-                </ul>
+                {classTimes.map((time, index) => (<li key={index}>{classNames[index]} at {time}</li>) )}
+            </ul>
             </div>
+
+        <div>
+            Classes!
+           
+        </div>
+            
         </>
     )
 }
