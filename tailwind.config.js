@@ -19,6 +19,7 @@ export default {
         'gradescope': "url('/src/backgrounds/GradescopeBG.png')",
         'handshake': "url('/src/backgrounds/HandshakeBG.png')",
         'heelmail': "url('/src/backgrounds/HeelMailBG.png')",
+        'heellife': "url('/src/backgrounds/HeelLifeBG.png')",
         'libraries': "url('/src/backgrounds/LibrariesBG.png')",
         'piazza': "url('/src/backgrounds/PiazzaBG.png')",
         'rec': "url('/src/backgrounds/RecBG.png')",
@@ -29,6 +30,7 @@ export default {
         'gradescope-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/GradescopeBG.png')`,
         'handshake-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HandshakeBG.png')`,
         'heelmail-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HeelMailBG.png')`,
+        'heellife-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HeelLifeBG.png')`,
         'libraries-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/LibrariesBG.png')`,
         'piazza-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/PiazzaBG.png')`,
         'rec-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/RecBG.png')`

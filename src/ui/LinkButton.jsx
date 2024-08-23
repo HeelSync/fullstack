@@ -35,11 +35,14 @@ function LinkButton({ children, to, background }) {
       case "rec":
         bgClass = "bg-rec-gradient hover:bg-rec bg-cover transition-bg duration-250 ease-in-out"
         break;
+      case "heellife":
+          bgClass = "bg-heellife-gradient hover:bg-heellife bg-cover transition-bg duration-250 ease-in-out"
+          break;
     }
     if(to==='-1') return <button className="text-sm text-blue-500 
       hover:text-blue-600 hover:underline" onClick={() => navigate(-1)}>{children}</button>
     return (
-        <Link target="_blank" to={to} className={`text-2xl text-better-white text-center border-solid border-2 border-carolina-blue
+        <Link target="_blank" to={to} className={`text-2xl text-better-white font-normal text-center border-solid border-2 border-carolina-blue
       py-20 rounded-md transition-all duration-250 ease-in-out hover:text-transparent ${bgClass}`}>
         <span className=" inline-block">{children}</span></Link>
     )
