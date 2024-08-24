@@ -43,7 +43,7 @@ function LinkButton({ children, to, background }) {
       hover:text-blue-600 hover:underline" onClick={() => navigate(-1)}>{children}</button>
     return (
         <Link target="_blank" to={to} className={`text-2xl text-better-white font-normal text-center border-solid border-2 border-carolina-blue
-      py-20 rounded-md transition-all duration-250 ease-in-out hover:text-transparent ${bgClass}`}>
+      py-20 rounded-md shadow-sm transition-all duration-250 ease-in-out hover:shadow-none hover:text-transparent ${bgClass}`}>
         <span className=" inline-block">{children}</span></Link>
     )
 }

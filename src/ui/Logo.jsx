@@ -1,9 +1,9 @@
-import LogoImg from "../assets/Logo.png"
+import LogoImg from "../assets/Logo-NoBG.png"
 function Logo() {
     return (
         <div className="text-center">
             <img src={LogoImg} alt="HeelSync Logo" 
-            className="h-10 w-36"/>
+            className="h-10 w-48"/>
         </div>
     )
 }
