@@ -6,6 +6,9 @@ function Links() {
             <LinkButton to="https://connectcarolina.unc.edu" background="connect-carolina">
             ConnectCarolina</LinkButton>
 
+            <LinkButton to="https://heellife.unc.edu" background="heellife">
+            HeelLife</LinkButton>
+
             <LinkButton to="https://edtech.unc.edu/service/canvas/" background="canvas">
             Canvas</LinkButton>
 
@@ -33,8 +36,7 @@ function Links() {
             <LinkButton to="https://dining.unc.edu/menu-hours/" background="cds">
             Dining Halls</LinkButton>
 
-            <LinkButton to="https://heellife.unc.edu" background="heellife">
-            HeelLife</LinkButton>
+            
         </div>
     )
 }
