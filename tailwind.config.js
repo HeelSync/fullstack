@@ -23,6 +23,7 @@ export default {
         'libraries': "url('/src/backgrounds/LibrariesBG.png')",
         'piazza': "url('/src/backgrounds/PiazzaBG.png')",
         'rec': "url('/src/backgrounds/RecBG.png')",
+        'my-carolina': "url('/src/backgrounds/MyCarolinaBG.png')",
         'canvas-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CanvasBG.png')`,
         'catalog-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CatalogBG.png')`,
         'cds-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CDSBG.png')`,
@@ -33,7 +34,8 @@ export default {
         'heellife-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HeelLifeBG.png')`,
         'libraries-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/LibrariesBG.png')`,
         'piazza-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/PiazzaBG.png')`,
-        'rec-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/RecBG.png')`
+        'rec-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/RecBG.png')`,
+        'my-carolina-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/MyCarolinaBG.png')`
       },
       colors: {
         carolina: {

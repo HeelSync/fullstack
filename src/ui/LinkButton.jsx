@@ -38,6 +38,9 @@ function LinkButton({ children, to, background }) {
       case "heellife":
           bgClass = "bg-heellife-gradient hover:bg-heellife bg-cover transition-bg duration-250 ease-in-out"
           break;
+      case "my-carolina":
+          bgClass = "bg-my-carolina-gradient hover:bg-my-carolina bg-cover transition-bg duration-250 ease-in-out";
+          break;
     }
     if(to==='-1') return <button className="text-sm text-blue-500 
       hover:text-blue-600 hover:underline" onClick={() => navigate(-1)}>{children}</button>

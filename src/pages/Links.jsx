@@ -36,7 +36,8 @@ function Links() {
             <LinkButton to="https://dining.unc.edu/menu-hours/" background="cds">
             Dining Halls</LinkButton>
 
-            
+            <LinkButton to="https://mycarolina.unc.edu/account/login?r=https%3a%2f%2fmycarolina.unc.edu%2fapply%2fstatus" background="my-carolina">
+            MyCarolina</LinkButton>
         </div>
     )
 }
