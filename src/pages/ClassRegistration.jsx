@@ -2,26 +2,18 @@ import { useEffect, useState } from "react"
 import { getClasses } from "../registration_data/apiClasses"
 import { addClassTime, addClassName, removeClass } from "../state/classSlice";
 import { useDispatch, useSelector } from "react-redux";
+import Loader from "../ui/Loader";
+
+
 function ClassRegistration() {
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
+    const [availableClasses, setAvailableClasses] = useState({});
 
     const [selectedClassTime, setSelectedClassTime] = useState("");
     const [selectedClassName, setSelectedClassName] = useState("");
-
-    function handleAddClassTime() {
-        if (selectedClassTime === "" && selectedClassName === "") return;
-        const classtime = selectedClassTime;
-        dispatch(addClassTime(classtime));
-        setSelectedClassTime("");
-    }
-    function handleAddClassName() {
-        if (selectedClassName === "" && selectedClassTime === "") return;
-        const classname = selectedClassName;
-        dispatch(addClassName(classname));
-        setSelectedClassName("");
-    }
+    const [isLoading, setIsLoading] = useState(true)
 
     function handleAddClass() {
         if (selectedClassName !== "" && selectedClassTime !== "") {
@@ -32,13 +24,41 @@ function ClassRegistration() {
         }
     }
 
+    function handleAddClassFromDB(name, time) {
+            const alreadyScheduled = classNames.includes(name) && classTimes.includes(time)
+            if(!alreadyScheduled) {
+                dispatch(addClassName(name));
+                dispatch(addClassTime(time));
+            }
+            
+        
+    }
+
     function handleDeleteClass(index) {
         dispatch(removeClass(index));
     }
-        useEffect(function() {
-        getClasses().then(data=>console.log(data));
+
+    
+    useEffect(function() {
+        getClasses().then(data=>{
+            console.log(data);
+            const classesObject = {}
+            data.forEach(classObj => {
+                const { id, class_number: classNumber, class: className, meeting_time: meetingTime, instructor, total_enrollment } = classObj;
+                classesObject[id] = {
+                    classNumber,
+                    className,
+                    meetingTime,
+                    instructor,
+                    total_enrollment
+                };
+        });
+        setAvailableClasses(classesObject);
+        setIsLoading(false);
+        });
     }, [])
-    const [schedule, setSchedule] = useState([]);
+    
+   
     return (
         <>
         <div>
@@ -58,6 +78,23 @@ function ClassRegistration() {
                     <button className="px-10" onClick={() => handleDeleteClass(index)}>Delete</button>
                     </li>))}
                 </ul>
+
+                {isLoading ? <Loader />
+                 : ( <div>
+                    <h1 className="text-center text-xl py-10">Add these DUMMY CLASSES!</h1>
+                    <ul className="flex flex-col gap-4">
+                        {Object.values(availableClasses).map(( classObject, index ) => (
+                               <li key={index} className="pl-16 flex justify-center">
+                                <button key={index} className="p-3 pl-6 w-48 rounded-xl text-left bg-red-700 text-carolina-tarheelblue"
+                                onClick={() => handleAddClassFromDB(classObject.className, classObject.meetingTime)}>
+                             
+                                    {classObject.className}
+                                    </button>
+                                </li>
+                                
+                        ))}
+                    </ul>
+                </div>)}
             </div>
             </>
     )
