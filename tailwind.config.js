@@ -24,18 +24,21 @@ export default {
         'piazza': "url('/src/backgrounds/PiazzaBG.png')",
         'rec': "url('/src/backgrounds/RecBG.png')",
         'my-carolina': "url('/src/backgrounds/MyCarolinaBG.png')",
-        'canvas-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CanvasBG.png')`,
-        'catalog-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CatalogBG.png')`,
-        'cds-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/CDSBG.png')`,
-        'connect-carolina-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/ConnectCarolinaBG.png')`,
-        'gradescope-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/GradescopeBG.png')`,
-        'handshake-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HandshakeBG.png')`,
-        'heelmail-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HeelMailBG.png')`,
-        'heellife-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/HeelLifeBG.png')`,
-        'libraries-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/LibrariesBG.png')`,
-        'piazza-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/PiazzaBG.png')`,
-        'rec-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/RecBG.png')`,
-        'my-carolina-gradient': `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/src/backgrounds/MyCarolinaBG.png')`
+        'canvas-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/CanvasBG.png')`,
+        'catalog-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/CatalogBG.png')`,
+        'cds-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/CDSBG.png')`,
+        'connect-carolina-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/ConnectCarolinaBG.png')`,
+        'gradescope-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/GradescopeBG.png')`,
+        'handshake-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/HandshakeBG.png')`,
+        'heelmail-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/HeelMailBG.png')`,
+        'heellife-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/HeelLifeBG.png')`,
+        'libraries-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/LibrariesBG.png')`,
+        'piazza-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/PiazzaBG.png')`,
+        'rec-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/RecBG.png')`,
+        'my-carolina-gradient': `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('/src/backgrounds/MyCarolinaBG.png')`
+      },
+      spacing: {
+        '128': '34rem',
       },
       colors: {
         carolina: {

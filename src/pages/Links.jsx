@@ -2,7 +2,7 @@ import LinkButton from "../ui/LinkButton"
 import CanvasBG from "../backgrounds/CanvasBG.png"
 function Links() {
     return (
-        <div className="grid grid-cols-3 gap-8 p-8">
+        <div className="grid xl:grid-cols-3 gap-8 p-8 md:grid-cols-2 sm:grid-cols-1">
             <LinkButton to="https://connectcarolina.unc.edu" background="connect-carolina">
             ConnectCarolina</LinkButton>
 

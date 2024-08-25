@@ -15,19 +15,25 @@ function Dashboard() {
     
     return (
         <>
-            <div className="flex flex-col justify-stretch items-center h-screen gap-10">
+            <div className="flex flex-col justify-evenly items-center h-screen gap-1">
               
-                <h3 className="text-6xl font-semibold pt-20">01:23:37</h3>
+                <h3 className="text-6xl font-semibold pt-8">01:23:37</h3>
                 <h5 className="text-3xl font-light text-carolina-blue">Until LOOKSMAXXING 550</h5>
-                <ul>
-                {classTimes.map((time, index) => (<li key={index}>{classNames[index]} at {time}</li>) )}
-            </ul>
+
+                <div className="p-10 h-128 w-full overflow-y-scroll">
+                    <ul className="p-8 rounded-xl bg-gradient-to-tr from-sidebar-apurwa2 to-sidebar-apurwa1 h-full w-full
+                    box-border">
+                        <li className="p-4 text-xl text-center text-stone-500">COMP 211 at 2:30PM</li>
+                        {classTimes.map((time, index) => (<li className="p-4 text-xl text-center text-stone-500"
+                            key={index}>
+                            {classNames[index]} at {time}
+                            </li>) )}
+                    </ul>
+                </div>
+                
             </div>
 
-        <div>
-            Classes!
-           
-        </div>
+        
             
         </>
     )

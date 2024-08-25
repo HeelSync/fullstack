@@ -53,3 +53,29 @@ body {
 .navLink {
   @apply flex items-center gap-4 text-carolina-blue text-lg font-medium py-3 px-6 transition-colors duration-300 hover:text-blue-600 hover:bg-gray-50 active:text-gray-800 active:bg-gray-50 rounded-sm
 }
+
+@keyframes animate {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 200px;
+  }
+}
+
+.link-animated::before {
+  content: attr(data-text);
+  position: absolute;
+  background: url("./assets/wave.png");
+  background-clip: text;
+  --webkit-background-clip: text;
+  color: transparent;
+  animation: animate 2s linear infinite;
+  transition: width 0.5s;
+  width: 0;
+  white-space: nowrap;
+}
+
+.link-animated:hover::before {
+  width: 100%;
+}

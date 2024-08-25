@@ -7,7 +7,7 @@ function Header() {
          uppercase px-4 py-3 
          shadow-header sm:px-6 font-pizza">
             <Link to="/" className="tracking-wider">UNC Chapel Hill</Link>  
-            <p className="tracking-wider">Welcome, {username}!</p>
+            <Link to="/profile" className="tracking-wider">Welcome, {username}!</Link>
         </header>
 
         

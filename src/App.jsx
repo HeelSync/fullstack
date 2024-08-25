@@ -10,6 +10,7 @@ import ClassRegistration from './pages/ClassRegistration';
 import StudyAbroadPlanner from './pages/StudyAbroadPlanner';
 import Settings from "./pages/Settings";
 import Links from "./pages/Links";
+import Profile from "./pages/Profile";
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
             <Route path="links" element={<Links />}/>
             <Route path="studyabroadplanner" element={<StudyAbroadPlanner />}/>
             <Route path="settings" element={<Settings />} />
-            
+            <Route path="profile" element={<Profile />} />
           </Route>    
         </Routes>
     </BrowserRouter>
