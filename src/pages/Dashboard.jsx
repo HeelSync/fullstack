@@ -9,12 +9,11 @@ function Dashboard({ times, periods }) {
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
-    const [timer, setTimer] = useState("01:23:33");
-    const [nextClass, setNextClass] = useState("LOOKSMAXXING 550");
+    const [timer, setTimer] = useState("You don't have a schedule!");
+    const [nextClass, setNextClass] = useState("No class to go to!");
 
 
     function convertTimes(timeArray) {
-        
         if(!Array.isArray(timeArray)) {
             return [];
         }
@@ -55,7 +54,6 @@ function Dashboard({ times, periods }) {
         let mm = date.getMinutes();
         let ss = date.getSeconds();
 
-        const now = new Date();
         const options = {
             weekday: 'long',
             month: 'long',
@@ -78,8 +76,8 @@ function Dashboard({ times, periods }) {
                 remainingMinutes = remainingMinutes < 10 ? `0${remainingMinutes}` : remainingMinutes;
                 ss = ss < 10 ? `0${ss}` : ss;
 
-                setTimer(`${remainingHours}:${remainingMinutes}:${60 - ss}`);
-                setNextClass(periods[i]);
+                setTimer(`${remainingHours}:${remainingMinutes}:${60-ss}`);
+                setNextClass(`Until ${periods[i]}`);
 
                 break;
             }
@@ -98,9 +96,9 @@ function Dashboard({ times, periods }) {
         <>
             <div className="flex flex-col justify-evenly items-center h-screen gap-1">
               
-                <h3 className="text-6xl font-semibold pt-8">Time until next class: {timer}</h3>
+                <h3 className="text-6xl font-semibold pt-8">{timer}</h3>
 
-                <h5 className="text-3xl font-light text-carolina-blue">Next class: {nextClass}</h5>
+                <h5 className="text-3xl font-light text-carolina-blue">{nextClass}</h5>
 
                 <div className="p-10 h-128 w-full">
 
