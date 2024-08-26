@@ -59,7 +59,7 @@ function Dashboard({ times, periods }) {
             month: 'long',
             day: 'numeric'
         }
-
+        console.log("hi")
         let currentTime = parseFloat(hh) + parseFloat(mm / 60);
 
         for(let i=0; i<times.length; i++) {
