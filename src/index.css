@@ -63,6 +63,11 @@ body {
   }
 }
 
+.link-animated {
+  position: relative;
+  display: inline-block;
+}
+
 .link-animated::before {
   content: attr(data-text);
   position: absolute;

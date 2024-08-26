@@ -22,7 +22,7 @@ function Dashboard() {
 
                 <div className="p-10 h-128 w-full">
 
-                    <ul className="p-8 rounded-xl bg-gradient-to-tr from-sidebar-apurwa2 to-sidebar-apurwa1 h-full w-full
+                    <ul className="p-8 rounded-3xl bg-gradient-to-tr from-sidebar-apurwa2 to-sidebar-apurwa1 h-full w-full
                     box-border max-h-full overflow-y-scroll">
                     
                         {classTimes.map((time, index) => (<li className="p-4 text-xl text-center text-stone-500"
