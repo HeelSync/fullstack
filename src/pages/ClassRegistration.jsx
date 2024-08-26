@@ -29,6 +29,8 @@ function ClassRegistration() {
             if(!alreadyScheduled) {
                 dispatch(addClassName(name));
                 dispatch(addClassTime(time));
+                console.log(classTimes);
+    console.log(classNames);
             }
             
         
@@ -43,6 +45,7 @@ function ClassRegistration() {
         getClasses().then(data=>{
             console.log(data);
             const classesObject = {}
+            
             data.forEach(classObj => {
                 const { id, class_number: classNumber, class: className, meeting_time: meetingTime, instructor, total_enrollment } = classObj;
                 classesObject[id] = {
