@@ -1,7 +1,5 @@
 import { useCallback, useEffect, useReducer, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addClassTime, addClassName, removeClass } from "../state/classSlice";
-import ramses from "../assets/ramsesHead-removebg-preview.png";
 
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
@@ -60,29 +58,31 @@ function Dashboard({ times, periods }) {
             day: 'numeric'
         }
         console.log("hi")
-        let currentTime = parseFloat(hh) + parseFloat(mm / 60);
+        const currentTime = parseFloat(hh) + parseFloat(mm / 60); 
 
         for(let i=0; i<times.length; i++) {
+            let [classHour, classMinute] = times[i].split(".");
+            let classTimeInMinutes = parseFloat(classHour) * 60 + parseFloat(classMinute);
+            let currentTimeInMinutes = hh * 60 + mm;
+            let timeDiffInMinutes;
             if (parseFloat(times[i]) > currentTime) {
-                const [classHour, classMinute] = times[i].split(".");
-                let classTimeInMinutes = parseFloat(classHour) * 60 + parseFloat(classMinute);
-                let currentTimeInMinutes = hh * 60 + mm;
-                let timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
+                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
+            } else {
+                timeDiffInMinutes = classTimeInMinutes + 1440 - currentTimeInMinutes;
+            }
 
                 let remainingHours = Math.floor(timeDiffInMinutes / 60);
                 let remainingMinutes = timeDiffInMinutes % 60;
 
-                remainingHours = remainingHours < 10 ? `0${remainingHours}` : remainingHours;
-                remainingMinutes = remainingMinutes < 10 ? `0${remainingMinutes}` : remainingMinutes;
-                ss = ss < 10 ? `0${ss}` : ss;
+                remainingHours = remainingHours.toString().padStart(2, "0");
+                remainingMinutes = remainingMinutes.toString().padStart(2, "0");
+                ss = (60 - ss).toString().padStart(2, "0");
 
-                setTimer(`${remainingHours}:${remainingMinutes}:${60-ss}`);
+                setTimer(`${remainingHours}:${remainingMinutes}:${ss}`);
                 setNextClass(`Until ${periods[i]}`);
 
                 break;
-            }
-
-           
+        
         }
     }, [])
     
@@ -107,7 +107,7 @@ function Dashboard({ times, periods }) {
                     
                         {classTimes.map((time, index) => (<li className="p-4 text-xl text-center text-stone-500"
                             key={index}>
-                            {classNames[index]} at {time}
+                            {index+1}. {classNames[index]} at {time}
                             </li>) )}
                     </ul>
                 </div>

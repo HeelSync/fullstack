@@ -6,6 +6,7 @@ import Loader from "../ui/Loader";
 
 
 function ClassRegistration() {
+    
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
