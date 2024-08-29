@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { getClasses } from "../registration_data/apiClasses"
-import { addClassTime, addClassName, removeClass } from "../state/classSlice";
+import { addClassTime, addClassName, removeClass, addClass } from "../state/classSlice";
 import { useDispatch, useSelector } from "react-redux";
 import Loader from "../ui/Loader";
 
@@ -18,8 +18,8 @@ function ClassRegistration() {
 
     function handleAddClass() {
         if (selectedClassName !== "" && selectedClassTime !== "") {
-            dispatch(addClassName(selectedClassName));
-            dispatch(addClassTime(selectedClassTime));
+           
+            dispatch(addClass(selectedClassName, selectedClassTime))
             setSelectedClassTime("");
             setSelectedClassName("");
         }

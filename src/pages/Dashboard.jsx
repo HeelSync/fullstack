@@ -44,8 +44,10 @@ function Dashboard({ times, periods }) {
 
     const formattedTimes = convertTimes(classTimes);
     console.log(formattedTimes)
+    console.log(classTimes)
 
     const currentTimeCalc = useCallback((times, periods) => {
+        console.log("Called with times" , times, periods)
         let date = new Date();
         let day = date.getDay();
         let hh = date.getHours();
@@ -65,6 +67,10 @@ function Dashboard({ times, periods }) {
             let classTimeInMinutes = parseFloat(classHour) * 60 + parseFloat(classMinute);
             let currentTimeInMinutes = hh * 60 + mm;
             let timeDiffInMinutes;
+            if (day == 6) {
+                setTimer("Enjoy your Saturday!");
+                return;
+            }
             if (parseFloat(times[i]) > currentTime) {
                 timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
             } else {
@@ -85,12 +91,32 @@ function Dashboard({ times, periods }) {
         
         }
     }, [])
+    function sortClasses(times, names) {
+        
+        // Combine times and names into an array of objects
+        const classes = times.map((time, index) => ({
+            time,
+            name: names[index]
+        }));
     
+        // Sort the array of objects by time
+        classes.sort((a, b) => parseFloat(a.time) - parseFloat(b.time));
+    
+        // Separate the sorted classes back into times and names arrays
+        const sortedTimes = classes.map(classObj => classObj.time);
+        const sortedNames = classes.map(classObj => classObj.name);
+        sortedNames.shift();
+        sortedNames.shift();
+        return { sortedTimes, sortedNames };
+    }
+    
+    const { sortedTimes, sortedNames } = sortClasses(formattedTimes, classNames);
+    console.log(sortedTimes, sortedNames)
     useEffect(() => {
-        currentTimeCalc(formattedTimes, classNames);
+        currentTimeCalc(sortedTimes, sortedNames);
         const timerId = setTimeout(() => currentTimeCalc(formattedTimes, classNames), 1000);
         return () => clearTimeout(timerId); // Clear the timeout if the component unmounts or dependencies change
-    }, [formattedTimes, classNames, currentTimeCalc]);
+    }, [sortedTimes, sortedNames, classNames, formattedTimes, currentTimeCalc]);
     
     return (
         <>

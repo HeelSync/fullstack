@@ -25,11 +25,15 @@ const classesSlice = createSlice({
             //state.classTimes = state.classTimes.filter(name => name !== index);
             state.classTimes.splice(index, 1);
             state.classNames.splice(index, 1);
+        },
+        addClass(state, action) {
+            state.classTimes.push(action.payload.name);
+            state.classNames.push(action.payload.time);
         }
 
     },
 });
-export const { addClassTime, addClassName, removeClass } = classesSlice.actions;
+export const { addClassTime, addClassName, removeClass, addClass } = classesSlice.actions;
 export default classesSlice.reducer;
 
 // crashout tuesday august 20 2024
