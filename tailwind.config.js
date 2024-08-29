@@ -48,7 +48,10 @@ export default {
         },
         sidebar: {
           apurwa1: "#AFECFF",
-          apurwa2: "#70C3FF"
+          apurwa2: "#70C3FF",
+          apurwa3: "#C1E8F4",
+          apurwa4: "#C0E8FF",
+          apurwa5: "#44D2FF"
         },
         better: {
           white: "#f8f8ff"
@@ -59,7 +62,7 @@ export default {
         header: '7px 4px 10.8px rgba(0, 0, 0, 0.22)'
       },
       fontFamily: {
-        pizza: ['Roboto', 'sans-serif'], // Ensuring fallback to sans-serif
+        pizza: ['Poppins', 'sans-serif'], // Ensuring fallback to sans-serif
       },
     },
   },
