@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-function Dashboard({ times, periods }) {
+function Dashboard() {
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
@@ -43,10 +43,10 @@ function Dashboard({ times, periods }) {
     }
 
     const formattedTimes = convertTimes(classTimes);
-    console.log(formattedTimes)
-    console.log(classTimes)
+    //console.log(formattedTimes)
+    //console.log(classTimes)
 
-    const currentTimeCalc = useCallback((times, periods) => {
+    const currentTimeCalc = useCallback((times, periods) =>{
         console.log("Called with times" , times, periods)
         let date = new Date();
         let day = date.getDay();
@@ -91,6 +91,7 @@ function Dashboard({ times, periods }) {
         
         }
     }, [])
+
     function sortClasses(times, names) {
         
         // Combine times and names into an array of objects
@@ -103,10 +104,8 @@ function Dashboard({ times, periods }) {
         classes.sort((a, b) => parseFloat(a.time) - parseFloat(b.time));
     
         // Separate the sorted classes back into times and names arrays
-        const sortedTimes = classes.map(classObj => classObj.time);
-        const sortedNames = classes.map(classObj => classObj.name);
-        sortedNames.shift();
-        sortedNames.shift();
+        const sortedTimes = classes.map(classObj => classObj.time).filter(element => element !== undefined);
+        const sortedNames = classes.map(classObj => classObj.name).filter(element => element !== undefined);
         return { sortedTimes, sortedNames };
     }
     
@@ -117,6 +116,8 @@ function Dashboard({ times, periods }) {
         const timerId = setTimeout(() => currentTimeCalc(formattedTimes, classNames), 1000);
         return () => clearTimeout(timerId); // Clear the timeout if the component unmounts or dependencies change
     }, [sortedTimes, sortedNames, classNames, formattedTimes, currentTimeCalc]);
+    
+
     
     return (
         <>
@@ -133,7 +134,7 @@ function Dashboard({ times, periods }) {
                     
                         {classTimes.map((time, index) => (<li className="p-4 text-2xl text-center text-better-white font-light"
                             key={index}>
-                            {index+1}. {classNames[index]} at {time}
+                            {index+1}. {sortedNames[index]} at {time}
                             </li>) )}
                     </ul>
                 </div>
