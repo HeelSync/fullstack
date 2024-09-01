@@ -10,10 +10,12 @@ function ClassRegistration() {
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
+    const dayPatterns = useSelector(store => store.classes.dayPatterns);
     const [availableClasses, setAvailableClasses] = useState({});
 
     const [selectedClassTime, setSelectedClassTime] = useState("");
     const [selectedClassName, setSelectedClassName] = useState("");
+    //const [selectedDayPattern, setSelectedDayPattern] = useState("");
     const [isLoading, setIsLoading] = useState(true)
 
     function handleAddClass() {
@@ -22,6 +24,7 @@ function ClassRegistration() {
             dispatch(addClass(selectedClassName, selectedClassTime))
             setSelectedClassTime("");
             setSelectedClassName("");
+           // setSelectedDayPattern("")
         }
     }
 

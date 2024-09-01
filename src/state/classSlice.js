@@ -4,6 +4,7 @@ import { useReducer } from "react";
 const initialClassesState = {
     classTimes: [],
     classNames: [],
+    dayPatterns: []
 }
 
 const classesSlice = createSlice({
@@ -25,10 +26,12 @@ const classesSlice = createSlice({
             //state.classTimes = state.classTimes.filter(name => name !== index);
             state.classTimes.splice(index, 1);
             state.classNames.splice(index, 1);
-        },
+            //state.dayPatterns.splice(index, 1);
+                },
         addClass(state, action) {
             state.classTimes.push(action.payload.name);
             state.classNames.push(action.payload.time);
+          //  state.classNames.push(action.payload.days);
         }
 
     },

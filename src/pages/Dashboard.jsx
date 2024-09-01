@@ -11,17 +11,18 @@ function Dashboard() {
     const [nextClass, setNextClass] = useState("No class to go to!");
 
 
-    function convertTimes(timeArray) {
-        if(!Array.isArray(timeArray)) {
+    function parseClassDetails(timeArray) {
+        if (!Array.isArray(timeArray) || timeArray.length === 0) {
             return [];
         }
-        const convertedTimes = [];
-        if (timeArray.length === 0) return [];
-        timeArray.forEach(timeRange => {
-            // Extract the time parts using regex
+        
+        const classDetails = timeArray.map(timeRange => {
+            const dayPatternRegex = /Mo|Tu|We|Th|Fr/g;
+            const dayMatches = timeRange.match(dayPatternRegex);
+            const dayPattern = dayMatches ? dayMatches.join("") : "";
             const timeParts = timeRange.match(/\d{1,2}:\d{2}\s?[APMapm]{2}/g);
     
-            timeParts.forEach(time => {
+            const convertedTimes = timeParts ? timeParts.map(time => {
                 let [hour, minute] = time.match(/\d+/g); // Extract the hour and minute
                 let period = time.match(/[APMapm]{2}/)[0].toUpperCase(); // Extract AM/PM
     
@@ -34,17 +35,28 @@ function Dashboard() {
                 }
     
                 // Convert hour and minute to the decimal format
-                const decimalTime = `${hour}.${minute}`;
-                convertedTimes.push(decimalTime);
-            });
+                return `${hour}.${minute}`;
+            }) : [];
+    
+            return {
+                dayPattern: dayPattern,
+                times: convertedTimes
+            };
         });
     
-        return convertedTimes;
+        return classDetails;
     }
 
-    const formattedTimes = convertTimes(classTimes);
+    const classDetails = parseClassDetails(classTimes);
+    const formattedTimes = classDetails.flatMap(detail => detail.times);
+    const dayPatterns = classDetails.map(detail => detail.dayPattern);
     //console.log(formattedTimes)
     //console.log(classTimes)
+
+    const daysMap = {
+        MWF: [1, 3, 5],
+        TTH: [2, 4]
+    }
 
     const currentTimeCalc = useCallback((times, periods) =>{
         console.log("Called with times" , times, periods)
@@ -59,7 +71,7 @@ function Dashboard() {
             month: 'long',
             day: 'numeric'
         }
-        console.log("hi")
+        console.log("times")
         const currentTime = parseFloat(hh) + parseFloat(mm / 60); 
 
         for(let i=0; i<times.length; i++) {
@@ -68,12 +80,20 @@ function Dashboard() {
             let currentTimeInMinutes = hh * 60 + mm;
             let timeDiffInMinutes;
             if (day == 6) {
-                setTimer("Enjoy your Saturday!");
+                setTimer("Enjoy your weekend!");
+                setNextClass("Take a break and do something fun!")
                 return;
             }
             if (parseFloat(times[i]) > currentTime) {
                 timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
-            } else {
+            } 
+            else if ((parseFloat(times[i+1]) > currentTime) && ((day == 1) || (day == 3) || (day == 5))) {
+                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + 50;
+            }
+            else if ((parseFloat(times[i+1]) > currentTime) && ((day == 2) || (day == 4))) {
+                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + 75;
+            }
+            else {
                 timeDiffInMinutes = classTimeInMinutes + 1440 - currentTimeInMinutes;
             }
 
@@ -101,7 +121,15 @@ function Dashboard() {
         }));
     
         // Sort the array of objects by time
-        classes.sort((a, b) => parseFloat(a.time) - parseFloat(b.time));
+        classes.sort((a, b) => {
+            let [hourA, minuteA] = a.time.split(".");
+            let [hourB, minuteB] = b.time.split(".");
+            hourA = parseFloat(hourA);
+            minuteA = parseFloat(minuteA);
+            hourB = parseFloat(hourB);
+            minuteB = parseFloat(minuteB);
+            return hourA !== hourB ? hourA - hourB : minuteA - minuteB;
+        });
     
         // Separate the sorted classes back into times and names arrays
         const sortedTimes = classes.map(classObj => classObj.time).filter(element => element !== undefined);
@@ -113,7 +141,7 @@ function Dashboard() {
     console.log(sortedTimes, sortedNames)
     useEffect(() => {
         currentTimeCalc(sortedTimes, sortedNames);
-        const timerId = setTimeout(() => currentTimeCalc(formattedTimes, classNames), 1000);
+        const timerId = setTimeout(() => currentTimeCalc(sortedTimes, sortedNames), 1000);
         return () => clearTimeout(timerId); // Clear the timeout if the component unmounts or dependencies change
     }, [sortedTimes, sortedNames, classNames, formattedTimes, currentTimeCalc]);
     
