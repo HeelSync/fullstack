@@ -3,6 +3,7 @@ import { getClasses } from "../registration_data/apiClasses"
 import { addClassTime, addClassName, removeClass, addClass } from "../state/classSlice";
 import { useDispatch, useSelector } from "react-redux";
 import Loader from "../ui/Loader";
+import { GiKitchenKnives } from "react-icons/gi";
 
 
 function ClassRegistration() {
@@ -49,7 +50,6 @@ function ClassRegistration() {
         getClasses().then(data=>{
             console.log(data);
             const classesObject = {}
-            
             data.forEach(classObj => {
                 const { id, class_number: classNumber, class: className, meeting_time: meetingTime, instructor, total_enrollment } = classObj;
                 classesObject[id] = {
@@ -59,6 +59,7 @@ function ClassRegistration() {
                     instructor,
                     total_enrollment
                 };
+                console.log(classObj)
         });
         setAvailableClasses(classesObject);
         setIsLoading(false);

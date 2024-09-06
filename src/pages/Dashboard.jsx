@@ -60,6 +60,9 @@ function Dashboard() {
 
     const currentTimeCalc = useCallback((times, periods) =>{
         console.log("Called with times" , times, periods)
+        if (times.length === 0 || periods.length === 0) {
+            return;
+        }
         let date = new Date();
         let day = date.getDay();
         let hh = date.getHours();
@@ -73,7 +76,15 @@ function Dashboard() {
         }
         console.log("times")
         const currentTime = parseFloat(hh) + parseFloat(mm / 60); 
+        
 
+        const timeToMinutes = time => {
+            let [hours, min] = time.split('.').map(Number);
+            return hours * 60 + min;
+        }
+        let classStartInMin = timeToMinutes(times[0]);
+        let classEndInMin = timeToMinutes(times[1])
+        let classPeriodLength = classEndInMin - classStartInMin //THIS
         for(let i=0; i<times.length; i++) {
             let [classHour, classMinute] = times[i].split(".");
             let classTimeInMinutes = parseFloat(classHour) * 60 + parseFloat(classMinute);
@@ -88,10 +99,10 @@ function Dashboard() {
                 timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
             } 
             else if ((parseFloat(times[i+1]) > currentTime) && ((day == 1) || (day == 3) || (day == 5))) {
-                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + 50;
+                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + classPeriodLength;
             }
             else if ((parseFloat(times[i+1]) > currentTime) && ((day == 2) || (day == 4))) {
-                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + 75;
+                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + classPeriodLength;
             }
             else {
                 timeDiffInMinutes = classTimeInMinutes + 1440 - currentTimeInMinutes;
@@ -112,9 +123,10 @@ function Dashboard() {
         }
     }, [])
 
+
     function sortClasses(times, names) {
-        
-        // Combine times and names into an array of objects
+        console.log("Sorted with")
+        console.log(formattedTimes, classNames)
         const classes = times.map((time, index) => ({
             time,
             name: names[index]
@@ -122,13 +134,14 @@ function Dashboard() {
     
         // Sort the array of objects by time
         classes.sort((a, b) => {
-            let [hourA, minuteA] = a.time.split(".");
-            let [hourB, minuteB] = b.time.split(".");
-            hourA = parseFloat(hourA);
-            minuteA = parseFloat(minuteA);
-            hourB = parseFloat(hourB);
-            minuteB = parseFloat(minuteB);
-            return hourA !== hourB ? hourA - hourB : minuteA - minuteB;
+            // Convert time to minutes for proper comparison
+            const timeToMinutes = (time) => {
+                let [hours, minutes] = time.split('.').map(Number);
+                return hours * 60 + minutes;  // Convert time to total minutes
+            };
+    
+            // Compare the converted time (in minutes)
+            return timeToMinutes(a.time) - timeToMinutes(b.time);
         });
     
         // Separate the sorted classes back into times and names arrays
@@ -162,7 +175,7 @@ function Dashboard() {
                     
                         {classTimes.map((time, index) => (<li className="p-4 text-2xl text-center text-better-white font-light"
                             key={index}>
-                            {index+1}. {sortedNames[index]} at {time}
+                            {index+1}. {sortedNames[index]} at {sortedTimes.map(time => time + ", ")}
                             </li>) )}
                     </ul>
                 </div>
