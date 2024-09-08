@@ -7,6 +7,8 @@ function Dashboard() {
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
+    console.log(classTimes);
+    console.log(classNames);
     const [timer, setTimer] = useState("You don't have a schedule!");
     const [nextClass, setNextClass] = useState("No class to go to!");
 
@@ -59,7 +61,7 @@ function Dashboard() {
     }
 
     const currentTimeCalc = useCallback((times, periods) =>{
-        console.log("Called with times" , times, periods)
+        //console.log("Called with times" , times, periods)
         if (times.length === 0 || periods.length === 0) {
             return;
         }
@@ -74,7 +76,7 @@ function Dashboard() {
             month: 'long',
             day: 'numeric'
         }
-        console.log("times")
+        
         const currentTime = parseFloat(hh) + parseFloat(mm / 60); 
         
 
@@ -90,18 +92,16 @@ function Dashboard() {
             let classTimeInMinutes = parseFloat(classHour) * 60 + parseFloat(classMinute);
             let currentTimeInMinutes = hh * 60 + mm;
             let timeDiffInMinutes;
+            /*
             if (day == 6) {
                 setTimer("Enjoy your weekend!");
                 setNextClass("Take a break and do something fun!")
                 return;
-            }
+            }*/
             if (parseFloat(times[i]) > currentTime) {
                 timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
             } 
-            else if ((parseFloat(times[i+1]) > currentTime) && ((day == 1) || (day == 3) || (day == 5))) {
-                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + classPeriodLength;
-            }
-            else if ((parseFloat(times[i+1]) > currentTime) && ((day == 2) || (day == 4))) {
+            else if ((parseFloat(times[i+1]) > currentTime) ) {
                 timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + classPeriodLength;
             }
             else {
@@ -116,7 +116,7 @@ function Dashboard() {
                 ss = (60 - ss).toString().padStart(2, "0");
 
                 setTimer(`${remainingHours}:${remainingMinutes}:${ss}`);
-                setNextClass(`Until ${periods[i]}`);
+                setNextClass(`${periods[i]}`);
 
                 break;
         
@@ -125,8 +125,8 @@ function Dashboard() {
 
 
     function sortClasses(times, names) {
-        console.log("Sorted with")
-        console.log(formattedTimes, classNames)
+        //console.log("Sorted with")
+        //console.log(formattedTimes, classNames)
         const classes = times.map((time, index) => ({
             time,
             name: names[index]

@@ -34,8 +34,6 @@ function ClassRegistration() {
             if(!alreadyScheduled) {
                 dispatch(addClassName(name));
                 dispatch(addClassTime(time));
-                console.log(classTimes);
-    console.log(classNames);
             }
             
         

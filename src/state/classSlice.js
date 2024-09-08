@@ -18,7 +18,8 @@ const classesSlice = createSlice({
         
         // Reducer to add a new class name
         addClassName(state, action) {
-            state.classNames.push(action.payload);
+            state.classNames.push("Until " + action.payload);
+            state.classNames.push(action.payload)
         },
         removeClass(state, action) {
             const index = action.payload;
@@ -26,11 +27,14 @@ const classesSlice = createSlice({
             //state.classTimes = state.classTimes.filter(name => name !== index);
             state.classTimes.splice(index, 1);
             state.classNames.splice(index, 1);
+            
             //state.dayPatterns.splice(index, 1);
                 },
         addClass(state, action) {
-            state.classTimes.push(action.payload.name);
-            state.classNames.push(action.payload.time);
+            state.classTimes.push(action.payload.time);
+            state.classNames.push("Until" + action.payload.name);
+            state.classNames.push(action.payload.name)
+            console.log("TEST:" + state.classNames)
           //  state.classNames.push(action.payload.days);
         }
 
