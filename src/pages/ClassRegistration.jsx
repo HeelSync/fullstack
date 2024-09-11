@@ -7,13 +7,11 @@ import { GiKitchenKnives } from "react-icons/gi";
 
 
 function ClassRegistration() {
-    
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
     const dayPatterns = useSelector(store => store.classes.dayPatterns);
     const [availableClasses, setAvailableClasses] = useState({});
-
     const [selectedClassTime, setSelectedClassTime] = useState("");
     const [selectedClassName, setSelectedClassName] = useState("");
     //const [selectedDayPattern, setSelectedDayPattern] = useState("");
@@ -21,7 +19,6 @@ function ClassRegistration() {
 
     function handleAddClass() {
         if (selectedClassName !== "" && selectedClassTime !== "") {
-           
             dispatch(addClass(selectedClassName, selectedClassTime))
             setSelectedClassTime("");
             setSelectedClassName("");
@@ -29,18 +26,23 @@ function ClassRegistration() {
         }
     }
 
-    function handleAddClassFromDB(name, time) {
-            const alreadyScheduled = classNames.includes(name) && classTimes.includes(time)
+    function handleAddClassFromDB(name, start, end) {
+            const alreadyScheduled = classNames.includes(name) && classTimes.includes(start) && classTimes.includes(end);
             if(!alreadyScheduled) {
                 dispatch(addClassName(name));
-                dispatch(addClassTime(time));
-            }
-            
-        
+                dispatch(addClassTime(start));
+                dispatch(addClassTime(end));
+                
+            }   
     }
 
     function handleDeleteClass(index) {
         dispatch(removeClass(index));
+    }
+
+    function log() {
+        console.log(classTimes);
+        console.log(classNames);
     }
 
     
@@ -49,11 +51,12 @@ function ClassRegistration() {
             console.log(data);
             const classesObject = {}
             data.forEach(classObj => {
-                const { id, class_number: classNumber, class: className, meeting_time: meetingTime, instructor, total_enrollment } = classObj;
+                const { class_number: id, class: className, meeting_end: meetingEnd, meeting_start: meetingStart, meeting_day: meetingDay, instructor, total_enrollment } = classObj;
                 classesObject[id] = {
-                    classNumber,
                     className,
-                    meetingTime,
+                    meetingStart,
+                    meetingEnd,
+                    meetingDay,
                     instructor,
                     total_enrollment
                 };
@@ -84,6 +87,11 @@ function ClassRegistration() {
                     <button className="px-10" onClick={() => handleDeleteClass(index)}>Delete</button>
                     </li>))}
                 </ul>
+                <div>
+                    <button onClick={log}>
+                        TEST
+                    </button>
+                </div>
 
                 {isLoading ? <Loader />
                  : ( <div>
@@ -92,7 +100,7 @@ function ClassRegistration() {
                         {Object.values(availableClasses).map(( classObject, index ) => (
                                <li key={index} className="pl-16 flex justify-center">
                                 <button key={index} className="p-3 pl-6 w-48 rounded-xl text-left bg-red-700 text-carolina-tarheelblue"
-                                onClick={() => handleAddClassFromDB(classObject.className, classObject.meetingTime)}>
+                                onClick={() => handleAddClassFromDB(classObject.className, classObject.meetingStart, classObject.meetingEnd)}>
                              
                                     {classObject.className}
                                     </button>

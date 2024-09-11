@@ -1,8 +1,9 @@
-import { useCallback, useEffect, useReducer, useState } from "react";
+import { useCallback, useEffect, useMemo, useReducer, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
 
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+
 function Dashboard() {
     const dispatch = useDispatch();
     const classTimes = useSelector(store => store.classes.classTimes);
@@ -11,41 +12,19 @@ function Dashboard() {
     console.log(classNames);
     const [timer, setTimer] = useState("You don't have a schedule!");
     const [nextClass, setNextClass] = useState("No class to go to!");
+    
+    const parsedClassDetails = classTimes.length > 0 ? parseClassDetails(classTimes) : [];
+    const sortedDetails = sortClasses(parsedClassDetails.flatMap(detail => detail.times), classNames);
 
 
     function parseClassDetails(timeArray) {
         if (!Array.isArray(timeArray) || timeArray.length === 0) {
             return [];
         }
-        
-        const classDetails = timeArray.map(timeRange => {
-            const dayPatternRegex = /Mo|Tu|We|Th|Fr/g;
-            const dayMatches = timeRange.match(dayPatternRegex);
-            const dayPattern = dayMatches ? dayMatches.join("") : "";
-            const timeParts = timeRange.match(/\d{1,2}:\d{2}\s?[APMapm]{2}/g);
-    
-            const convertedTimes = timeParts ? timeParts.map(time => {
-                let [hour, minute] = time.match(/\d+/g); // Extract the hour and minute
-                let period = time.match(/[APMapm]{2}/)[0].toUpperCase(); // Extract AM/PM
-    
-                // Convert hour to 24-hour format
-                hour = parseInt(hour);
-                if (period === "PM" && hour !== 12) {
-                    hour += 12;
-                } else if (period === "AM" && hour === 12) {
-                    hour = 0; // Handle midnight case
-                }
-    
-                // Convert hour and minute to the decimal format
-                return `${hour}.${minute}`;
-            }) : [];
-    
-            return {
-                dayPattern: dayPattern,
-                times: convertedTimes
-            };
+        const classDetails = timeArray.map((timeString) => {
+            const timeParts = timeString.split(":");
+            return parseInt(timeParts[0]) * 60 + parseInt(timeParts[1]);
         });
-    
         return classDetails;
     }
 
@@ -55,94 +34,62 @@ function Dashboard() {
     //console.log(formattedTimes)
     //console.log(classTimes)
 
-    const daysMap = {
+    const daysMap = useMemo(() => ({
         MWF: [1, 3, 5],
         TTH: [2, 4]
+    }), [])
+
+    function timeToMinutes(time) {
+        if(!time || typeof time !== 'string') {
+            console.error("TIME IS NOT A VALID STRING");
+            console.log(typeof(time))
+            return 0;
+        }
+        const [hours, minutes] = time.split(':').slice(0, 2).map(Number);
+        return hours * 60 + minutes;  // Return total minutes
     }
 
-    const currentTimeCalc = useCallback((times, periods) =>{
-        //console.log("Called with times" , times, periods)
-        if (times.length === 0 || periods.length === 0) {
-            return;
-        }
-        let date = new Date();
-        let day = date.getDay();
-        let hh = date.getHours();
-        let mm = date.getMinutes();
-        let ss = date.getSeconds();
+    const currentTimeCalc = useCallback(() => {
+        console.log("Running currentTimeCalc");
+        console.log("Start Times: " + classTimes)
+        const now = new Date();
+        const currentMinutes = now.getHours() * 60 + now.getMinutes();
 
-        const options = {
-            weekday: 'long',
-            month: 'long',
-            day: 'numeric'
-        }
-        
-        const currentTime = parseFloat(hh) + parseFloat(mm / 60); 
-        
-
-        const timeToMinutes = time => {
-            let [hours, min] = time.split('.').map(Number);
-            return hours * 60 + min;
-        }
-        let classStartInMin = timeToMinutes(times[0]);
-        let classEndInMin = timeToMinutes(times[1])
-        let classPeriodLength = classEndInMin - classStartInMin //THIS
-        for(let i=0; i<times.length; i++) {
-            let [classHour, classMinute] = times[i].split(".");
-            let classTimeInMinutes = parseFloat(classHour) * 60 + parseFloat(classMinute);
-            let currentTimeInMinutes = hh * 60 + mm;
-            let timeDiffInMinutes;
-            /*
-            if (day == 6) {
-                setTimer("Enjoy your weekend!");
-                setNextClass("Take a break and do something fun!")
-                return;
-            }*/
-            if (parseFloat(times[i]) > currentTime) {
-                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes;
-            } 
-            else if ((parseFloat(times[i+1]) > currentTime) ) {
-                timeDiffInMinutes = classTimeInMinutes - currentTimeInMinutes + classPeriodLength;
+        const todayClasses = classTimes.reduce((acc, _, index) => {
+            if (index % 2 === 0 && classTimes[index] && classTimes[index + 1]) { // Ensure valid start and end times
+                acc.push({
+                    start: timeToMinutes(classTimes[index]),
+                    end: timeToMinutes(classTimes[index + 1]),
+                    name: classNames[Math.floor(index / 2)]
+                });
             }
-            else {
-                timeDiffInMinutes = classTimeInMinutes + 1440 - currentTimeInMinutes;
-            }
+            return acc;
+        }, [])
+        .filter(classObj => classObj.start > currentMinutes)
+        .sort((a, b) => a.start - b.start);
 
-                let remainingHours = Math.floor(timeDiffInMinutes / 60);
-                let remainingMinutes = timeDiffInMinutes % 60;
-
-                remainingHours = remainingHours.toString().padStart(2, "0");
-                remainingMinutes = remainingMinutes.toString().padStart(2, "0");
-                ss = (60 - ss).toString().padStart(2, "0");
-
-                setTimer(`${remainingHours}:${remainingMinutes}:${ss}`);
-                setNextClass(`${periods[i]}`);
-
-                break;
-        
+        if (todayClasses.length > 0) {
+            const upcomingClass = todayClasses[0];
+            const timeDiff = upcomingClass.start - currentMinutes;
+            setTimer(`${Math.floor(timeDiff / 60).toString().padStart(2, "0")}:${(timeDiff % 60).toString().padStart(2, "0")}`);
+            setNextClass(upcomingClass.name);
+        } else {
+            setTimer("No more classes today!");
+            setNextClass("Take a break!");
         }
-    }, [])
+    }, [classTimes, classNames]);
 
 
     function sortClasses(times, names) {
         //console.log("Sorted with")
         //console.log(formattedTimes, classNames)
         const classes = times.map((time, index) => ({
-            time,
-            name: names[index]
+            time: timeToMinutes(time),
+            name: names[Math.floor(index / 2)]
         }));
     
         // Sort the array of objects by time
-        classes.sort((a, b) => {
-            // Convert time to minutes for proper comparison
-            const timeToMinutes = (time) => {
-                let [hours, minutes] = time.split('.').map(Number);
-                return hours * 60 + minutes;  // Convert time to total minutes
-            };
-    
-            // Compare the converted time (in minutes)
-            return timeToMinutes(a.time) - timeToMinutes(b.time);
-        });
+        classes.sort((a, b) => a.time - b.time);
     
         // Separate the sorted classes back into times and names arrays
         const sortedTimes = classes.map(classObj => classObj.time).filter(element => element !== undefined);
@@ -151,39 +98,31 @@ function Dashboard() {
     }
     
     const { sortedTimes, sortedNames } = sortClasses(formattedTimes, classNames);
-    console.log(sortedTimes, sortedNames)
-    useEffect(() => {
-        currentTimeCalc(sortedTimes, sortedNames);
-        const timerId = setTimeout(() => currentTimeCalc(sortedTimes, sortedNames), 1000);
-        return () => clearTimeout(timerId); // Clear the timeout if the component unmounts or dependencies change
-    }, [sortedTimes, sortedNames, classNames, formattedTimes, currentTimeCalc]);
-    
+    //console.log(sortedTimes, sortedNames)
 
+
+    useEffect(() => {
+        currentTimeCalc();
+        const timerId = setInterval(() => currentTimeCalc(), 60000);
+        return () => clearInterval(timerId); // Clear the timeout if the component unmounts or dependencies change
+    }, [currentTimeCalc]);
+    
     
     return (
         <>
             <div className="flex flex-col justify-evenly items-center h-screen gap-1">
-              
                 <h3 className="text-6xl font-extrabold text-black pt-8">{timer}</h3>
-
                 <h5 className="text-3xl font-light text-carolina-blue">{nextClass}</h5>
-
                 <div className="p-10 h-128 w-full">
-
                     <ul className="p-8 shadow-md rounded-3xl bg-gradient-to-t from-sidebar-apurwa4 to-sidebar-apurwa5 h-full w-full
-                    box-border max-h-full overflow-y-scroll">
-                    
+                    box-border max-h-full overflow-y-scroll"> 
                         {classTimes.map((time, index) => (<li className="p-4 text-2xl text-center text-better-white font-light"
                             key={index}>
-                            {index+1}. {sortedNames[index]} at {sortedTimes.map(time => time + ", ")}
+                            {index+1}. {sortedNames[index]} at {sortedTimes}
                             </li>) )}
                     </ul>
                 </div>
-                
-            </div>
-
-        
-            
+            </div> 
         </>
     )
 }
