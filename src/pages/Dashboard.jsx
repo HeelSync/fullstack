@@ -80,7 +80,7 @@ function Dashboard() {
         console.log("TODAY'S CLASSES!!!!!! ", todayClasses);  // Check the output of today's classes
     
         if (todayClasses.length > 0) {
-            const ongoingClass = todayClasses[0];
+            const ongoingClass = todayClasses[0];  // This is the next class, whether it's ongoing or upcoming
             
             if (ongoingClass.startSeconds <= currentTotalSeconds && currentTotalSeconds < ongoingClass.endSeconds) {
                 // Class is currently ongoing
@@ -94,7 +94,7 @@ function Dashboard() {
                 setTimer(`${hours}:${minutes}:${seconds}`);
                 setNextClass(`${ongoingClass.name} (ends at ${ongoingClass.endOriginal})`);  // Display the class name and end time
             } else {
-                // Class hasn't started yet
+                // Class hasn't started yet, show time until it starts
                 const timeDiff = ongoingClass.startSeconds - currentTotalSeconds;  // Time difference in seconds until the next class starts
     
                 const hours = Math.floor(timeDiff / 3600).toString().padStart(2, '0');
@@ -106,6 +106,7 @@ function Dashboard() {
                 setNextClass(ongoingClass.name + " starts at " + ongoingClass.startOriginal);  // Display the class name and original time
             }
         } else {
+            // If there are no more classes left
             setTimer("No more classes today!");
             setNextClass("Take a break!");
         }
