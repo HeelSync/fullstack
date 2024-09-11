@@ -31,10 +31,13 @@ const classesSlice = createSlice({
             //state.dayPatterns.splice(index, 1);
                 },
         addClass(state, action) {
-            state.classTimes.push(action.payload.time);
-            state.classNames.push("Until" + action.payload.name);
-            state.classNames.push(action.payload.name)
-            console.log("TEST:" + state.classNames)
+            if (action.payload && typeof action.payload.name==='string' && typeof action.payload.time === 'string') {
+                state.classTimes.push(action.payload.time);
+                state.classNames.push("Until" + action.payload.name);
+                state.classNames.push(action.payload.name)
+                //console.log("TEST:" + state.classNames)
+            }
+            
           //  state.classNames.push(action.payload.days);
         }
 

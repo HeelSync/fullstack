@@ -6,80 +6,119 @@ const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", 
 
 function Dashboard() {
     const dispatch = useDispatch();
-    const classTimes = useSelector(store => store.classes.classTimes);
+    const classTimesRaw = useSelector(store => store.classes.classTimes);
     const classNames = useSelector(store => store.classes.classNames);
-    console.log(classTimes);
-    console.log(classNames);
+    
     const [timer, setTimer] = useState("You don't have a schedule!");
     const [nextClass, setNextClass] = useState("No class to go to!");
-    
-    const parsedClassDetails = classTimes.length > 0 ? parseClassDetails(classTimes) : [];
-    const sortedDetails = sortClasses(parsedClassDetails.flatMap(detail => detail.times), classNames);
+   const classTimes = Array.isArray(classTimesRaw) ? classTimesRaw : classTimesRaw.split(',');
 
-
-    function parseClassDetails(timeArray) {
-        if (!Array.isArray(timeArray) || timeArray.length === 0) {
-            return [];
-        }
-        const classDetails = timeArray.map((timeString) => {
-            const timeParts = timeString.split(":");
-            return parseInt(timeParts[0]) * 60 + parseInt(timeParts[1]);
-        });
-        return classDetails;
-    }
-
-    const classDetails = parseClassDetails(classTimes);
-    const formattedTimes = classDetails.flatMap(detail => detail.times);
-    const dayPatterns = classDetails.map(detail => detail.dayPattern);
+   console.log("class times: " + classTimes);
+    console.log("class names: " + classNames);
     //console.log(formattedTimes)
     //console.log(classTimes)
 
-    const daysMap = useMemo(() => ({
-        MWF: [1, 3, 5],
-        TTH: [2, 4]
-    }), [])
 
     function timeToMinutes(time) {
-        if(!time || typeof time !== 'string') {
-            console.error("TIME IS NOT A VALID STRING");
-            console.log(typeof(time))
+        if (!time || typeof time !== 'string') {
+            console.error("Invalid time format:", time);  // Log if time is invalid
+            return 0;  // Return 0 for invalid times
+        }
+    
+        const [hours, minutes] = time.split(':').slice(0, 2).map(Number);  // Extract hours and minutes
+        if (isNaN(hours) || isNaN(minutes)) {
+            console.error("Invalid hours or minutes:", time);  // Log invalid time parts
             return 0;
         }
-        const [hours, minutes] = time.split(':').slice(0, 2).map(Number);
-        return hours * 60 + minutes;  // Return total minutes
+    
+        const totalMinutes = hours * 60 + minutes;  // Calculate total minutes
+        console.log(`Converted time: ${time} -> ${totalMinutes} minutes`);  // Log the conversion
+        return totalMinutes;
     }
 
+
+    // Function to calculate current time in minutes since midnight
     const currentTimeCalc = useCallback(() => {
         console.log("Running currentTimeCalc");
-        console.log("Start Times: " + classTimes)
+    
         const now = new Date();
-        const currentMinutes = now.getHours() * 60 + now.getMinutes();
-
+        const currentHours = now.getHours();
+        const currentMinutes = currentHours * 60 + now.getMinutes();
+        const currentSeconds = now.getSeconds();
+        const currentTotalSeconds = (currentHours * 3600) + (now.getMinutes() * 60) + currentSeconds;  // Total seconds since midnight
+    
+        console.log(`Current time: ${currentHours}:${now.getMinutes()}:${currentSeconds} (Total seconds: ${currentTotalSeconds})`);
+    
+        console.log("Start Times: ", classTimes);  // Ensure the classTimes are correct
+    
+        // Map over classTimes, and filter to find the next or ongoing class
         const todayClasses = classTimes.reduce((acc, _, index) => {
             if (index % 2 === 0 && classTimes[index] && classTimes[index + 1]) { // Ensure valid start and end times
+                const startTime = classTimes[index];
+                const startMinutes = timeToMinutes(startTime);
+                const startSeconds = startMinutes * 60;  // Convert start time to total seconds for comparison
+    
+                const endTime = classTimes[index + 1];
+                const endMinutes = timeToMinutes(endTime);
+                const endSeconds = endMinutes * 60;
+    
+                console.log(`Class ${classNames[Math.floor(index / 2)]}: Start ${startTime} (${startSeconds} seconds), End ${endTime} (${endSeconds} seconds)`);
+    
                 acc.push({
-                    start: timeToMinutes(classTimes[index]),
-                    end: timeToMinutes(classTimes[index + 1]),
+                    startSeconds,  // Total seconds for comparison
+                    endSeconds,
+                    startOriginal: startTime,  // Keep the original time string for display
+                    endOriginal: endTime,
                     name: classNames[Math.floor(index / 2)]
                 });
             }
             return acc;
         }, [])
-        .filter(classObj => classObj.start > currentMinutes)
-        .sort((a, b) => a.start - b.start);
-
+        .filter(classObj => classObj.endSeconds > currentTotalSeconds)  // Only keep classes that haven't ended yet
+        .sort((a, b) => a.startSeconds - b.startSeconds);  // Sort by start time in seconds
+    
+        console.log("TODAY'S CLASSES!!!!!! ", todayClasses);  // Check the output of today's classes
+    
         if (todayClasses.length > 0) {
-            const upcomingClass = todayClasses[0];
-            const timeDiff = upcomingClass.start - currentMinutes;
-            setTimer(`${Math.floor(timeDiff / 60).toString().padStart(2, "0")}:${(timeDiff % 60).toString().padStart(2, "0")}`);
-            setNextClass(upcomingClass.name);
+            const ongoingClass = todayClasses[0];
+            
+            if (ongoingClass.startSeconds <= currentTotalSeconds && currentTotalSeconds < ongoingClass.endSeconds) {
+                // Class is currently ongoing
+                const timeDiff = ongoingClass.endSeconds - currentTotalSeconds;  // Time left until the class ends
+                
+                const hours = Math.floor(timeDiff / 3600).toString().padStart(2, '0');
+                const minutes = Math.floor((timeDiff % 3600) / 60).toString().padStart(2, '0');
+                const seconds = (timeDiff % 60).toString().padStart(2, '0');
+    
+                // Set the timer to display hours, minutes, and seconds until the class ends
+                setTimer(`${hours}:${minutes}:${seconds}`);
+                setNextClass(`${ongoingClass.name} (ends at ${ongoingClass.endOriginal})`);  // Display the class name and end time
+            } else {
+                // Class hasn't started yet
+                const timeDiff = ongoingClass.startSeconds - currentTotalSeconds;  // Time difference in seconds until the next class starts
+    
+                const hours = Math.floor(timeDiff / 3600).toString().padStart(2, '0');
+                const minutes = Math.floor((timeDiff % 3600) / 60).toString().padStart(2, '0');
+                const seconds = (timeDiff % 60).toString().padStart(2, '0');
+    
+                // Set the timer to display hours, minutes, and seconds until the class starts
+                setTimer(`${hours}:${minutes}:${seconds}`);
+                setNextClass(ongoingClass.name + " starts at " + ongoingClass.startOriginal);  // Display the class name and original time
+            }
         } else {
             setTimer("No more classes today!");
             setNextClass("Take a break!");
         }
     }, [classTimes, classNames]);
+    
+    useEffect(() => {
+        currentTimeCalc();
+        const timerId = setInterval(() => currentTimeCalc(), 1000);  // Recalculate every second
+        return () => clearInterval(timerId); // Clear the timeout if the component unmounts or dependencies change
+    }, [currentTimeCalc]);
 
 
+    // Sort classes by start time for display
     function sortClasses(times, names) {
         //console.log("Sorted with")
         //console.log(formattedTimes, classNames)
@@ -97,13 +136,13 @@ function Dashboard() {
         return { sortedTimes, sortedNames };
     }
     
-    const { sortedTimes, sortedNames } = sortClasses(formattedTimes, classNames);
+    const { sortedTimes, sortedNames } = sortClasses(classTimes, classNames);
     //console.log(sortedTimes, sortedNames)
 
 
     useEffect(() => {
         currentTimeCalc();
-        const timerId = setInterval(() => currentTimeCalc(), 60000);
+        const timerId = setInterval(() => currentTimeCalc(), 1000);  // Recalculate every minute
         return () => clearInterval(timerId); // Clear the timeout if the component unmounts or dependencies change
     }, [currentTimeCalc]);
     
@@ -118,7 +157,7 @@ function Dashboard() {
                     box-border max-h-full overflow-y-scroll"> 
                         {classTimes.map((time, index) => (<li className="p-4 text-2xl text-center text-better-white font-light"
                             key={index}>
-                            {index+1}. {sortedNames[index]} at {sortedTimes}
+                            {index+1}. {classNames[index]} at {classTimes[index]}
                             </li>) )}
                     </ul>
                 </div>
@@ -128,4 +167,3 @@ function Dashboard() {
 }
 
 export default Dashboard
-
