@@ -13,8 +13,8 @@ function Dashboard() {
     const [nextClass, setNextClass] = useState("No class to go to!");
    const classTimes = Array.isArray(classTimesRaw) ? classTimesRaw : classTimesRaw.split(',');
 
-   console.log("class times: " + classTimes);
-    console.log("class names: " + classNames);
+   //console.log("class times: " + classTimes);
+    //console.log("class names: " + classNames);
     //console.log(formattedTimes)
     //console.log(classTimes)
 
@@ -32,7 +32,7 @@ function Dashboard() {
         }
     
         const totalMinutes = hours * 60 + minutes;  // Calculate total minutes
-        console.log(`Converted time: ${time} -> ${totalMinutes} minutes`);  // Log the conversion
+       // console.log(`Converted time: ${time} -> ${totalMinutes} minutes`);  // Log the conversion
         return totalMinutes;
     }
 
@@ -47,9 +47,9 @@ function Dashboard() {
         const currentSeconds = now.getSeconds();
         const currentTotalSeconds = (currentHours * 3600) + (now.getMinutes() * 60) + currentSeconds;  // Total seconds since midnight
     
-        console.log(`Current time: ${currentHours}:${now.getMinutes()}:${currentSeconds} (Total seconds: ${currentTotalSeconds})`);
+        //console.log(`Current time: ${currentHours}:${now.getMinutes()}:${currentSeconds} (Total seconds: ${currentTotalSeconds})`);
     
-        console.log("Start Times: ", classTimes);  // Ensure the classTimes are correct
+        //console.log("Start Times: ", classTimes);  // Ensure the classTimes are correct
     
         // Map over classTimes, and filter to find the next or ongoing class
         const todayClasses = classTimes.reduce((acc, _, index) => {
@@ -146,6 +146,22 @@ function Dashboard() {
         const timerId = setInterval(() => currentTimeCalc(), 1000);  // Recalculate every minute
         return () => clearInterval(timerId); // Clear the timeout if the component unmounts or dependencies change
     }, [currentTimeCalc]);
+
+    function convertToNormalTime(time) {
+        const timeStr = time.split(":");
+        let hour = parseInt(timeStr[0]); 
+        const minute = timeStr[1];
+        const sign = hour >= 12 ? "PM" : "AM";
+
+        // Convert to 12-hour format
+        if (hour > 12) {
+            hour -= 12;
+        } else if (hour === 0) {
+            hour = 12;  // Midnight case
+        }
+
+        return `${hour}:${minute}${sign}`;
+    }
     
     
     return (
@@ -158,7 +174,7 @@ function Dashboard() {
                     box-border max-h-full overflow-y-scroll"> 
                         {classTimes.map((time, index) => (<li className="p-4 text-2xl text-center text-better-white font-light"
                             key={index}>
-                            {index+1}. {classNames[index]} at {classTimes[index]}
+                            {index+1}. {classNames[index]} at {convertToNormalTime(classTimes[index])}
                             </li>) )}
                     </ul>
                 </div>
