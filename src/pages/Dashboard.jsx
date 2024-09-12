@@ -151,7 +151,7 @@ function Dashboard() {
     return (
         <>
             <div className="flex flex-col justify-evenly items-center h-screen gap-1">
-                <h3 className="text-6xl font-extrabold text-black pt-8">{timer}</h3>
+                <h3 className={`text-6xl font-extrabold text-black pt-8 text-center mx-auto tabular-nums`}>{timer}</h3>
                 <h5 className="text-3xl font-light text-carolina-blue">{nextClass}</h5>
                 <div className="p-10 h-128 w-full">
                     <ul className="p-8 shadow-md rounded-3xl bg-gradient-to-t from-sidebar-apurwa4 to-sidebar-apurwa5 h-full w-full

@@ -40,6 +40,9 @@ export default {
       spacing: {
         '128': '34rem',
       },
+      fontVariantNumeric: {
+        'tabular': 'tabular-nums',
+      },
       colors: {
         carolina: {
           blue: "#4B9CD3",
