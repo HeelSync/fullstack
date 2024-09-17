@@ -4,7 +4,7 @@ import { useReducer } from "react";
 const initialClassesState = {
     classTimes: [],
     classNames: [],
-    dayPatterns: []
+    classNumbers: []
 }
 
 const classesSlice = createSlice({
@@ -27,6 +27,7 @@ const classesSlice = createSlice({
             //state.classTimes = state.classTimes.filter(name => name !== index);
             state.classTimes.splice(index, 1);
             state.classNames.splice(index, 1);
+            state.classNumbers.splice(index, 1);
             
             //state.dayPatterns.splice(index, 1);
                 },
@@ -35,6 +36,7 @@ const classesSlice = createSlice({
                 state.classTimes.push(action.payload.time);
                 state.classNames.push("Until" + action.payload.name);
                 state.classNames.push(action.payload.name)
+                state.classNumbers.push(action.payload.number);
                 //console.log("TEST:" + state.classNames)
             }
             

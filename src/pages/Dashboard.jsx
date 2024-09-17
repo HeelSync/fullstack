@@ -17,7 +17,7 @@ function Dashboard() {
     //console.log("class names: " + classNames);
     //console.log(formattedTimes)
     //console.log(classTimes)
-
+    console.log(classNames)
 
     function timeToMinutes(time) {
         if (!time || typeof time !== 'string') {
@@ -172,10 +172,14 @@ function Dashboard() {
                 <div className="p-10 h-128 w-full">
                     <ul className="p-8 shadow-md rounded-3xl bg-gradient-to-t from-sidebar-apurwa4 to-sidebar-apurwa5 h-full w-full
                     box-border max-h-full overflow-y-scroll"> 
-                        {classTimes.map((time, index) => (<li className="p-4 text-2xl text-center text-better-white font-light"
-                            key={index}>
-                            {index+1}. {classNames[index]} at {convertToNormalTime(classTimes[index])}
-                            </li>) )}
+                        {classTimes.map((time, originalIndex) => ({time, originalIndex})).filter(({ originalIndex }) => originalIndex%2==1)
+                        .map(({ time, originalIndex }, index) => (
+                            <li className="p-4 text-2xl text-center text-better-white font-light" key={index}>
+                                {index+1}. {classNames[originalIndex]} at {convertToNormalTime(classTimes[originalIndex])}
+                                </li>
+                        ))
+                    }
+                     
                     </ul>
                 </div>
             </div> 
