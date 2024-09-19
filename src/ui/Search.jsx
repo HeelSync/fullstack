@@ -3,21 +3,24 @@ import { useKey } from "./useKey";
 function Search({ query, setQuery }) {
     const inputEl = useRef(null);
 
-    useKey('Enter', function() {
-        if(document.activeElement === inputEl.current) return;
-        inputEl.current.focus();
-        setQuery("");
-    })
+    useKey('Enter', function () {
+        if (document.activeElement === inputEl.current) return;
+        if (inputEl.current) {
+          inputEl.current.focus();  // Ensure inputEl.current is defined before focusing
+          setQuery("");
+        }
+      });
 
     useEffect(function() {
         function callback(e) {
             if(document.activeElement === inputEl.current) return;
-            if(e.code === "Enter") {
+            if(e.code === "Enter" && inputEl.current) {
                 inputEl.current.focus();
                 setQuery("");
             }
         }
-        return () => document.addEventListener('keydown', callback);
+        document.addEventListener('keydown', callback);
+        return () => document.removeEventListener('keydown', callback);
     }, [setQuery])
 
     return (
