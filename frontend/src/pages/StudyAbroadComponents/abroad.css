@@ -1,0 +1,279 @@
+/* USE THIS FILE FOR STYLING COMPONENTS! */
+body {
+  margin: 0;
+  font-family: "Poppins", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.map-container {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ui-container {
+  color: white;
+}
+
+.info-container {
+  color: white;
+}
+
+.header {
+  color: #7bafd4;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #13294b;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2.4rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.all-text {
+  flex: 1;
+  background-color: #f0f0f0;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: normal;
+  padding: 1rem;
+  padding-top: 1rem;
+  overflow: scroll;
+}
+
+.p-header {
+  color: #333;
+  font-weight: 800;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.p-description {
+  color: #333;
+  font-size: 1.4rem;
+  margin: 0;
+  font-weight: 500;
+  line-height: 1.6;
+  padding-bottom: 1rem;
+}
+
+.p-details {
+  padding-top: 1rem;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #333;
+  padding-bottom: 1rem;
+}
+
+.leaflet-popup-content {
+  font-size: 1.2rem !important; /* Adjust this value as needed */
+  font-family: "Arial", sans-serif; /* Optional: change the font family */
+}
+
+.university-image {
+  margin-top: 1rem;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+/* OPENING SCREEN */
+
+.opening-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  max-width: 80%;
+  margin: 2rem auto;
+}
+
+.opening-header {
+  text-align: center;
+  font-size: 4rem;
+  color: #13294b;
+  margin-bottom: 1rem;
+}
+
+.opening-image {
+  width: 45%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 11px;
+  margin-bottom: 5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.opening-paragraph {
+  font-size: 1.6rem;
+  color: #333;
+  text-align: center;
+}
+
+.opening-button {
+  border-radius: 11px;
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.opening-button::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background: url(./Components/wave.png);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: animate 2s linear infinite;
+  transition: 0.5s;
+  width: 0;
+  white-space: nowrap;
+  background-position: center;
+}
+
+.opening-button:hover:before {
+  width: 100%;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0px;
+  }
+  100% {
+    background-position: 200px;
+  }
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 0.1rem;
+}
+
+.arrow-icon {
+  font-size: 2.4rem;
+  color: #333;
+}
+
+.dropdown {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 2px solid #7bafd4;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 px 8px rgab(0, 0, 0, 0.1);
+}
+
+.dropdown select {
+  width: 100%; /* Full width */
+  padding: 0.5rem;
+  border: none; /* Remove the default border */
+  border-radius: 4px; /* Rounded corners for the dropdown */
+  background-color: #f0f8ff; /* Light background */
+  color: #333; /* Text color */
+  font-size: 1.2rem; /* Font size */
+  outline: none;
+}
+
+.dropdown select:hover {
+  background-color: #e6f7ff;
+}
+
+.dropdown select:focus {
+  border: 2px solid #4b9cd3;
+}
+
+.university-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  margin: 0 3rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #4b9cd3;
+  text-decoration: none;
+  border-radius: 8px;
+  text-align: center;
+  transition:
+    background-color 0.3s,
+    transform 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.university-link:hover {
+  background-color: #357abd;
+  transform: translateY(-3px);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  display: flex;
+  height: 95vh;
+  overflow: hidden;
+}
+
+.wrapper {
+  background: white;
+  width: 97.5%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.main-container {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.ui-container {
+  flex-basis: 37.5%; /* Adjust the width as needed */
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+
+  color: white;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.info-container {
+  background-color: lightgray;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}

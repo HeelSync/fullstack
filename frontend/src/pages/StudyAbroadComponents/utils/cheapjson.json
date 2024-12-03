@@ -1,0 +1,260 @@
+{
+    "universities": [
+      {
+        "id": "10323",
+        "name": "University of Helsinki",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55607",
+        "overview": "Founded in 1640, The University of Helsinki is a public research university located in the heart of Finland’s capital city, Helsinki and is open to students from all majors/minors. With 3,000+ international and exchange students, 4,500+ educators and researchers, and 11 faculties, the University is the oldest and largest institution in the country. At the University of Helsinki, students can expect high-quality research-based teaching that helps them hone their academic skills and apply them to real-world scenarios.",
+        "location": {
+          "city": "Helsinki",
+          "country": "Finland",
+          "description": "Helsinki sits on a beautiful peninsula in the Gulf of Finland and is surrounded by breathtaking city and waterfront views. The rich history of the city can be explored at one of its many museums, like the National Museum, which outlines Finland’s roots all the way back to the Stone Age! For city dwellers, you can enjoy the variety of events that celebrate the city’s innovative underground art subculture that is on the rise. If you find yourself needing a break from the hustle of city life, Finland offers tons of unique experiences like seeing the Northern Lights. With everything Finland has to offer, it’s no wonder why people always refer to it as the happiest country in the world!",
+          "coordinates": [
+            60.166029884355225,
+            24.932554502571488
+          ]
+        },
+        "student_experience": "The University hosts a series of events like Orientation Week before each term with activities to help incoming exchange and international students get to know the campus and its resources. To help students excel in their studies, there are different resources available like learning facilities, digital learning environments, and Student Tutors. During their stay, students are also encouraged to get involved in on-campus activities and join student-run organizations like the Student Union (HYY), which is a community that strives to protect students’ interests and provide services. \nStudent Blog \nInformation for Exchange and Visiting Students \nFrequently Asked Questions"
+      },
+      {
+        "id": "12449",
+        "name": "Florence University of the Arts (FUA)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41510",
+        "overview": "This program is a partner provider style program.\nAn 11-week semester at Florence University of the Arts (FUA) is an experiential, academically enriching study abroad experience open to undergraduate students from any major. In addition to a wide range of engaging academics, FUA has strong student support services, a focus on community/local engagement and experiential learning, and a thriving Student Life department.\nFUA is especially unique because of its focus on experiential learning. In addition to traditional-style classes, FUA offers a Department of Professional Studies and Experiential Learning, including internships in 10-20 fields (with more typically being offered in the Fall semester) as well as 30-40 Experiential Learning courses integrating special projects, service learning, and other experiential style courses.\nWith a student body of around 3,500-4,000 per year, FUA has a strong precence of US study abroad students. While you will be with many other Americans in your classes, you'll also meet international students, as about 20% students studying abroad at FUA come from various countries around the world.\nFUA is also a great choice for students looking to integrate some of their academics with community engagement. In fact, FUA is the first academic institution in Italy to establish integration projects affiliated to its academic departments and open to the public, in the form of Community Engagement Member Institutions (CEMI). \nAs an 11-week semester, FUA typically runs from late Septmeber to mid-December (Fall) and late February to mid-May (Spring).",
+        "location": {
+          "city": "Florence",
+          "country": "Italy",
+          "description": "Florence, often referred to as Firenze in Italian, is a city of immense historical and cultural significance located in the heart of Tuscany, Italy. It is celebrated for its rich artistic heritage, stunning architecture, and its pivotal role in the development of the Renaissance, making it one of the most iconic and enchanting cities in the world.",
+          "coordinates": [
+            43.77404840269897,
+            11.263478171078708
+          ]
+        },
+        "student_experience": "The Student Life and Development department at FUA strives to create cultural understanding and immersion between students and the Florentine locals by offering insightful, enlightening and engaging activities to complement the academic sessions. Activities can include weekend excursions, community engagement activities, volunteer opportunities, and more!\nStudent Life encourages mutual respect and understanding between cultures through a series of extracurricular activities aimed at broadening student perspectives for a well-rounded cultural and academic experience."
+      },
+      {
+        "id": "10191",
+        "name": "University of Mannheim (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67896",
+        "overview": "This program is available for exchange.\nThere is no language prerequisite as many courses are taught in English, but the pre-semester language preparatory course is STRONGLY recommended.  \nThe only German exchange that UNC students can attend in the Fall semester (in addition to the Spring), the University of Mannheim is a great choice for students looking for an immersive experience at a German university with the option to take classes in English, German, or both! Classes are a great fit for students studying business, economics, humanities, math, media studies, and information systems, with the added benefit of a Fall or Spring semester held during dates that are much closer to a typical UNC semester than many other German universities.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.\n \nNote: Mannheim is the only exchange program in Germany offered in the fall term, due to the academic calendar lining up with UNC's.",
+        "location": {
+          "city": "Mannheim",
+          "country": "Germany",
+          "description": "Nestled between the Rhine and Neckar rivers, Mannheim is the second largest city in Baden-Württemberg with a population of over 300,000. In addition to only being a 30-minute train ride from Frankfurt Airport, international travel is made is with Mannheim’s train station having trains continue on to some of the biggest cities in Austria, Italy, and Switzerland.",
+          "coordinates": [
+            49.48610927978413,
+            8.472401362985632
+          ]
+        },
+        "student_experience": "The Erasmus Student Network Mannheim (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Mannheim. In addition to their Buddy Program, the ESN regularly hosts events like pub quizzes, language cafes and going to watch a game of the local soccer team, SV Waldhof Mannheim. To learn more about ESN Mannheim, see here."
+      },
+      {
+        "id": "10318",
+        "name": "University of East Anglia",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=49515",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of East Anglia is a campus-based university, built on 320 acres of rolling parkland just two miles from the center of Norwich. Open views across the river to woods, meadows, and fields are available from all parts of University Plain. Though established as a university in the early 1960’s, East Anglia’s campus hosts buildings ranging from the 16th-century Earlham Hall (housing the School of Law) to the modern Sainsbury Centre for Visual Arts, containing one of the world's leading university art galleries. UEA is also a leading member of the Norwich Research Park, one of Europe's biggest concentrations of researchers in the fields of environment, health and plant science.",
+        "location": {
+          "city": "Norwich",
+          "country": "England",
+          "description": "An ideal destination for anyone with an interest in English history, Norwich is home to over thirty medieval churches, two cathedrals, and a Norman castle. Norwich was recently voted the safest UK city and one of the top ten cities for shopping in the UK, with two large shopping centers, major department stores, and Norwich Lanes, a thriving independent area full of boutiques and cafes.",
+          "coordinates": [
+            52.62324969094057,
+            1.2907414731148275
+          ]
+        },
+        "student_experience": "UEA is a top-ranked international university, and the Student Union works to help students integrate, grow and adapt during their time at UEA. There are over 200 societies and clubs offered by the Student Union. The wide range of societies and clubs means that there is something for everyone. If you cannot find something, the Student Union offers you the chance to start something new. Societies, clubs, and peer support groups are great opportunities to meet like-minded people or try something you have never done before."
+      },
+      {
+        "id": "10342",
+        "name": "Waseda University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55776",
+        "overview": "This program is available for exchange students.  \nThis program is not accepting applications for Spring 2025. \nThe next open applicaiton cycle for Waseda will be Academic Year 2025-2026. (Applicaiton will open November 15, 2024) \n \nFounded in 1882, Waseda University now consists of 11 undergraduate schools, 17 graduate schools and various affiliated research institutes. It has about 2,500 full-time faculty members and about 50,000 students. Its history, tradition, the number and achievements of its graduates and the standard of its teaching and research make it one of the most prestigious and most respected private universities in Japan. \nInternational education is a high priority of the university, with a very well-established study abroad program, based at the Center for International Education. UNC students are well-supported by the CIE advising team, and the CIE arranges numerous activities for students to take part in, including cultural showcases, volunteer activities, local excursions, sporting events, and more.",
+        "location": {
+          "city": "Tokyo",
+          "country": "Japan",
+          "description": "UNC students will study at the main Shinjuku campus, which has a beautiful garden, extensive library, and museum on-site, along with campus cafes and shops. The scenic and peaceful Waseda campus is located centrally in downtown Tokyo, just minutes from the heart of the famous Shinjuku district. Waseda has a Tokyo metro stop right outside its main entrance, so students are ideally situated for exploring Tokyo, the political, cultural, and economic hub of Japan, as well as the rest of the country.",
+          "coordinates": [
+            35.685033943064454,
+            139.6892603507826
+          ]
+        },
+        "student_experience": "The Intercultural Communication Center (ICC) organizes events and programs for exchange students and Japanese students alike. In the past, the ICC has hosted events like a Bamboo Shoot Hunt (edible bamboo) and café hours!"
+      },
+      {
+        "id": "10335",
+        "name": "University of Sheffield",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=54110",
+        "overview": "This program is available for exchange.  In-state students will automatically be considered for exchange. \nWith around 30,000 students from more than 144 countries, the University of Sheffield is one of the largest universities in the UK.  The University is also a member of the Russell Group, a self-selected group of 24 universities in the United Kingdom that receive over 75% of all university research grant funding in the UK.",
+        "location": {
+          "city": "Sheffield",
+          "country": "England",
+          "description": "The city center of Sheffield, a fifteen-minute walk from campus, always offers something to do! Whether it is shopping in the traditional street markets, taking advantage of the nightlife, going to the theater, using the Olympic-class sports facilities or enjoying one of the city’s parks, you’ll never be bored! Additionally, the Peak District National Park is within walking distance of the university. Sheffield's location in England also makes travel to other parts of the UK convenient, with London located only 2 hours away.",
+          "coordinates": [
+            53.375432948077936,
+            -1.4728961551026971
+          ]
+        },
+        "student_experience": "The Global Campus program at Sheffield organizes events and activities to help you adapt to life in Sheffield and make new friends from around the globe!"
+      },
+      {
+        "id": "10683",
+        "name": "Stockholm University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55461",
+        "overview": "This program is open to all majors/minors.\nRated as one of the top 100 universities in the world and one of the top 50 in Europe, Stockholm University is one of Sweden’s largest institutions and offers a first-class experience to all students at different education levels. Stockholm University offers an open and stimulating environment in one of the most beautiful and dynamic capital cities in the world, as well as gives international  students direct interaction with leading researchers in their field along with access to current findings. Students will gain invaluable experience by developing their ability to think independently to analyze and solve real-world problems.",
+        "location": {
+          "city": "Stockholm",
+          "country": "Sweden",
+          "description": "Stockholm is one of the world's most dynamic capital cities, ranked among the top five in the world when it comes to intellectual capital, innovation, and quality of life. As one of Scandinavia's most exciting cultural cities, Stockholm is famous for its craft and design, music production and international cuisine. Stockholm is a cultural hub and Sweden's business center with many green areas surrounded by water, making it an ideal place to enjoy a relaxed and exciting student life.",
+          "coordinates": [
+            59.333421558888375,
+            18.064846724366017
+          ]
+        },
+        "student_experience": "Stockholm University organizes a series of welcome and orientation activities at the beginning of each semester to help students acclimate to university life in Sweden and network with fellow classmates. Individual departments may also arrange activities, which can be found here. To see more information for new students on things like sports/extracurricular activities, getting around, and studying with a disability, check here. The university also has a Facebook page for international students to find friends and discuss questions related to the move to Stockholm."
+      },
+      {
+        "id": "10345",
+        "name": "Yonsei University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48172",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. Student must have completed two semesters at UNC at time of application to be considered. \n \nExperience Korea, one of the Little Dragons of East Asia, with its dynamic culture and fast-growing economy! The program at Yonsei University in Seoul, Korea opens up a world of possibilities for study abroad students! Yonsei is proud of its history and reputation as a leading institution of higher education and research in Asia.",
+        "location": {
+          "city": "Seoul",
+          "country": "South Korea",
+          "description": "Yonsei University, located in the heart of Seoul, is the leading private university in Korea. Founded as a medical college in 1885, Yonsei has developed into a large university of 81 different departments with 35,000 students. Despite its location in Seoul, a city of 12 million people, the university has a large, quiet, wooded campus which is near the city centers of government, culture, and business. The city of Seoul offers immense cultural resources, and with excellent bus and subway systems, it is easy for students to move about the city. Korean culture and history come to life in the National Museum, the Folklore Museum, and the Buddhist temples. Within Seoul, students can visit museums, palaces, temples, and attend Korean traditional music and dance performances. Outside of Seoul, students can gain an appreciation of modern history by visiting the Demilitarized Zone.",
+          "coordinates": [
+            37.56250605445501,
+            126.9946183137762
+          ]
+        },
+        "student_experience": "Yonsei embraces the energy of youth with large-scaled festivals such as Muak Festival, Yonsei-Korea Games, Onnuri and other cultural events held by student organizations. The Yonsei culture of harmony and community is becoming a tradition that encourages creative thinking, individuality, and pride as a Yonseian."
+      },
+      {
+        "id": "10331",
+        "name": "University of Oslo",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=70630",
+        "overview": "This program is available for Exchange only.\nFounded in 1811, the University of Oslo is Norway’s oldest and largest university. The University has approximately 28,000 students. As Norway's largest and most comprehensive research institution, the University of Oslo offers visiting students the opportunity to study at a quality research university where there have been four Nobel Prize winners.",
+        "location": {
+          "city": "Oslo",
+          "country": "Norway",
+          "description": "Oslo, the capital of Norway, is home to over 650,000 and is quickly becoming the most international and multicultural city in Norway.  It is known as a livable and friendly European city with a relatively mild climate. The Blindern campus is in pleasant surroundings, ten minutes from the city center by subway-to-surface rails and only minutes away from the lakes and wooded hills of Nordmarka.",
+          "coordinates": [
+            59.92241415440188,
+            10.740567905884339
+          ]
+        },
+        "student_experience": "As a new exchange student, you will automatically be assigned to a buddy group within your faculty. The university also hosts a series of onboarding events like First Night in Oslo, Welcome Week, and Digital Orientation Day, which all help students acclimate to life in Oslo. International students are also encouraged to check out the ‘Before Arrival’ and ‘International Students at the University of Oslo’ pages for information on upcoming events and other student-related updates."
+      },
+      {
+        "id": "11751",
+        "name": "University of Limerick",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55864",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange.  \nStudy and live alongside Irish students for a semester or year at the University of Limerick (UL). Immerse yourself and engage with the locals by participating in UL's service-learning program and/or getting involved in the many athletic opportunities in Ireland's sports capital. At UL, students can expect state of the art facilities, world class research, hands-on experiences, and 80+ extracurricular activities to help them succeed academically as well as jumpstart endless professional career opportunities. Still not convinced? Check out more of what the University has to offer here as well as student testimonials!",
+        "location": {
+          "city": "Limerick",
+          "country": "Ireland",
+          "description": "Limerick is Ireland's third largest city and offers a mix of modern city life and medieval treasures. There's plenty of entertainment with lively festivals, music, and shopping, along with a castle and museum that give a glimpse into the town's history. Students enjoy the contained campus just a mile from the city center. There's even a path to stroll along the River Shannon which runs through campus and to the city center. Limerick is located in the heart of Ireland's Midwest region. With a train, bus station, and close proximity to the Shannon airport, it is easy to explore all of Ireland from Limerick!",
+          "coordinates": [
+            52.66231226143862,
+            -8.632007372298874
+          ]
+        },
+        "student_experience": "The University of Limerick International Buddy Program is an initiative which matches incoming international students with a student volunteer from UL based on similar interests. The aim of the program is to help international students settle in during their first few weeks by providing them with insider tips and sharing your experiences as a new student at UL. The University seeks volunteers who have a genuine interest in getting to know and helping new students from all over the world succeed on campus. Additional resources for incoming students can be found here, along with common frequently asked questions."
+      },
+      {
+        "id": "10337",
+        "name": "University of Sussex",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=49678",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of Sussex was founded in 1961 as part of an initiative to make higher education more accessible in Britain. Decidedly global, the 9,000-member student body at Sussex includes about 1,500 international students from over 120 countries. Sussex is a “campus university” meaning that it is self-contained and set just outside the city of Brighton in the town of Falmer. On-campus housing is available, and the campus provides many useful amenities such as banks, eateries, and a supermarket.",
+        "location": {
+          "city": "Brighton",
+          "country": "England",
+          "description": "The vibrant city of Brighton is just a ten-minute train ride or 30-minute bus ride from campus. Sprawling down a gentle slope to the pebbly coast of the English Channel, Brighton hosts a distinctive beachfront including the iconic Brighton Marine Palace and Pier. Brighton is also known for a thriving independent music and arts scene and a strong interest in local and sustainable goods.",
+          "coordinates": [
+            50.817950035920695,
+            -0.13318939910586386
+          ]
+        },
+        "student_experience": "The Buddy Scheme is a peer-to-peer support scheme coordinated by the Students’ Union that aims to help new students settle into life at Sussex and in Brighton. The scheme offers all Sussex students the opportunity to make new friends and be a part of something that celebrates diversity in an informal, fun, and sociable way. They offer a series of exclusive events for Buddies to enjoy, which have now moved online in the form of a wide variety of virtual events during this pandemic. These vary from online yoga and cooking classes to weekly coffee and games meetups, quizzes, films nights, and more."
+      },
+      {
+        "id": "10169",
+        "name": "McGill University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55510",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. This program has an early application deadline for Spring term.\n \nMcGill University is one of Canada's best-known institutions of higher learning and one of Canada’s leading research-intensive universities. The oldest university in Montreal, McGill was founded in 1821. Since that time, McGill has grown from a small college to a large university with two campuses, 11 faculties, some 300 programs of study, and more than 33,000 students. It is now ranked among the top public research universities in the world. \nThe UNC-Chapel Hill exchange with McGill University is particularly attractive for students interested in the humanities, social sciences, francophone (Quebecois) studies, and music.",
+        "location": {
+          "city": "Montreal",
+          "country": "Canada",
+          "description": "Montreal's 3.6 million people are renowned for their international flair and joie de vivre. It is home to the second-largest population of native French speakers in the world, behind Paris. The city has a thriving arts and cultural scene, and it is home to one of the largest student populations on the continent.  It boasts a vibrant nightlife, the old-world charm of historic architecture set in a modern metropolis, and the multilingual, multicultural buzz of one of the world's great French cities.  Montreal has an affordable and efficient public transportation system and features an extensive network of bicycle paths and underground pedestrian walkways.",
+          "coordinates": [
+            45.50427693363929,
+            -73.55327981434199
+          ]
+        },
+        "student_experience": "At McGill University, you will have opportunities to get engage, encourage your development, and support your learning. There are a variety of ways to get involved on campus ranging from student societies and associations to campus advocacy and engaging in local community projects. Check out the Support & Resources for more information on involvement opprotunities."
+      },
+      {
+        "id": "10232",
+        "name": "Lancaster University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48900",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nOn this program, UNC students directly enroll at Lancaster University for a semester or academic year for an opportunity to fully integrate into the academic, social, and cultural life. Lancaster is a comprehensive university offering courses that would be a good fit for many UNC students. No matter your classification, you will take courses alongside degree-seeking Lancaster students, have access to student housing, and participate in all aspects of student life. \nA \"new\" university, Lancaster University was chartered in 1964, and has quickly gained an excellent reputation as both a teaching and a research university. The university is known for its flexible, innovative curricula, and as a research center it ranks in the top 10 universities in the UK. The student body numbers about 6,500 undergraduates, of whom about 200 are likely to be North Americans. Lancaster won the Queen's Award in 1994 for its work in special needs; students with mobility disabilities will find the campus highly accessible.",
+        "location": {
+          "city": "Lancaster",
+          "country": "England",
+          "description": "Lancaster is located on the west coast of England, near the beautiful mountains and lakes of the Lake District and the valleys of the Yorkshire Dales. The capital city of North Lancashire, Lancaster offers a wealth of historic, academic, and cultural opportunities.  Lancaster is also less than an hour away from Manchester, the fifth largest city in the United Kingdom.",
+          "coordinates": [
+            54.05716343012385,
+            -2.7973918161139073
+          ]
+        },
+        "student_experience": "Lancaster University Students’ Union is committed to ensuring you have a fulfilling student life. The Students’ Union works towards that goal by getting involved in every bit of the life of the university, providing a huge number of services designed to make your time here as fun, fulfilling, and fantastic as it can be. They support student clubs and societies, provide recreational and competitive sporting opportunities, coordinate volunteering projects, run environmental and sustainability projects and so much more."
+      },
+      {
+        "id": "11742",
+        "name": "University of Gothenburg",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38651",
+        "overview": "This program is available for exchange only. \nThe University of Gothenburg is one of Sweden’s largest and most influential universities, boasting an enrollment of over 47,000 students, with over 6000 faculty members. This program is a great fit for students looking to be immersed in Swedish culture, and are interested in studying at a large university in one of the country's largest cities that's slightly off the beaten path.",
+        "location": {
+          "city": "Gothenburg",
+          "country": "Sweden",
+          "description": "Situated on the Götta Ålv River on Sweden’s west coast, Gothenburg is the country’s second largest city, and is one of the key seaports on the Baltic Sea. While many travelers only visit Stockholm during their time in Sweden, studying in Gothenburg provides an immersive look into Swedish culture that many never get a chance to experience.",
+          "coordinates": [
+            57.70525330120878,
+            11.972918452393897
+          ]
+        },
+        "student_experience": "Gothenburg offers the best of both worlds, offering a bustling urban lifestyle, with the stunning Swedish countryside located just minutes away. The archipelagos that line Sweden’s west coast, and the deep evergreen Scandinavian forests are a quick train ride away. For travelers, Gothenburg is connected by train to Oslo and Copenhagen, and Gothenburg’s airport is well-connected to the rest of Europe."
+      },
+      {
+        "id": "10256",
+        "name": "Radboud University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55395",
+        "overview": "This program is open to all majors/minors.\nAwarded as one of the best traditional universities in the Netherlands, Radboud University offers over 250 courses in several areas of study, including Arts, Social Sciences, Economics, Communication and Marketing to an estimated 24,000 students. Located just south of the Nijmegen city center, Radboud University is a great exchange program for students looking for a unique European experience.\nDue to the semester dates, this exchange is only offered in the Spring. The Spring semester typically runs from late January to early July; the current year's academic calendar can be viewed here.",
+        "location": {
+          "city": "Nijmegen",
+          "country": "Netherlands",
+          "description": "The unofficial slogan of Nijmegen is \"Old City, Young Vibe\". Located on the Waal River close to the German border, Nijmegen is the largest city in the Dutch province of Gelderland. Being one of the oldest cities in the Netherlands, Nijmegen offers a rich history with Roman connections, but also has lots of events and festivals that are popular with students. Read more about Nijmegen here!",
+          "coordinates": [
+            51.84016673538949,
+            5.8650973564723365
+          ]
+        },
+        "student_experience": "Radboud University prides itself on being a truly international institution with students from all over the world. The semester starts with an optional Orientation Week for international exchange students that is highly recommended students attend. During the year, several on- and off-campus social activities are organized so international students can get to know the Netherlands. Excursions, social activities, debates, and lectures are shared on the ‘RadboudInternationalStudents’ and ‘ESN Nijmegen’ Facebook pages to offset coursework and studying."
+      },
+      {
+        "id": "10303",
+        "name": "Universidad de Montevideo",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38442",
+        "overview": "This program is available for exchange and direct enroll.  \nFounded in 1986, the University de Montevideo (UM) is a private institutuion committed to academic excellence, research, technological innovation, and social responsibility. International students who choose UM can expect engaging classes taught by distinguished scholars in their fields and professions. Students can take courses within Media and Journalism, Communications, Economics, Philosophy, Mathematics, Computer Science, and History.",
+        "location": {
+          "city": "Montevideo",
+          "country": "Uruguay",
+          "description": "Uruguay is one of the smallest Hispanic countries in South America and is bordered by Brazil and Argentina. Located on the Río de la Plata and only a few hours by ferry from Buenos Aires, Argentina, the costal city of Montevideo is lively and modern city. Motevideo is known for it's artistic flare, specifically theatre and cinema production. Although a small and walkable city, Montevideo's bus system makes it easy find transportation to and from class. ",
+          "coordinates": [
+            -34.87429920662981,
+            -56.18175757002025
+          ]
+        },
+        "student_experience": "UM has created a new Buddy Program where each international student is paired with an local UM student upon arrival to help integrate them with the University’s community and develop a support network. Students also have the opportunity to participate in a variety of sports such as futbol, field hockey, and even an \"Adventurer's Club\" that organizes outdoor activities around the country as well as an international excursion to hike Machu Pichu in Peru. UM also encourages community engagement by offering volunteer and internship opportunities to international students.\nTo learn more about student life at UM, click here.\n \n*Please Note this program has a Southern Hemisphere Calendar:\n\nFall Semster is from March to August\nSpring Semester is from August to December"
+      }
+    ]
+  }

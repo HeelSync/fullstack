@@ -1,0 +1,308 @@
+{
+    "universities": [
+      {
+        "id": "10328",
+        "name": "Universidad de Navarra (Media & Journalism)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=45591",
+        "overview": "This program is available for exchange.\nThis program is only open to MEJO Majors or Pre-MEJO Majors who have taken at least two MEJO courses. \nThe School of Communication at the Universidad de Navarra (UNAV) was the first school in Spain to offer journalism at the university level, opening its doors in 1958. UNAV has been training communication professionals with thoroughness and precision. Among the school's graduates are many of Spain's foremost journalists and researchers.",
+        "location": {
+          "city": "Pamplona",
+          "country": "Spain",
+          "description": "The city of Pamplona, known for the Running of the Bulls, is home to approximately 200,000 inhabitants. It is the capital of Navarra and is nicely situated an hour from the mountains and an hour from the ocean. Pamplona has a walkable, historic city with opportunities to visit museums, see beautiful cathedrals, and taste test a variety of locally inspired pinxtos.  ",
+          "coordinates": [
+            42.812612751360085,
+            -1.643442957491998
+          ]
+        },
+        "student_experience": "Students studying at UNAV will have the opportunity to participate in sports clubs, volunteer programs, and student organizations. Check out some of UNAV’s Campus Life Activities Here. The UNAV program also offers a Buddy System which allows UNC students to connect with UNAV students upon arrival to campus."
+      },
+      {
+        "id": "10316",
+        "name": "University of Canterbury",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38493",
+        "overview": "This program is available for direct enroll.  \nThe University of Canterbury is New Zealand’s second oldest university and is known for its innovative courses, student support, and prestigious learning. The university has five ‘colleges’: Arts (Humanities and Social Sciences), Business and Law, Engineering, Education Health and Human Development, and Science. Canterbury is a public university with a total enrollment of over 16,000 students. Students and faculty at Canterbury represent a variety of countries, making the university a diverse and inspiring learning environment.",
+        "location": {
+          "city": "Christchurch",
+          "country": "New Zealand",
+          "description": "The University of Canterbury (UC) is located in Christchurch, the largest city on New Zealand's South Island. On the coastal edge of the Canterbury Plains, the city is close to both the sea and the mountains. The university's modern and well-equipped facilities are spread across a spacious suburban campus, with easy access to the center of the city and the cultural and recreational facilities it provides. Often known as the Garden City, Christchurch has excellent beaches, plentiful parks, reserves and golf courses.",
+          "coordinates": [
+            -43.52588836942004,
+            172.63581580074427
+          ]
+        },
+        "student_experience": "The University of Canterbury offers a special welcome and orientation for incoming international students. In addition, Canterbury offers varied experiential learning options, including internship courses, service learning, field study, and more. UC is also one of the few universities in the world that offers courses focused on Antarctic Studies."
+      },
+      {
+        "id": "10303",
+        "name": "Universidad de Montevideo",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38442",
+        "overview": "This program is available for exchange and direct enroll.  \nFounded in 1986, the University de Montevideo (UM) is a private institutuion committed to academic excellence, research, technological innovation, and social responsibility. International students who choose UM can expect engaging classes taught by distinguished scholars in their fields and professions. Students can take courses within Media and Journalism, Communications, Economics, Philosophy, Mathematics, Computer Science, and History.",
+        "location": {
+          "city": "Montevideo",
+          "country": "Uruguay",
+          "description": "Uruguay is one of the smallest Hispanic countries in South America and is bordered by Brazil and Argentina. Located on the Río de la Plata and only a few hours by ferry from Buenos Aires, Argentina, the costal city of Montevideo is lively and modern city. Motevideo is known for it's artistic flare, specifically theatre and cinema production. Although a small and walkable city, Montevideo's bus system makes it easy find transportation to and from class. ",
+          "coordinates": [
+            -34.884321483611,
+            -56.17420167674511
+          ]
+        },
+        "student_experience": "UM has created a new Buddy Program where each international student is paired with an local UM student upon arrival to help integrate them with the University’s community and develop a support network. Students also have the opportunity to participate in a variety of sports such as futbol, field hockey, and even an \"Adventurer's Club\" that organizes outdoor activities around the country as well as an international excursion to hike Machu Pichu in Peru. UM also encourages community engagement by offering volunteer and internship opportunities to international students.\nTo learn more about student life at UM, click here.\n \n*Please Note this program has a Southern Hemisphere Calendar:\n\nFall Semster is from March to August\nSpring Semester is from August to December"
+      },
+      {
+        "id": "10255",
+        "name": "Queen's University Belfast",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48467",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange.   \nStudy at Queen's University Belfast (\"QUB\") for a semester or academic year for an opportunity to fully integrate into the academic, social, and cultural life at the university. Take courses along-side degree-seeking QUB students, live in student housing, and participate in all aspects of student life. \n \nWatch this video to see the QUB campus and learn more about the program.",
+        "location": {
+          "city": "Belfast",
+          "country": "Northern Ireland",
+          "description": "Located in the capital of Northern Ireland, QUB is considered the Oxbridge of Ireland with a combination of Irish and British identities. Belfast has a rich political history, and the university earned an international reputation for academic excellence in social justice, peace, and reconciliation studies. ",
+          "coordinates": [
+            54.593539112755806,
+            -5.938054330299297
+          ]
+        },
+        "student_experience": "The Students’ Union regularly hosts bands, comedy shows and other forms of entertainment. Additionally, if you are ever missing the feel of Franklin Street, right past the grounds of the University you’ll find Botanic Avenue. Many students spend their free time here to do some shopping, enjoy international cuisines, or enjoy a coffee at the numerous cafés."
+      },
+      {
+        "id": "10223",
+        "name": "King's College London",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38495",
+        "overview": "This program is available for exchange only.\nKing’s is one of the oldest universities in England, and it’s also one of the largest, with a student population over 23,000. King’s is an urban campus, meaning instead of a contained campus, university buildings are located in the heart of the city and housing is scattered throughout the city.\nKing's is also one of the UK’s most distinguished universities, with an outstanding reputation for learning, teaching, and research, specifically in the fields of Humanities and Sciences.",
+        "location": {
+          "city": "London",
+          "country": "England",
+          "description": "King’s is located in central London, with its main campus on “The Strand” along the River Thames. London is one of the world’s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+          "coordinates": [
+            51.51340675433524,
+            -0.12258423021525476
+          ]
+        },
+        "student_experience": "With hundreds of international students studying at King's each year, King's offers a robust orientation program and schedule of events to ensure visiting students are able to make the most of their experience. A very common way to become more involved at King's is by joining clubs and societies. To learn more about these organizations, please see here."
+      },
+      {
+        "id": "10215",
+        "name": "Hebrew University of Jerusalem",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=66085",
+        "overview": "This program is available for direct enroll.  \nIn 1925, the Hebrew University of Jerusalem was established with three aims: to become an internationally recognized institution; to foster an understanding of the Jewish state; and to be the finest university of Israel. Almost seventy-five years later, each of these ambitions has been realized by the University in the capital of Israel.  \n \nApproximately 3,000 of the 18,000 students at this non-denominational university are international students. The Rothberg School for Overseas Students, established in 1971, recognizes and facilitates the curricula of international students at the Hebrew University of Jerusalem.",
+        "location": {
+          "city": "Jerusalem",
+          "country": "Israel",
+          "description": "With three campuses in Israel’s capital, the Hebrew University is spread all throughout the city of Jerusalem. The main campus, Mount Scopus, is located in the northeastern part of Jerusalem, which is well known for its botanical gardens and stunning view overlooking the Old City.",
+          "coordinates": [
+            31.777300022924205,
+            35.219703606191906
+          ]
+        },
+        "student_experience": "The adjustment to life in Jerusalem and the Hebrew University can be demanding.  To help acclimate to your new environment, students are required to enroll in a pre-semester course to help with the transition. Course options include Hebrew/Arabic language or a course about Jerusalem, all taught in English (3-5 credits). \n \nThe Office of Student Life organizes trips throughout Israel as well as social events at the University for students throughout the semester. Some past trips have included floating in the Dead Sea, hiking in the Negev and visiting different communities in the Old City of Jerusalem. \n \nMadrichim (a team of multilingual students at the University) also assists study abroad students with all aspects of adjusting to life in Israel, from grocery shopping to navigating the public transportation system."
+      },
+      {
+        "id": "10193",
+        "name": "Ulm University (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68067",
+        "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters of German, completed by the start of the program. Students will be attending regular university classes with degree-seeking students, and almost all courses are taught in German.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from early April to mid-July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+        "location": {
+          "city": "Ulm",
+          "country": "Germany",
+          "description": "More than 180,000 people live in the cities of Ulm and Neu-Ulm (neighboring city across the Danube in Bavaria). The birthplace of Albert Einstein offers an exciting mix between architecture that dates back centuries and developments that reflect the new, modern Germany.",
+          "coordinates": [
+            48.393513231557776,
+            9.978958692882562
+          ]
+        },
+        "student_experience": "When going to Ulm, there is the opportunity to sign up for the Buddy Programme. A buddy mentor is a full-time student in Ulm who helps you with things such as filling out forms to finding your way around campus and the city. At the same time, you and your buddy can not only learn each other´s language and culture, but also to share your experiences abroad."
+      },
+      {
+        "id": "10189",
+        "name": "Karlsruhe Institute of Technology (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67985",
+        "overview": "This program is available for exchange.\nAt KIT, students should expect to take their classes mostly in German. Each department requires a different level of German for enrollment, with many requiring 3-4 semesters of German, completed by the start of the program. More information about language requirements for departments can be found here. \nPlease note that English is not spoken everywhere in Germany/at KIT. Participation in the pre-semester German course offered at KIT is highly recommended to all applicants.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from mid-April to late July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+        "location": {
+          "city": "Karlsruhe",
+          "country": "Germany",
+          "description": "Karlsruhe is a major tech hub and offers an abundance of opportunities for its inhabitants and visitors to take advantage of. Located just North of the Black Forest and less than less than 13 miles to the French border, this city is in an ideal location for anyone looking for adventure. The city is warm and sunny in the summer, with lots of opportunities for hiking and cycling, with over 102 kilometers of bicycle paths! The majority of the classes at KIT are held close to the city, well-connected by the bus system.",
+          "coordinates": [
+            49.01345558664515,
+            8.411859622206816
+          ]
+        },
+        "student_experience": "The Erasmus Student Network Karlsruhe (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Karlsruhe. In addition to their Buddy Program, the ESN regularly hosts events like language cafes, Stammtisch and a trip to one of Germany’s most beautiful towns, Heidelberg. To learn more about ESN Karlsruhe, see here."
+      },
+      {
+        "id": "10187",
+        "name": "Heidelberg University (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55529",
+        "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters of German, completed by the start of the program. \nFounded in 1386, Heidelberg University is Germany’s oldest university. It is a\ncomprehensive research-oriented institution with a strong focus on\ninterdisciplinary studies. Heidelberg University offers over 160 study programs in\nthe humanities, the social sciences, law, natural sciences, and the life sciences.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from mid-April to late July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+        "location": {
+          "city": "Heidelberg",
+          "country": "Germany",
+          "description": "Heidelberg – the name stands for the world-famous castle, the picturesque Old Town with all its charm, the inviting landscape between the Odenwald and the Rhine Valley, and for Germany’s oldest university and an internationally known centre of science and research. Set on the Neckar River, Heidelberg, with its famous castle, creates a historic setting for study of the humanities, medicine, natural sciences, and social sciences.",
+          "coordinates": [
+            49.412990729098425,
+            8.722758415578905
+          ]
+        },
+        "student_experience": "In cooperation with the departments of the university, the International Relations Office offers a Buddy Programme for international students. \nAs part of this initiative, students from Heidelberg provide the newly arrived international students with active advice and assistance. International new arrivals will receive individual support from the moment they arrive, including information on recreational activities, creating a timetable and finding a room. The aim of the Buddy Programme is to promote intercultural encounters between German and international students. \nStudents can also get involved in sports and fitness programs, music, drama, language learning, and excursions. Trips normally take place on weekends and are a good opportunity to experience German culture and meet other international students. Read more about excursions here! The Studierendenwerk also offers a large selection of activities outside of the University."
+      },
+      {
+        "id": "10300",
+        "name": "Universidad San Francisco de Quito",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38546",
+        "overview": "This program is available for direct enroll. \nFounded in 1988, Universidad de San Francisco de Quito (USFQ) is a highly distinguished private liberal arts institution located high in the Andes mountains of Quito, Ecuador. It has the largest international exchange program in the region, with more than 100 agreements with universities throughout the world. USFQ employs many of the Ecuador’s most renowned scholars and educators.\nUSFQ’s international programs include summer, semester and year-long programs and have multiple locations for educational opportunities:\n\nCUMBAYA: USFQ campus in town of Cumbaya\nGAIAS: USFQ campus in San Cristobal, Galapagos Islands\nTiputini Biodiversity Station: Research Station located in the Ecuadorian Amazon",
+        "location": {
+          "city": "Quito",
+          "country": "Ecuador",
+          "description": "Quito, the capital of Ecuador, is considered to be one of the most beautiful cities in South America. Quito is surrounded by snow-capped mountains, yet beautiful palm trees line the city's streets. The city is located near the equator, but the 9,000 foot altitude makes it seem a place of perpetual springtime with regular daytime temperatures in the 70s and 50s at night. USFQ's main campus is located on the outskirts of Quito in the mountain valley town of Cumbaya.",
+          "coordinates": [
+            -0.22438668545554455,
+            -78.50957771265469
+          ]
+        },
+        "student_experience": "The intimate campus of USFQ allows for students to be fully integrated into the Ecuadorian academic system. Students will take courses with both international and local Ecuadorian students. The Oficina de Programas Internacionales (OPI) directly supports international students by assisting them with course registration, hosting cultural based activities and events, and pairs international students with a USFQ student through the Global Dragons program. \nStudents attending USFQ can join various activies across campus including:\n\nUniversity Student Clubs\nUniDiversidad"
+      },
+      {
+        "id": "10035",
+        "name": "Bologna Consortial Studies",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55408",
+        "overview": "Want to study in Italy in a city known for its cuisine and vibrant student scene? Looking for a combination of immersion into Italian culture, student support, and a reasonable cost? The Bologna Consortial Studies Program (BCSP) offers students the chance to immerse themselves in Italian and international student life by enrolling in courses at the Università di Bologna, while also making American friends and going on planned excursions with the other students in the BCSP program.\nBCSP offers both an Italian language track (3-4 semesters of Italian required) and an English language track (no previous Italian required).\nWhen you take courses at the Università di Bologna, you'll be enrolling in the oldest institutuion of higher learning in Europe: In 1988, the university celebrated its 900th anniversary! In addition, it's also the most popular university in Italy, and is home to almost 90,000 students (and about 6,500 international students).\nThis program is a unique hybrid style and includes elements of both a direct enroll and a partner provider program.",
+        "location": {
+          "city": "Bologna",
+          "country": "Italy",
+          "description": "With numerous cafés, rich cultural offerings, and lots of delicious food, Bologna is a lively, walkable town that's great to explore. Outside of the city center, you have easy access to gorgeous parks and outdoor spaces, including a bike path that goes all the way aroudn the city. Bologna is a great place fod students looking for great food, fewer tourists, a mix of city and nature, and a thriving social scene! If you're interested in seeing more of Italy, exploring beyond Bologna is easy too, since Bologna is a major railroad hub.",
+          "coordinates": [
+            44.48568352177785,
+            11.341280656292156
+          ]
+        },
+        "student_experience": "At BCSP, students will have the opportunity to go on cultural excursions and day trips, often as a part of their BCSP courses. Examples of previous excursions are the going to the Bologna Medieval Museum, taking an exursion to Tuscany, going to a football match, and pasta making.\nAt the University of Bologna, a university-sponsored billboard called UniboCultura promotes the cultural events of the University of Bologna such as literature, art, philosophy, science, digital technologies, medical and legal studies.\nIf interested, students also have the opportunity to participate in a non-credit internship, usually teaching English at the local elementary school or working at the tourism agency."
+      },
+      {
+        "id": "10317",
+        "name": "Universidad de Deusto",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38388",
+        "overview": "This program is available for direct enroll only.  \n \nLocated in Northern Spain, better known as the Basque Region, you will find the Universidad de Deusto nestled in the city of Bilbao. The Universidad de Deusto is one of the oldest private universities in Spain and specializes in Social Sciences, Psychology, Education, and Business.The university is situated across the river from the Guggenheim Museum, an architectural wonder and home to large-scale outdoor art instillations.",
+        "location": {
+          "city": "Bilbao",
+          "country": "Spain",
+          "description": "Bilbao is a unique metropolitan city surrounded by mountains and only 10 miles from the ocean coast. As a port city, this area became a bustling hub between the 19th and 20th centries and it now home to over 1 million people. Bilbao is overflowing with Spanish history and Basque culture including the artwork within the Guggenheim museum, the city wide Gothic architecture from the 19th century, and delicious pintxos at every restaurant corner.",
+          "coordinates": [
+            43.264119007153894,
+            -2.921051802461295
+          ]
+        },
+        "student_experience": "The international office, known as CIDE (Centro Internacional de Español), works directly with US international students and is situated within the university. The CIDE staff organize orientations upon arrival, assist with housing, and offer cultural immersion events and excursions for students. Through the CIDE office, students can choose to participate in one of two tracks, 1) Spanish Language & Culture Program or 2)Business & Global Studies Program. Students also have the opportunity to participate in credit baring internship in Education or Business or a participate in a Community Service Course."
+      },
+      {
+        "id": "10339",
+        "name": "University of Sydney (Short Term Study Abroad)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38313",
+        "overview": "Note: Exchange has been temporarily suspended for this program. Students may still apply via direct enroll.\nThis program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nStudy at the University of Sydney over the summer (winter in Australia) and participate in a short-term program designed to give international students an opportunity to experience the University’s academic, social, and cultural life. Boasting a student population of 73,000, the University of Sydney is one of the country’s leading-research intensive universities and the oldest member of the prestigious Group of Eight.",
+        "location": {
+          "city": "Sydney",
+          "country": "Australia",
+          "description": "Sydney is consistently ranked among the best cities in the world for quality of life. With almost five million inhabitants, it is the second largest city in Australia (after Melbourne). From visiting the renowned Sydney Opera House to taking a ferry through the harbor to visit Manly Beach, there is always something to do in Sydney! ",
+          "coordinates": [
+            -33.87628033422812,
+            151.20926517498947
+          ]
+        },
+        "student_experience": "The University of Sydney offers a buddy program called Mates Abroad, which pairs you with a local student mentor to ease your transition to life in Sydney. Also, this program provides incoming students with the opportunity to partake in activities like a surfing camp or city tours."
+      },
+      {
+        "id": "10188",
+        "name": "University of Hohenheim (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68078",
+        "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters of German, completed by the start of the program. \nThe University of Hohenheim is a great fit for students looking for a very immersive experience at German university who are comfortable taking their classes in German. Courses are focused mainly on STEM and social sciences.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from early April to mid-July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+        "location": {
+          "city": "Stuttgart",
+          "country": "Germany",
+          "description": "Located in the south of Stuttgart, the university is beautifully situated in a castle perched on a hill overlooking its agricultural grounds and only half an hour from the city center. For those looking to travel while in Europe, Stuttgart is situated in an ideal part of Germany to visit neighboring countries like Austria, France, Switzerland via train and other destinations in Europe via plane.",
+          "coordinates": [
+            48.77580297092565,
+            9.174249262857746
+          ]
+        },
+        "student_experience": "To help adjust to life at the University of Hohenheim, students are encouraged to join the Buddy Program organized by the International Students Organization (ISO). A Buddy is a Hohenheim student who offers help and advice to a small group of foreign students studying the same subject. They help you to find your way around the campus, with important formalities and other questions you may have throughout your time in Germany."
+      },
+      {
+        "id": "10192",
+        "name": "University of Stuttgart (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68006",
+        "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters, completed by the start of the program. \nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from early April to late July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+        "location": {
+          "city": "Stuttgart",
+          "country": "Germany",
+          "description": "Home of Mercedes and Porsche, Baden-Wuerttemberg's capital is the perfect combination of culture, cars and nature. Additionally, it is situated in ideal part of Germany to visit neighboring countries like Austria, France, Switzerland via train and other destinations in Europe via plane.",
+          "coordinates": [
+            48.76921806208059,
+            9.178350540003883
+          ]
+        },
+        "student_experience": "The Erasmus Student Network Stuttgart (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Stuttgart. The ESN regularly hosts events like pub crawls, a city tour of Stuttgart and a Stammtisch. To learn more about ESN Stuttgart, check out their Instagram!"
+      },
+      {
+        "id": "10191",
+        "name": "University of Mannheim (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67896",
+        "overview": "This program is available for exchange.\nThere is no language prerequisite as many courses are taught in English, but the pre-semester language preparatory course is STRONGLY recommended.  \nThe only German exchange that UNC students can attend in the Fall semester (in addition to the Spring), the University of Mannheim is a great choice for students looking for an immersive experience at a German university with the option to take classes in English, German, or both! Classes are a great fit for students studying business, economics, humanities, math, media studies, and information systems, with the added benefit of a Fall or Spring semester held during dates that are much closer to a typical UNC semester than many other German universities.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.\n \nNote: Mannheim is the only exchange program in Germany offered in the fall term, due to the academic calendar lining up with UNC's.",
+        "location": {
+          "city": "Mannheim",
+          "country": "Germany",
+          "description": "Nestled between the Rhine and Neckar rivers, Mannheim is the second largest city in Baden-Württemberg with a population of over 300,000. In addition to only being a 30-minute train ride from Frankfurt Airport, international travel is made is with Mannheim’s train station having trains continue on to some of the biggest cities in Austria, Italy, and Switzerland.",
+          "coordinates": [
+            49.49451877255297,
+            8.464671316027571
+          ]
+        },
+        "student_experience": "The Erasmus Student Network Mannheim (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Mannheim. In addition to their Buddy Program, the ESN regularly hosts events like pub quizzes, language cafes and going to watch a game of the local soccer team, SV Waldhof Mannheim. To learn more about ESN Mannheim, see here."
+      },
+      {
+        "id": "10190",
+        "name": "University of Konstanz (BW-UNCG)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=70665",
+        "overview": "This program is available for exchange.\nThere is no language prerequisite, but note that English is not spoken everywhere in Germany/at Konstanz. Thus participation in the pre-semester German course offered is strongly recommended to all applicants who don’t have German language proficiency. Read more about this in \"Academics\".\nThe University of Konstanz is a great choice for students looking for an interdisciplinary focused campus that has a small-community feel, in a town about the size of Chapel Hill. Students should also be open to attending their Spring semester abroad closer to the summer, with classes running from mid-April to mid-July, followed by exams in July and August. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+        "location": {
+          "city": "Konstanz",
+          "country": "Germany",
+          "description": "Konstanz is best known for its lake, Lake Konstanz, which stretches over 40 miles and is surrounded by Germany, Austria and Switzerland. Aside from its natural beauty, it is a university town similar to the size of Chapel Hill; about ¼ of its inhabitants are students, giving it a youthful and lively atmosphere. In the summer, students often spend time outside and participating in watersports; in the winter, skiing and other winter sports are popular, with the Swiss Alps just 2 hours away by bus! A popular town for German citizens to vacation in, Konstanz also has plenty of restuarants, theaters, and activities to take advantage of.",
+          "coordinates": [
+            47.66076571892663,
+            9.18886257704116
+          ]
+        },
+        "student_experience": "The Erasmus Student Network Konstanz (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Konstanz. In addition to their Buddy Program, the ESN regularly hosts events like pub crawls, a trip to Oktoberfest in Stuttgart and a trip to Europa-Park, Germany’s biggest amusement park. To learn more about ESN Konstanz, see here."
+      },
+      {
+        "id": "12449",
+        "name": "Florence University of the Arts (FUA)",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41510",
+        "overview": "This program is a partner provider style program.\nAn 11-week semester at Florence University of the Arts (FUA) is an experiential, academically enriching study abroad experience open to undergraduate students from any major. In addition to a wide range of engaging academics, FUA has strong student support services, a focus on community/local engagement and experiential learning, and a thriving Student Life department.\nFUA is especially unique because of its focus on experiential learning. In addition to traditional-style classes, FUA offers a Department of Professional Studies and Experiential Learning, including internships in 10-20 fields (with more typically being offered in the Fall semester) as well as 30-40 Experiential Learning courses integrating special projects, service learning, and other experiential style courses.\nWith a student body of around 3,500-4,000 per year, FUA has a strong precence of US study abroad students. While you will be with many other Americans in your classes, you'll also meet international students, as about 20% students studying abroad at FUA come from various countries around the world.\nFUA is also a great choice for students looking to integrate some of their academics with community engagement. In fact, FUA is the first academic institution in Italy to establish integration projects affiliated to its academic departments and open to the public, in the form of Community Engagement Member Institutions (CEMI). \nAs an 11-week semester, FUA typically runs from late Septmeber to mid-December (Fall) and late February to mid-May (Spring).",
+        "location": {
+          "city": "Florence",
+          "country": "Italy",
+          "description": "Florence, often referred to as Firenze in Italian, is a city of immense historical and cultural significance located in the heart of Tuscany, Italy. It is celebrated for its rich artistic heritage, stunning architecture, and its pivotal role in the development of the Renaissance, making it one of the most iconic and enchanting cities in the world.",
+          "coordinates": [
+            43.76883289777067,
+            11.24563765505373
+          ]
+        },
+        "student_experience": "The Student Life and Development department at FUA strives to create cultural understanding and immersion between students and the Florentine locals by offering insightful, enlightening and engaging activities to complement the academic sessions. Activities can include weekend excursions, community engagement activities, volunteer opportunities, and more!\nStudent Life encourages mutual respect and understanding between cultures through a series of extracurricular activities aimed at broadening student perspectives for a well-rounded cultural and academic experience."
+      },
+      {
+        "id": "10239",
+        "name": "Monash University",
+        "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=54196",
+        "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nA Monash University study abroad experience means you get the best from an established educational leader, which has the vigor and relevance of a modern, international university. The Monash Study Abroad Program offers you the opportunity to enhance your academic journey while studying in Melbourne, Australia's sporting, educational and cultural capital. Melbourne's affordable living costs and accessibility as a transport hub, makes it the logical base for your Australian experience. \nClayton is the largest Monash campus and was the first of the University's eight campuses. Clayton, 20kms southeast of Melbourne, was the original campus of Monash University. It was established in 1958 and opened its doors for the first time to 363 students in 1961. In less than 40 years, the campus has grown in both size and student population and is now the largest of Monash's eight campuses with more than 20,000 students. The Clayton campus offers a unique environment for research, teaching, learning and cultural enrichment where students study in a variety of faculties represented on campus.",
+        "location": {
+          "city": "Melbourne",
+          "country": "Australia",
+          "description": "Melbourne is Australia's second largest city with approximately 5 million inhabitants. In Melbourne, which is the capital city of the state of Victoria, students will experience a vibrant youth culture. A thriving artistic community exists within Melbourne, and many theatres, galleries, and music venues exist throughout the city. Melbourne is a clean city with a temperate climate which encourages the availability of many sporting and recreational opportunities. Australia boasts a blend of Asian and European lifestyles. Students can use semester breaks, and the time before or after their Monash experience, to travel around Victoria, Australia and the Asia-Pacific region.",
+          "coordinates": [
+            -37.814876175496046,
+            144.95763062555375
+          ]
+        },
+        "student_experience": "The Monash Overseas and Exchange Club (aka MOVE) is an organization that helps introduce incoming study abroad students to life at Monash, organized by Monash students who have either studied abroad themselves or are interested in doing so. In past semesters, MOVE has organized events like a trips to Phillip Island and the Healesville Sanctuary."
+      }
+    ]
+  }
