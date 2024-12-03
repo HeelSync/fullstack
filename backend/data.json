@@ -1,0 +1,23 @@
+{
+    "COMP 210 - 001 Data Structures and Analysis" : {
+        "class_number" : 9530,
+        "instructor" : "Muhammad Ghani",
+        "meeting_day" : "TuTh 9:45AM-10:45AM",
+        "reserved_enrollment" : "Seats filled",
+        "room" : "Global Education, F-Rm 1015",
+        "total_enrollment" : "109/169",
+        "unreserved_enrollment" : "96/156",
+        "waitlist" : "0/999"
+    },
+    
+    "tes1t" : {
+        "class_number" : 32122,
+        "instructor" : "mr snoeyink", 
+        "meeting_day" : "MoWeFr 12:10AM-12:36AM",
+        "reserved_enrollment" : "1/11",
+        "room" : "jasdjf",
+        "total_enrollment" : "3/124",
+        "unreserved_enrollment" : "Filled",
+        "waitlist" : "3/12"
+    }
+}

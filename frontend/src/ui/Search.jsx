@@ -4,11 +4,10 @@ function Search({ query, setQuery }) {
     const inputEl = useRef(null);
 
     useKey('Enter', function () {
-        if (document.activeElement === inputEl.current) return;
-        if (inputEl.current) {
-          inputEl.current.focus();  // Ensure inputEl.current is defined before focusing
-          setQuery("");
-        }
+        if (document.activeElement !== inputEl.current && inputEl.current) {
+            inputEl.current.focus();  // Ensure inputEl.current is defined before focusing
+            setQuery("");
+        } 
       });
 
     useEffect(function() {
