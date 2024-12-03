@@ -72,23 +72,23 @@ function ClassRegistration() {
    
     return (
         <>
-        <div>
-            <span>Todays date</span>
+        <div className="mt-10 text-center">
+            <span className="mb-10 text-xl mt-10 p-10">Todays date</span>
             <form onSubmit={e => {
                     e.preventDefault();
                     handleAddClass();
                 }}>
 
-                    <input type="text" placeholder="class name" value={selectedClassName} onChange={e => setSelectedClassName(e.target.value)} />
-                    <input type="text" placeholder="class time" value={selectedClassTime} onChange={e => setSelectedClassTime(e.target.value)} />
-                    <button type="submit">Add</button>
+                    <input className=" mr-4 -border-slate-100 -bw-1 text-xl rounded-l pl-10"type="text" placeholder="class name" value={selectedClassName} onChange={e => setSelectedClassName(e.target.value)} />
+                    <input className=" -border-slate-100 -bw-1 text-xl rounded-l pl-10"type="text" placeholder="class time" value={selectedClassTime} onChange={e => setSelectedClassTime(e.target.value)} />
+                    <button className=" ml-4 p-2 w-38 rounded-xl  text-slate-500 text-center bg-blue-400 gray-200 border-2 border-slate-500 text-white" type="submit">Add</button>
             </form>
                
             
             <ul>
                     {classTimes.map((time, index) => (
                     <li key={index}>{classNames[index]} at {time}
-                    <button className="px-10" onClick={() => handleDeleteClass(index)}>Delete</button>
+                    <button className=" ml-4 p-2 w-38 rounded-xl  text-slate-500 text-center bg-blue-100 gray-200 border-2 border-slate-500 text-carolina-tarheelblue" onClick={() => handleDeleteClass(index)}>Delete</button>
                     </li>))}
             </ul>
                 <div>
@@ -108,7 +108,7 @@ function ClassRegistration() {
                             <ul className="flex flex-col gap-4">
                                 {Object.values(availableClasses).map(( classObject, index ) => (
                                     <li key={index} className="pl-16 flex justify-center">
-                                        <button key={index} className="p-3 pl-6 w-48 rounded-xl text-left bg-red-700 text-carolina-tarheelblue"
+                                        <button key={index} className="p-3 pl-6 w-48 rounded-xl text-left bg-blue-100 gray-800 stroke-2 text-carolina-tarheelblue"
                                         onClick={() => handleAddClassFromDB(classObject.className, classObject.meetingStart, classObject.meetingEnd)}>
                                     
                                             {classObject.className}
