@@ -56,13 +56,13 @@ code {
 .p-header {
   color: #333;
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
 }
 
 .p-description {
   color: #333;
-  font-size: 1.4rem;
+  font-size: 1rem;
   margin: 0;
   font-weight: 500;
   line-height: 1.6;
@@ -89,84 +89,6 @@ code {
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
   margin-bottom: 2rem;
-}
-
-/* OPENING SCREEN */
-
-.opening-menu {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 3rem 2rem;
-  border-radius: 15px;
-  max-width: 80%;
-  margin: 2rem auto;
-}
-
-.opening-header {
-  text-align: center;
-  font-size: 4rem;
-  color: #13294b;
-  margin-bottom: 1rem;
-}
-
-.opening-image {
-  width: 45%;
-  display: block;
-  margin: 0 auto;
-  border-radius: 11px;
-  margin-bottom: 5rem;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.opening-paragraph {
-  font-size: 1.6rem;
-  color: #333;
-  text-align: center;
-}
-
-.opening-button {
-  border-radius: 11px;
-  font-size: 2.4rem;
-  color: #333;
-  font-weight: 600;
-  position: relative;
-  text-decoration: none;
-  display: inline-block;
-  overflow: hidden;
-  text-align: center;
-  padding: 1rem 0;
-}
-
-.opening-button::before {
-  content: attr(data-text);
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  background: url(./Components/wave.png);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  animation: animate 2s linear infinite;
-  transition: 0.5s;
-  width: 0;
-  white-space: nowrap;
-  background-position: center;
-}
-
-.opening-button:hover:before {
-  width: 100%;
-}
-
-@keyframes animate {
-  0% {
-    background-position: 0px;
-  }
-  100% {
-    background-position: 200px;
-  }
 }
 
 .button-container {
@@ -241,14 +163,9 @@ code {
 }
 
 .wrapper {
-  background: white;
-  width: 97.5%;
+  width: 100%;
   height: 100%;
-  margin: 20px auto;
-  padding: 10px;
-  border-radius: 10px;
-  border: 2px solid #ddd;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+
   overflow: hidden;
 }
 
@@ -259,7 +176,7 @@ code {
 }
 
 .ui-container {
-  flex-basis: 37.5%; /* Adjust the width as needed */
+  flex-basis: 32.5%; /* Adjust the width as needed */
   display: flex;
   flex-direction: column;
   background-color: red;
@@ -271,9 +188,4 @@ code {
 
 .info-container {
   background-color: lightgray;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
