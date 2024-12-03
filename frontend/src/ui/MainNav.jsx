@@ -61,22 +61,6 @@ function MainNav() {
 
       <li>
         <NavLink
-          to="/links"
-          className={({ isActive }) =>
-            `flex items-center gap-4 rounded-sm px-6 py-3 text-lg font-medium transition-colors duration-300 ${isActive ? "bg-gray-50 text-blue-900" : "text-better-white hover:bg-gray-50 hover:text-blue-800"}`
-          }
-        >
-          <HiOutlineLink
-            className={({ isActive }) =>
-              `h-8 w-8 transition-colors duration-300 ${isActive ? "text-brand-600" : "group-hover:text-brand-600 group-active:text-brand-600 text-gray-400"}`
-            }
-          />{" "}
-          <span>Links</span>
-        </NavLink>
-      </li>
-
-      <li>
-        <NavLink
           to="/studyabroadplanner"
           className={({ isActive }) =>
             `flex items-center gap-4 rounded-sm px-6 py-3 text-lg font-medium transition-colors duration-300 ${isActive ? "bg-gray-50 text-blue-600" : "text-better-white hover:bg-gray-50 hover:text-blue-800"}`
@@ -88,6 +72,22 @@ function MainNav() {
             }
           />
           <span>Abroad</span>
+        </NavLink>
+      </li>
+
+      <li>
+        <NavLink
+          to="/links"
+          className={({ isActive }) =>
+            `flex items-center gap-4 rounded-sm px-6 py-3 text-lg font-medium transition-colors duration-300 ${isActive ? "bg-gray-50 text-blue-900" : "text-better-white hover:bg-gray-50 hover:text-blue-800"}`
+          }
+        >
+          <HiOutlineLink
+            className={({ isActive }) =>
+              `h-8 w-8 transition-colors duration-300 ${isActive ? "text-brand-600" : "group-hover:text-brand-600 group-active:text-brand-600 text-gray-400"}`
+            }
+          />{" "}
+          <span>Links</span>
         </NavLink>
       </li>
 
