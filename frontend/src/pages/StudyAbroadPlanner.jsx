@@ -1,5 +1,5 @@
 import MainMap from "./StudyAbroadComponents/MainMap.jsx";
-import UserInterface from "./StudyAbroadComponents/UserInterface.jsx";
+import AbroadUserInterface from "./StudyAbroadComponents/AbroadUserInterface.jsx";
 import { useState } from "react";
 import ExchangeData from "./StudyAbroadComponents/utils/exchangejson.json";
 import CheapData from "./StudyAbroadComponents/utils/cheapjson.json";
@@ -27,7 +27,7 @@ function StudyAbroadPlanner() {
     <div className="wrapper">
       <div className="main">
         <div className="ui-container">
-          <UserInterface
+          <AbroadUserInterface
             universityName={
               currentUniversity
                 ? currentUniversity.name

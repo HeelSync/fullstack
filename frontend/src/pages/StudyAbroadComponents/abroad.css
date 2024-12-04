@@ -34,7 +34,7 @@ code {
   background-color: #13294b;
   text-align: center;
   font-size: 2.5rem;
-  padding: 2.4rem;
+  padding: 1rem;
   width: 100%;
   box-sizing: border-box;
 }
@@ -71,7 +71,7 @@ code {
 
 .p-details {
   padding-top: 1rem;
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 500;
   color: #333;
   padding-bottom: 1rem;
