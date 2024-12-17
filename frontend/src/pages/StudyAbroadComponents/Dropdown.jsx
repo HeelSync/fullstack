@@ -1,9 +1,9 @@
 import { useState } from "react";
-import ExchangeData from "../StudyAbroadComponents/utils/exchangejson.json";
-import CheapData from "../StudyAbroadComponents/utils/cheapjson.json";
-import SummerData from "../StudyAbroadComponents/utils/summerjson.json";
-import InternshipsData from "../StudyAbroadComponents/utils/internshipsjson.json";
-import DirectData from "../StudyAbroadComponents/utils/directjson.json";
+import ExchangeData from "../StudyAbroadComponents/Abroad_Data/exchangejson.json";
+import CheapData from "../StudyAbroadComponents/Abroad_Data/cheapjson.json";
+import SummerData from "../StudyAbroadComponents/Abroad_Data/summerjson.json";
+import InternshipsData from "../StudyAbroadComponents/Abroad_Data/internshipsjson.json";
+import DirectData from "../StudyAbroadComponents/Abroad_Data/directjson.json";
 import "./abroad.css";
 function Dropdown({ setDataset, setHeader }) {
   const [selectedValue, setSelectedValue] = useState("Exchange");

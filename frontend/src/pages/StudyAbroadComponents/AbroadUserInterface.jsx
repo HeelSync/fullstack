@@ -11,7 +11,7 @@ function UserInterface({
   console.log(header);
   return (
     <>
-      <h1 className="header">{header} Abroad Opportunities</h1>
+      <h1 className="header">{header} Opportunities</h1>
       <PinInfo
         universityName={universityName}
         overview={overview}

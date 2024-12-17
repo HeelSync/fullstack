@@ -1,0 +1,420 @@
+{
+  "universities": [
+    {
+      "id": "12042",
+      "name": "UNC in Montpellier Summer",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41514",
+      "overview": "Vivre à Montpellier: un parcours culturel et citoyen dans le Sud de la France!\nCome immerse yourself for 5 weeks in French culture down south in Montpellier, a city at the forefront of sustainability issues in Southern Europe.\nThis program is a great opportunity for students studying Sustainability, Environmental Studies, Geography, Public Policy, and European Studies as well as anyone with an interest in learning more about France. No prior knowledge of French is required. \nStudents will take two 3-credit courses. One English-taught course focused on sustainability agendas in Southern France and one French language course (beginner, intermediate, or advanced).",
+      "location": {
+        "city": "Montpellier",
+        "country": "France",
+        "description": "Known for its beauty, its history, and its eminent livability, Montpellier, a city of almost 300,000 inhabitants, is situated in Languedoc, near the Provence region, about six miles from the Mediterranean Sea and a four-hour train ride from both Barcelona and Paris. Montpellier is home to ancient and contemporary treasures such as Roman ruins, a gothic cathedral, an excellent medical school and a first-rate university, a nineteenth-century opera house, a contemporary dance festival, plus protected terrains and sustainability initiatives. The area attracts a vibrant population that makes this Mediterranean crossroads a prime destination. Its extensive pedestrian district invites students to explore diverse neighborhoods while the well-established tram and bus systems enable easy mobility throughout the city and the region.",
+        "coordinates": [43.61669616580106, 3.8848949291206205]
+      },
+      "student_experience": "Students will live with host families and will have opportunities to interact with local residents. Field trips in the region will allow students to engage with representatives from a variety of sectors confronting the challenges associated with the ambitious sustainability agenda at work in the Occitania region.\nCheck out the Summer 2022 student blog!"
+    },
+    {
+      "id": "10671",
+      "name": "UNC in Sevilla (Summer)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=31121",
+      "overview": "The UNC in Sevilla program is one of the oldest and most notable study abroad programs offered at UNC. For almost 50 years, UNC students have participated in this program. The UNC in Sevilla program attracts students who are seeking credit for Spanish Majors and Minors, Journalism, Communications, Global Studies, and Art History. Connecting Worlds Abroad (COWA) is the host organization that supports UNC students with academics, housing, and cultural excursions. \nPrimarily a language-based program, UNC in Sevilla offers students the opportunity to take one of two tracks, Language, Society, and Cultural Studies (LSCS) or Spanish Advanced Studies (SAS). Learn more about each track by clicking on the Academics Tab.",
+      "location": {
+        "city": "Sevilla",
+        "country": "Spain",
+        "description": "Known as the largest city in Andalusia and the fourth largest city in Spain, Sevilla is a beautifully historic metropolitan area with three UNESCO World Heritage Sites. Moorish and Gothic influences can be seen throughout the city architecture and are part of the everyday scenery for students. While walking offers students the chance to view vibrant neighborhoods on their way to class, the city does have a well-established metro and bus system. Students will find their free time easily filled while living in Sevilla by meals with friends at various tapas restaurants, shopping at the street markets, and admiring excellent flamenco performances throughout the city.",
+        "coordinates": [37.38150733816142, -5.986822826904639]
+      },
+      "student_experience": "Students will be directly supported by the COWA staff who provide a detailed onsite orientation their first days in Sevilla, match students with an excellent homestay family, and provide cultural excursions both in the city of Sevilla and to other cities in Spain. Notably, students on the UNC in Sevilla program will be part of a group of 20-30 UNC students, but may have the opportunity to study with students from other U.S. institutions. The unique benefit of a UNC cohort is that students often make lifelong friendships and memories that they can share with one another after they return to Carolina."
+    },
+    {
+      "id": "12042",
+      "name": "UNC in Montpellier Summer",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41514",
+      "overview": "Vivre à Montpellier: un parcours culturel et citoyen dans le Sud de la France!\nCome immerse yourself for 5 weeks in French culture down south in Montpellier, a city at the forefront of sustainability issues in Southern Europe.\nThis program is a great opportunity for students studying Sustainability, Environmental Studies, Geography, Public Policy, and European Studies as well as anyone with an interest in learning more about France. No prior knowledge of French is required. \nStudents will take two 3-credit courses. One English-taught course focused on sustainability agendas in Southern France and one French language course (beginner, intermediate, or advanced).",
+      "location": {
+        "city": "Montpellier",
+        "country": "France",
+        "description": "Known for its beauty, its history, and its eminent livability, Montpellier, a city of almost 300,000 inhabitants, is situated in Languedoc, near the Provence region, about six miles from the Mediterranean Sea and a four-hour train ride from both Barcelona and Paris. Montpellier is home to ancient and contemporary treasures such as Roman ruins, a gothic cathedral, an excellent medical school and a first-rate university, a nineteenth-century opera house, a contemporary dance festival, plus protected terrains and sustainability initiatives. The area attracts a vibrant population that makes this Mediterranean crossroads a prime destination. Its extensive pedestrian district invites students to explore diverse neighborhoods while the well-established tram and bus systems enable easy mobility throughout the city and the region.",
+        "coordinates": [43.62102061326691, 3.8773025972484203]
+      },
+      "student_experience": "Students will live with host families and will have opportunities to interact with local residents. Field trips in the region will allow students to engage with representatives from a variety of sectors confronting the challenges associated with the ambitious sustainability agenda at work in the Occitania region.\nCheck out the Summer 2022 student blog!"
+    },
+    {
+      "id": "10671",
+      "name": "UNC in Sevilla (Summer)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=31121",
+      "overview": "The UNC in Sevilla program is one of the oldest and most notable study abroad programs offered at UNC. For almost 50 years, UNC students have participated in this program. The UNC in Sevilla program attracts students who are seeking credit for Spanish Majors and Minors, Journalism, Communications, Global Studies, and Art History. Connecting Worlds Abroad (COWA) is the host organization that supports UNC students with academics, housing, and cultural excursions. \nPrimarily a language-based program, UNC in Sevilla offers students the opportunity to take one of two tracks, Language, Society, and Cultural Studies (LSCS) or Spanish Advanced Studies (SAS). Learn more about each track by clicking on the Academics Tab.",
+      "location": {
+        "city": "Sevilla",
+        "country": "Spain",
+        "description": "Known as the largest city in Andalusia and the fourth largest city in Spain, Sevilla is a beautifully historic metropolitan area with three UNESCO World Heritage Sites. Moorish and Gothic influences can be seen throughout the city architecture and are part of the everyday scenery for students. While walking offers students the chance to view vibrant neighborhoods on their way to class, the city does have a well-established metro and bus system. Students will find their free time easily filled while living in Sevilla by meals with friends at various tapas restaurants, shopping at the street markets, and admiring excellent flamenco performances throughout the city.",
+        "coordinates": [37.38433147155803, -5.98436648025417]
+      },
+      "student_experience": "Students will be directly supported by the COWA staff who provide a detailed onsite orientation their first days in Sevilla, match students with an excellent homestay family, and provide cultural excursions both in the city of Sevilla and to other cities in Spain. Notably, students on the UNC in Sevilla program will be part of a group of 20-30 UNC students, but may have the opportunity to study with students from other U.S. institutions. The unique benefit of a UNC cohort is that students often make lifelong friendships and memories that they can share with one another after they return to Carolina."
+    },
+    {
+      "id": "10234",
+      "name": "London School of Economics (Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41604",
+      "overview": "LSE Summer School 2024 Info Session\nPasscode: 0cw3N=1v\n \nThis program is available for direct enroll.  \nUNC students must apply via the UNC Study Abroad office before submitting an application directly to LSE. Applications are accepted and reviewed at UNC on a rolling basis. Please email your advisor if you submit your application prior to the 1/31 deadline.\nThe London School of Economics (LSE), one of the most respected universities in the world, welcomes 6,000 students from around the globe each summer to take part in their Summer School. With LSE's campus and accommodation in the very heart of central London, students will have an unbeatable summer enjoying both an intense academic experience and everything else that London has to offer.\nLSE GPA requirement is technically 3.3, however, for UNC students, it is 3.0.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "LSE is located in central London. London is one of the world\u2019s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+        "coordinates": [51.51561283753313, -0.1255424423950208]
+      },
+      "student_experience": "With thousands of international students descending upon London to study at LSE each summer, including a sizeable cohort of UNC students, LSE offers a robust program and schedule of events to ensure visiting students are able to make the most of their experience."
+    },
+    {
+      "id": "12415",
+      "name": "Study in Portugal Network",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=45911",
+      "overview": "Study in Portugal Network (SiPN) is a specialized study abroad provider based in Lisbon, Portugal. As a multi-university consortium of Portuguese universities, they aim to attract U.S. students and faculty to Portugal through a variety of study abroad experiences.\nSiPN offers semester, full-year, and summer study abroad opportunities and gives students the flexibility to enroll in courses in Portuguese, English, or a combination of the two, at any of the Lisbon-based Universities within the consortium. During the summer program, students also have the option to attend the University of the Azores at its Ponta Delgada campus. In order to provide students with a truly immersive academic experience, SiPN place them in the same courses that are open to all students at the host university.\nDue to SiPN’s association with one of Portugal’s most prominent foundations, The Luso-American Development Foundation (FLAD), SiPN is able to provide all-inclusive fees that cover tuition, lodging, cultural activities, city and country tours, public transportation passes, travel, and health insurance, and constant support from SiPN team members. Their primary objective is simply to assist students in living and studying abroad in Portugal while showcasing all this country has to offer.",
+      "location": {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "description": "Lisbon, the vibrant capital of Portugal, is renowned for its picturesque cobblestone streets, colorful tiled buildings, and stunning views of the Tagus River while boasting 200 days of sun per year. Named the European City of the Year in both 2010 and 2012, this coastal city effortlessly blends history and modernity, with its historic neighborhoods like Alfama and Bairro Alto\u00a0coexisting with contemporary art galleries and a thriving culinary scene. With its mild climate, rich cultural heritage, and warm hospitality, Lisbon welcomes students from around the world to explore its unique charm and character.",
+        "coordinates": [38.7250567810454, -9.158576953097596]
+      },
+      "student_experience": "As a student with SiPN, not only will you have the opportunity to live among other international and Portuguese students, SiPN also organizes at least two trips outside of Lisbon per semester so that you can get to know the off-the-beaten-path parts of Portugal. On a trip to Coimbra and Porto, you might take a tour of Porto's Casa da Musica, and tour the city with US expatriate and award-winning author Richard Zimler. While in Coimbra,  you may have a guided tour of one of the oldest universities in the world and its famous Joanina Library. With new experiences every semester, you'll see the best that portugal has to offer."
+    },
+    {
+      "id": "10339",
+      "name": "University of Sydney (Short Term Study Abroad)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38313",
+      "overview": "Note: Exchange has been temporarily suspended for this program. Students may still apply via direct enroll.\nThis program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nStudy at the University of Sydney over the summer (winter in Australia) and participate in a short-term program designed to give international students an opportunity to experience the University’s academic, social, and cultural life. Boasting a student population of 73,000, the University of Sydney is one of the country’s leading-research intensive universities and the oldest member of the prestigious Group of Eight.",
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "description": "Sydney is consistently ranked among the best cities in the world for quality of life. With almost five million inhabitants, it is the second largest city in Australia (after Melbourne). From visiting the renowned Sydney Opera House to taking a ferry through the harbor to visit Manly Beach, there is always something to do in Sydney!\u00a0",
+        "coordinates": [-33.87552751187202, 151.208450099463]
+      },
+      "student_experience": "The University of Sydney offers a buddy program called Mates Abroad, which pairs you with a local student mentor to ease your transition to life in Sydney. Also, this program provides incoming students with the opportunity to partake in activities like a surfing camp or city tours."
+    },
+    {
+      "id": "10226",
+      "name": "King's College London (Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41606",
+      "overview": "This program is available for exchange and direct enroll. In-state students will automatically be considered for exchange.\nKing’s College London is one of the oldest and most respected universities in England. The King's Undergraduate Summer School welcomes students from over 40 countries and from over 200 universities around the globe; a truly international environment. With the campus and accommodation in the very heart of central London, students will have an unbeatable summer enjoying both an intense academic experience and everything else that London has to offer.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "King\u2019s is located in central London, with its main campus on \u201cThe Strand\u201d along the River Thames. London is one of the world\u2019s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+        "coordinates": [51.50078934724845, -0.12925505660470957]
+      },
+      "student_experience": "With hundreds of international students descending upon London to study at King's each summer, including a sizeable cohort of UNC students, King's offers a robust program and schedule of events to ensure visiting students are able to make the most of their experience."
+    },
+    {
+      "id": "10228",
+      "name": "Korea University (International Summer Campus)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55804",
+      "overview": "This program is available for exchange students. In-state students will automatically be considered for exchange. \nUNC Department of Psychology faculty members teach at KU's ISC each summer, and this program is highly recommended for Carolina students seeking UNC graded psychology credit abroad, although all majors are welcome! Participants are free to choose from the full ISC course catalog, but many of ISC’s psychology courses have been pre-approved for psychology major/minor credit.\nKorea University's International Summer Campus (ISC) is an excellent opportunity for Carolina students to live and learn in South Korea with students and faculty from all over the world. Students from over 220 institutions and from 35 countries participate in this program! Students attend from North American Institutions (60%), Singapore and Hong Kong (35%), the UK (10%), and other parts of the world. International students, along with local KU students, take courses from over 120 course offerings, all taught in English. Korean language courses are also available.",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "KU campus covers over 182 acres and its home to more than 36,000 students from all over the nation and the world. With its stately stone architecture sprawling lawns, seasonal trees and natural flora, KU is known to be one of the most beautiful campuses in Korea. The students of KU represent Korea\u2019s dream as they are among the nation\u2019s brightest and most ambitious. KU is nationally recognized for its commitment to teaching and academic excellence.",
+        "coordinates": [37.56119264743862, 126.99897483141781]
+      },
+      "student_experience": "Interact with student assistants and buddies! The KU Buddy Program is designed to ensure that students are comfortable in their new surroundings. With their KU buddies, students can practice Korean language skills, and at the same time, be easily introduced to the local culture. They can taste the unique culture of Korea by going on various day trips to places like the DMZ, Gyeongbok Palace, and Lotte World. Also, there are extra-curricular activities such as Taekwondo and K-Pop dance."
+    },
+    {
+      "id": "10205",
+      "name": "Chinese University of Hong Kong (International Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44174",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThis program is eligible for the Phillips Ambassadors Scholarship.  \nThe Chinese University of Hong Kong’s (CUHK) International Summer School (ISS) brings international students and faculty together to provide students with excellent courses in a variety of disciplines, paired with cultural activities and excursions to acquaint students with Hong Kong society and Chinese culture. This popular program enables Carolina students to immerse themselves in a multicultural study environment. A number of sought-after courses in business, humanities, and social science with an Asian or Chinese perspective are offered, in addition to optional Mandarin and Cantonese courses. \n \nCUHK offers various summer terms and programs. UNC students attend CUHK's ISS July Session.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.307977716934946, 114.19709702560813]
+      },
+      "student_experience": "A variety of activities will be offered so you can experience the local culture, engage with the local community and learn about the different sectors which weave in harmony to create the vibrant cosmopolitan. Typical cultural activities include a Chinese calligraphy workshop, a Big Buddha & Lantau Island tour and a a Legislative Council tour."
+    },
+    {
+      "id": "10206",
+      "name": "Chinese University of Hong Kong (Summer Undergraduate Research)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44270",
+      "overview": "This program is available for direct enroll.\nThis program is eligible for the Phillips Ambassadors Scholarship. \nThe Chinese University of Hong Kong (CUHK) has established the Summer Undergraduate Research Programme (SURP) to allow undergraduate students to undertake a short-term research project at CUHK during the summer. SURP is designed to enable students from all academic disciplines to develop research skills and knowledge in a chosen area of study, as well as to prepare for postgraduate studies. \n \nSURP participants conduct a research project under the supervision of a CUHK faculty member for 8 weeks, with 70+ research projects offered across various academic disciplines. SURP also offers a cultural program as well as activities to introduce students to various aspects of a research career.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.2986292223108, 114.19344454069812]
+      },
+      "student_experience": "A variety of cultural activities and seminars will be offered so you can experience the local culture, engage with the local community and learn about the different sectors which weave in harmony to create the vibrant cosmopolitan. Typical cultural activities include a Chinese calligraphy workshop, a Big Buddha & Lantau Island tour and a a Legislative Council tour."
+    },
+    {
+      "id": "10166",
+      "name": "Freie Universitaet Berlin (International Summer University)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38317",
+      "overview": "The Freie Universität Berlin International Summer and Winter University (FUBiS) was the first summer university in Germany with course offerings exclusively taught in English but which also offers students a chance to improve on their German language skills. During its two summer sessions, FUBiS offers courses drawn from the fields of Contemporary History, Political Science, Law, German Studies, Media Studies, Art History and German as Foreign Language. \nThe German Academic Exchange Service (DAAD) offers scholarships towards select FUBiS courses over Summer 2024. More information about applying towards the DAAD scholarship can be found on their website. Deadline for DAAD scholarship application is December 1, 2023.",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "description": "Berlin is a city full of historical landmarks, a vibrant cultural scene and contrasts. The city offers unique museums, theaters, nightlife and recreational opportunities so you\u2019ll never be bored. Berlin Brandenburg Airport is also only 45 minutes away from the city center, making it easy to explore the rest of Europe.",
+        "coordinates": [52.52648040828092, 13.409430559925966]
+      },
+      "student_experience": "Each term offers a visit to the Reichstag Building and the Federal Parliament as well as a river boat tour through downtown Berlin at no additional cost. There are other excursions, like a Street Art Tour, available for an additional fee. For more information about the FUBiS excursions, see here."
+    },
+    {
+      "id": "10317",
+      "name": "Universidad de Deusto",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38388",
+      "overview": "This program is available for direct enroll only.  \n \nLocated in Northern Spain, better known as the Basque Region, you will find the Universidad de Deusto nestled in the city of Bilbao. The Universidad de Deusto is one of the oldest private universities in Spain and specializes in Social Sciences, Psychology, Education, and Business.The university is situated across the river from the Guggenheim Museum, an architectural wonder and home to large-scale outdoor art instillations.",
+      "location": {
+        "city": "Bilbao",
+        "country": "Spain",
+        "description": "Bilbao is a unique metropolitan city surrounded by mountains and only 10 miles from the ocean coast. As a port city, this area became a bustling hub\u00a0between the 19th and 20th centries and it now home to over 1 million people.\u00a0Bilbao is overflowing with Spanish history and Basque culture including the artwork within the\u00a0Guggenheim museum, the city wide Gothic architecture from the 19th century, and delicious pintxos at every restaurant corner.",
+        "coordinates": [43.252120281414406, -2.9196245681967268]
+      },
+      "student_experience": "The international office, known as CIDE (Centro Internacional de Español), works directly with US international students and is situated within the university. The CIDE staff organize orientations upon arrival, assist with housing, and offer cultural immersion events and excursions for students. Through the CIDE office, students can choose to participate in one of two tracks, 1) Spanish Language & Culture Program or 2)Business & Global Studies Program. Students also have the opportunity to participate in credit baring internship in Education or Business or a participate in a Community Service Course."
+    },
+    {
+      "id": "12042",
+      "name": "UNC in Montpellier Summer",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41514",
+      "overview": "Vivre à Montpellier: un parcours culturel et citoyen dans le Sud de la France!\nCome immerse yourself for 5 weeks in French culture down south in Montpellier, a city at the forefront of sustainability issues in Southern Europe.\nThis program is a great opportunity for students studying Sustainability, Environmental Studies, Geography, Public Policy, and European Studies as well as anyone with an interest in learning more about France. No prior knowledge of French is required. \nStudents will take two 3-credit courses. One English-taught course focused on sustainability agendas in Southern France and one French language course (beginner, intermediate, or advanced).",
+      "location": {
+        "city": "Montpellier",
+        "country": "France",
+        "description": "Known for its beauty, its history, and its eminent livability, Montpellier, a city of almost 300,000 inhabitants, is situated in Languedoc, near the Provence region, about six miles from the Mediterranean Sea and a four-hour train ride from both Barcelona and Paris. Montpellier is home to ancient and contemporary treasures such as Roman ruins, a gothic cathedral, an excellent medical school and a first-rate university, a nineteenth-century opera house, a contemporary dance festival, plus protected terrains and sustainability initiatives. The area attracts a vibrant population that makes this Mediterranean crossroads a prime destination. Its extensive pedestrian district invites students to explore diverse neighborhoods while the well-established tram and bus systems enable easy mobility throughout the city and the region.",
+        "coordinates": [43.606016314628704, 3.877907843992274]
+      },
+      "student_experience": "Students will live with host families and will have opportunities to interact with local residents. Field trips in the region will allow students to engage with representatives from a variety of sectors confronting the challenges associated with the ambitious sustainability agenda at work in the Occitania region.\nCheck out the Summer 2022 student blog!"
+    },
+    {
+      "id": "10671",
+      "name": "UNC in Sevilla (Summer)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=31121",
+      "overview": "The UNC in Sevilla program is one of the oldest and most notable study abroad programs offered at UNC. For almost 50 years, UNC students have participated in this program. The UNC in Sevilla program attracts students who are seeking credit for Spanish Majors and Minors, Journalism, Communications, Global Studies, and Art History. Connecting Worlds Abroad (COWA) is the host organization that supports UNC students with academics, housing, and cultural excursions. \nPrimarily a language-based program, UNC in Sevilla offers students the opportunity to take one of two tracks, Language, Society, and Cultural Studies (LSCS) or Spanish Advanced Studies (SAS). Learn more about each track by clicking on the Academics Tab.",
+      "location": {
+        "city": "Sevilla",
+        "country": "Spain",
+        "description": "Known as the largest city in Andalusia and the fourth largest city in Spain, Sevilla is a beautifully historic metropolitan area with three UNESCO World Heritage Sites. Moorish and Gothic influences can be seen throughout the city architecture and are part of the everyday scenery for students. While walking offers students the chance to view vibrant neighborhoods on their way to class, the city does have a well-established metro and bus system. Students will find their free time easily filled while living in Sevilla by meals with friends at various tapas restaurants, shopping at the street markets, and admiring excellent flamenco performances throughout the city.",
+        "coordinates": [37.38844895056945, -5.983816278324294]
+      },
+      "student_experience": "Students will be directly supported by the COWA staff who provide a detailed onsite orientation their first days in Sevilla, match students with an excellent homestay family, and provide cultural excursions both in the city of Sevilla and to other cities in Spain. Notably, students on the UNC in Sevilla program will be part of a group of 20-30 UNC students, but may have the opportunity to study with students from other U.S. institutions. The unique benefit of a UNC cohort is that students often make lifelong friendships and memories that they can share with one another after they return to Carolina."
+    },
+    {
+      "id": "10234",
+      "name": "London School of Economics (Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41604",
+      "overview": "LSE Summer School 2024 Info Session\nPasscode: 0cw3N=1v\n \nThis program is available for direct enroll.  \nUNC students must apply via the UNC Study Abroad office before submitting an application directly to LSE. Applications are accepted and reviewed at UNC on a rolling basis. Please email your advisor if you submit your application prior to the 1/31 deadline.\nThe London School of Economics (LSE), one of the most respected universities in the world, welcomes 6,000 students from around the globe each summer to take part in their Summer School. With LSE's campus and accommodation in the very heart of central London, students will have an unbeatable summer enjoying both an intense academic experience and everything else that London has to offer.\nLSE GPA requirement is technically 3.3, however, for UNC students, it is 3.0.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "LSE is located in central London. London is one of the world\u2019s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+        "coordinates": [51.50009657304607, -0.12381848676336882]
+      },
+      "student_experience": "With thousands of international students descending upon London to study at LSE each summer, including a sizeable cohort of UNC students, LSE offers a robust program and schedule of events to ensure visiting students are able to make the most of their experience."
+    },
+    {
+      "id": "12415",
+      "name": "Study in Portugal Network",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=45911",
+      "overview": "Study in Portugal Network (SiPN) is a specialized study abroad provider based in Lisbon, Portugal. As a multi-university consortium of Portuguese universities, they aim to attract U.S. students and faculty to Portugal through a variety of study abroad experiences.\nSiPN offers semester, full-year, and summer study abroad opportunities and gives students the flexibility to enroll in courses in Portuguese, English, or a combination of the two, at any of the Lisbon-based Universities within the consortium. During the summer program, students also have the option to attend the University of the Azores at its Ponta Delgada campus. In order to provide students with a truly immersive academic experience, SiPN place them in the same courses that are open to all students at the host university.\nDue to SiPN’s association with one of Portugal’s most prominent foundations, The Luso-American Development Foundation (FLAD), SiPN is able to provide all-inclusive fees that cover tuition, lodging, cultural activities, city and country tours, public transportation passes, travel, and health insurance, and constant support from SiPN team members. Their primary objective is simply to assist students in living and studying abroad in Portugal while showcasing all this country has to offer.",
+      "location": {
+        "city": "Lisbon",
+        "country": "Portugal",
+        "description": "Lisbon, the vibrant capital of Portugal, is renowned for its picturesque cobblestone streets, colorful tiled buildings, and stunning views of the Tagus River while boasting 200 days of sun per year. Named the European City of the Year in both 2010 and 2012, this coastal city effortlessly blends history and modernity, with its historic neighborhoods like Alfama and Bairro Alto\u00a0coexisting with contemporary art galleries and a thriving culinary scene. With its mild climate, rich cultural heritage, and warm hospitality, Lisbon welcomes students from around the world to explore its unique charm and character.",
+        "coordinates": [38.73012486037749, -9.151653193635761]
+      },
+      "student_experience": "As a student with SiPN, not only will you have the opportunity to live among other international and Portuguese students, SiPN also organizes at least two trips outside of Lisbon per semester so that you can get to know the off-the-beaten-path parts of Portugal. On a trip to Coimbra and Porto, you might take a tour of Porto's Casa da Musica, and tour the city with US expatriate and award-winning author Richard Zimler. While in Coimbra,  you may have a guided tour of one of the oldest universities in the world and its famous Joanina Library. With new experiences every semester, you'll see the best that portugal has to offer."
+    },
+    {
+      "id": "10339",
+      "name": "University of Sydney (Short Term Study Abroad)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38313",
+      "overview": "Note: Exchange has been temporarily suspended for this program. Students may still apply via direct enroll.\nThis program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nStudy at the University of Sydney over the summer (winter in Australia) and participate in a short-term program designed to give international students an opportunity to experience the University’s academic, social, and cultural life. Boasting a student population of 73,000, the University of Sydney is one of the country’s leading-research intensive universities and the oldest member of the prestigious Group of Eight.",
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "description": "Sydney is consistently ranked among the best cities in the world for quality of life. With almost five million inhabitants, it is the second largest city in Australia (after Melbourne). From visiting the renowned Sydney Opera House to taking a ferry through the harbor to visit Manly Beach, there is always something to do in Sydney!\u00a0",
+        "coordinates": [-33.86185702571391, 151.20941608906338]
+      },
+      "student_experience": "The University of Sydney offers a buddy program called Mates Abroad, which pairs you with a local student mentor to ease your transition to life in Sydney. Also, this program provides incoming students with the opportunity to partake in activities like a surfing camp or city tours."
+    },
+    {
+      "id": "10226",
+      "name": "King's College London (Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41606",
+      "overview": "This program is available for exchange and direct enroll. In-state students will automatically be considered for exchange.\nKing’s College London is one of the oldest and most respected universities in England. The King's Undergraduate Summer School welcomes students from over 40 countries and from over 200 universities around the globe; a truly international environment. With the campus and accommodation in the very heart of central London, students will have an unbeatable summer enjoying both an intense academic experience and everything else that London has to offer.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "King\u2019s is located in central London, with its main campus on \u201cThe Strand\u201d along the River Thames. London is one of the world\u2019s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+        "coordinates": [51.513960607264586, -0.12735290588013143]
+      },
+      "student_experience": "With hundreds of international students descending upon London to study at King's each summer, including a sizeable cohort of UNC students, King's offers a robust program and schedule of events to ensure visiting students are able to make the most of their experience."
+    },
+    {
+      "id": "10228",
+      "name": "Korea University (International Summer Campus)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55804",
+      "overview": "This program is available for exchange students. In-state students will automatically be considered for exchange. \nUNC Department of Psychology faculty members teach at KU's ISC each summer, and this program is highly recommended for Carolina students seeking UNC graded psychology credit abroad, although all majors are welcome! Participants are free to choose from the full ISC course catalog, but many of ISC’s psychology courses have been pre-approved for psychology major/minor credit.\nKorea University's International Summer Campus (ISC) is an excellent opportunity for Carolina students to live and learn in South Korea with students and faculty from all over the world. Students from over 220 institutions and from 35 countries participate in this program! Students attend from North American Institutions (60%), Singapore and Hong Kong (35%), the UK (10%), and other parts of the world. International students, along with local KU students, take courses from over 120 course offerings, all taught in English. Korean language courses are also available.",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "KU campus covers over 182 acres and its home to more than 36,000 students from all over the nation and the world. With its stately stone architecture sprawling lawns, seasonal trees and natural flora, KU is known to be one of the most beautiful campuses in Korea. The students of KU represent Korea\u2019s dream as they are among the nation\u2019s brightest and most ambitious. KU is nationally recognized for its commitment to teaching and academic excellence.",
+        "coordinates": [37.56346754841116, 126.98577480017839]
+      },
+      "student_experience": "Interact with student assistants and buddies! The KU Buddy Program is designed to ensure that students are comfortable in their new surroundings. With their KU buddies, students can practice Korean language skills, and at the same time, be easily introduced to the local culture. They can taste the unique culture of Korea by going on various day trips to places like the DMZ, Gyeongbok Palace, and Lotte World. Also, there are extra-curricular activities such as Taekwondo and K-Pop dance."
+    },
+    {
+      "id": "10205",
+      "name": "Chinese University of Hong Kong (International Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44174",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThis program is eligible for the Phillips Ambassadors Scholarship.  \nThe Chinese University of Hong Kong’s (CUHK) International Summer School (ISS) brings international students and faculty together to provide students with excellent courses in a variety of disciplines, paired with cultural activities and excursions to acquaint students with Hong Kong society and Chinese culture. This popular program enables Carolina students to immerse themselves in a multicultural study environment. A number of sought-after courses in business, humanities, and social science with an Asian or Chinese perspective are offered, in addition to optional Mandarin and Cantonese courses. \n \nCUHK offers various summer terms and programs. UNC students attend CUHK's ISS July Session.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.29390812025313, 114.20566649904347]
+      },
+      "student_experience": "A variety of activities will be offered so you can experience the local culture, engage with the local community and learn about the different sectors which weave in harmony to create the vibrant cosmopolitan. Typical cultural activities include a Chinese calligraphy workshop, a Big Buddha & Lantau Island tour and a a Legislative Council tour."
+    },
+    {
+      "id": "10206",
+      "name": "Chinese University of Hong Kong (Summer Undergraduate Research)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44270",
+      "overview": "This program is available for direct enroll.\nThis program is eligible for the Phillips Ambassadors Scholarship. \nThe Chinese University of Hong Kong (CUHK) has established the Summer Undergraduate Research Programme (SURP) to allow undergraduate students to undertake a short-term research project at CUHK during the summer. SURP is designed to enable students from all academic disciplines to develop research skills and knowledge in a chosen area of study, as well as to prepare for postgraduate studies. \n \nSURP participants conduct a research project under the supervision of a CUHK faculty member for 8 weeks, with 70+ research projects offered across various academic disciplines. SURP also offers a cultural program as well as activities to introduce students to various aspects of a research career.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.299984124317056, 114.20806095132573]
+      },
+      "student_experience": "A variety of cultural activities and seminars will be offered so you can experience the local culture, engage with the local community and learn about the different sectors which weave in harmony to create the vibrant cosmopolitan. Typical cultural activities include a Chinese calligraphy workshop, a Big Buddha & Lantau Island tour and a a Legislative Council tour."
+    },
+    {
+      "id": "10166",
+      "name": "Freie Universitaet Berlin (International Summer University)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38317",
+      "overview": "The Freie Universität Berlin International Summer and Winter University (FUBiS) was the first summer university in Germany with course offerings exclusively taught in English but which also offers students a chance to improve on their German language skills. During its two summer sessions, FUBiS offers courses drawn from the fields of Contemporary History, Political Science, Law, German Studies, Media Studies, Art History and German as Foreign Language. \nThe German Academic Exchange Service (DAAD) offers scholarships towards select FUBiS courses over Summer 2024. More information about applying towards the DAAD scholarship can be found on their website. Deadline for DAAD scholarship application is December 1, 2023.",
+      "location": {
+        "city": "Berlin",
+        "country": "Germany",
+        "description": "Berlin is a city full of historical landmarks, a vibrant cultural scene and contrasts. The city offers unique museums, theaters, nightlife and recreational opportunities so you\u2019ll never be bored. Berlin Brandenburg Airport is also only 45 minutes away from the city center, making it easy to explore the rest of Europe.",
+        "coordinates": [52.515334157114474, 13.402233515598464]
+      },
+      "student_experience": "Each term offers a visit to the Reichstag Building and the Federal Parliament as well as a river boat tour through downtown Berlin at no additional cost. There are other excursions, like a Street Art Tour, available for an additional fee. For more information about the FUBiS excursions, see here."
+    },
+    {
+      "id": "10317",
+      "name": "Universidad de Deusto",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38388",
+      "overview": "This program is available for direct enroll only.  \n \nLocated in Northern Spain, better known as the Basque Region, you will find the Universidad de Deusto nestled in the city of Bilbao. The Universidad de Deusto is one of the oldest private universities in Spain and specializes in Social Sciences, Psychology, Education, and Business.The university is situated across the river from the Guggenheim Museum, an architectural wonder and home to large-scale outdoor art instillations.",
+      "location": {
+        "city": "Bilbao",
+        "country": "Spain",
+        "description": "Bilbao is a unique metropolitan city surrounded by mountains and only 10 miles from the ocean coast. As a port city, this area became a bustling hub\u00a0between the 19th and 20th centries and it now home to over 1 million people.\u00a0Bilbao is overflowing with Spanish history and Basque culture including the artwork within the\u00a0Guggenheim museum, the city wide Gothic architecture from the 19th century, and delicious pintxos at every restaurant corner.",
+        "coordinates": [43.25057786867825, -2.9302057163433832]
+      },
+      "student_experience": "The international office, known as CIDE (Centro Internacional de Español), works directly with US international students and is situated within the university. The CIDE staff organize orientations upon arrival, assist with housing, and offer cultural immersion events and excursions for students. Through the CIDE office, students can choose to participate in one of two tracks, 1) Spanish Language & Culture Program or 2)Business & Global Studies Program. Students also have the opportunity to participate in credit baring internship in Education or Business or a participate in a Community Service Course."
+    },
+    {
+      "id": "12026",
+      "name": "Sciences Po Paris (Summer)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38357",
+      "overview": "This program is available for direct enroll.\nThis program is open to all majors/minors and especially to students in the Social Sciences, History, Global Studies, European Studies. The program has two 4 week sessions: June and July. Students may enroll in either or both sessions. \n \nThe University of Sciences Po in Paris is one of the most prestigious universities in France. Many a French President and Ministers are Sciences Po alumni. The Summer School’s University Programme is a unique opportunity for university students and graduates from all over the world to discover Sciences Po, France's leading university in the social sciences. In 2019, the programme hosted almost 450 students, representing 60 different nationalities and a diverse range of academic and professional backgrounds. The Campus is located in the heart of the Saint-Germain-des-Près neighborhood.",
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "description": "Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine. Beyond such landmarks as the Eiffel Tower and the 12th-century, Gothic Notre-Dame cathedral, the city is known for its cafe culture and designer boutiques along the Rue du Faubourg Saint-Honor\u00e9. It is France's most populous city and has a population of",
+        "coordinates": [48.85174918747996, 2.357945535342399]
+      },
+      "student_experience": "The program features a variety of extracurricular activities (conferences with guest speakers, guided visits to Parisian museums and monuments, weekend trips, etc.) over the course of the summer."
+    },
+    {
+      "id": "10346",
+      "name": "Yonsei University (International Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48172",
+      "overview": "This program is a 6-week program. UNC students should select this 6-week track. (The 7.5 week internship is not available for UNC students at this time.) \nExperience Korea, one of the Little Dragons of East Asia, with its dynamic culture and fast-growing economy! The program at Yonsei University in Seoul, Korea opens up a world of possibilities for study abroad students! Yonsei is proud of its history and reputation as a leading institution of higher education and research in Asia.",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "The Yonsei International Summer School (YISS) opened its doors in 1985 and since then, YISS has become an integral part of campus life based on a unique blend of Korean and global cultures.\u00a0Despite its location in Seoul, a city of 12 million people, the university has a large, quiet, wooded campus. The city of Seoul offers immense cultural resources, and with excellent bus and subway systems, it is easy for students to move about the city. Korean culture and history come to life in the National Museum, the Folklore Museum, and the Buddhist temples. Within Seoul, students can visit museums, palaces, temples, and attend Korean traditional music and dance performances. Outside of Seoul, students can gain an appreciation of modern history by visiting the Demilitarized Zone.",
+        "coordinates": [37.569251412715715, 126.99237469482684]
+      },
+      "student_experience": "YISS offers plenty of extracurricular activities for international students looking to immerse themselves in the local culture. Students can participate in Mukbang, a kind of eating show interacting with the audience which originated from Korea, K-Pop dance classes, taekwondo, and calligraphy. There are over 1,400 registered students in YISS from over 43 countries worldwide."
+    },
+    {
+      "id": "10332",
+      "name": "University of Oslo (International Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55892",
+      "overview": "This program is available direct enroll. After completing the UNC Heels Abroad Application by the 1/31 deadline (reviewed on a rolling basis), students will need to complete a second application directly through the program. Note that applications for the ISS at UiO will be DUE February 1st. Becuase of this, we strongly recommend you submit your Heels Abroad application ASAP, well before our 1/31 deadline.\nThe International Summer School (ISS) at the University of Oslo is a six-week summer program offering intensive courses taught in English to diverse students from around the world. The student body each summer generally consists of 550 students from roughly 90 countries. Along with the many benefits of studying in a multicultural city, Oslo is surrounded by magnificent scenery from fjords to forested hills.",
+      "location": {
+        "city": "Oslo",
+        "country": "Norway",
+        "description": "Oslo, the capital of Norway, is home to over 650,000 and is quickly becoming the most international and multicultural city in Norway.\u00a0 It is known as a livable and friendly European city with a relatively mild climate. The Blindern campus is in pleasant surroundings, ten minutes from the city center by subway-to-surface rails and only minutes away from the lakes and wooded hills of Nordmarka.",
+        "coordinates": [59.920837614607464, 10.737058387041845]
+      },
+      "student_experience": "During your time in Oslo, the University hosts an abundance of events for visiting students to participate in. Some of the events hosted in the past include a guided tour of Oslo, meet & greets, and a tour of the Akershus Fortress. Students can also find more information on admission details and the University’s resources."
+    },
+    {
+      "id": "10300",
+      "name": "Universidad San Francisco de Quito",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38546",
+      "overview": "This program is available for direct enroll. \nFounded in 1988, Universidad de San Francisco de Quito (USFQ) is a highly distinguished private liberal arts institution located high in the Andes mountains of Quito, Ecuador. It has the largest international exchange program in the region, with more than 100 agreements with universities throughout the world. USFQ employs many of the Ecuador’s most renowned scholars and educators.\nUSFQ’s international programs include summer, semester and year-long programs and have multiple locations for educational opportunities:\n\nCUMBAYA: USFQ campus in town of Cumbaya\nGAIAS: USFQ campus in San Cristobal, Galapagos Islands\nTiputini Biodiversity Station: Research Station located in the Ecuadorian Amazon",
+      "location": {
+        "city": "Quito",
+        "country": "Ecuador",
+        "description": "Quito, the capital of Ecuador, is considered to be\u00a0one of the most beautiful cities in South America. Quito is surrounded by snow-capped mountains, yet beautiful palm trees line the city's streets. The city is located near the equator, but the\u00a09,000 foot\u00a0altitude makes it seem a place of perpetual springtime with\u00a0regular daytime temperatures in the 70s and 50s at night. USFQ's main campus is located on the outskirts of Quito in the mountain valley\u00a0town of Cumbaya.",
+        "coordinates": [-0.2248959050276734, -78.51423155300706]
+      },
+      "student_experience": "The intimate campus of USFQ allows for students to be fully integrated into the Ecuadorian academic system. Students will take courses with both international and local Ecuadorian students. The Oficina de Programas Internacionales (OPI) directly supports international students by assisting them with course registration, hosting cultural based activities and events, and pairs international students with a USFQ student through the Global Dragons program. \nStudents attending USFQ can join various activies across campus including:\n\nUniversity Student Clubs\nUniDiversidad"
+    },
+    {
+      "id": "10231",
+      "name": "London Academy of Music and Dramatic Art (Shakespeare Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48150",
+      "overview": "This program is available for direct enroll.\nUNC students have the opportunity to directly enroll at the London Academy of Music and Dramatic Art (LAMDA) for an 8-week Shakespeare Summer School. This in-depth practical acting course is designed to develop a greater understanding of poetic drama and encourage a creative approach to solving the challenges involved in performing classical work. \n \nThough this program is intended primarily for Dramatic Art majors, applications from students in other disciplines within the College of Arts and Sciences would be considered. These applicants should demonstrate experience in dramatic art, including experience or coursework equivalent to DRAM 150.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "LAMDA, located in west London, is a leading British drama school, consistently regarded as a world-class performing arts institute. It is affiliated with the Conservatoire for Dance and Drama and its programs have been approved and validated by the University of Kent. Established in 1861, LAMDA is the oldest theatre school in the United Kingdom. The Drama School offers vocational training to students studying to be actors, stage managers, technicians, directors, designers, musical directors, and movement instructors.",
+        "coordinates": [51.51034539534744, -0.12150162717991371]
+      },
+      "student_experience": "You'll be part of a passionate community of students, staff and tutors, both during your training and beyond it. Regular social events, cross-course collaborations, student-led performances and other activities mean LAMDA students and graduates have plenty of opportunities to broaden their skills and knowledge whilst getting to know each other."
+    },
+    {
+      "id": "12449",
+      "name": "Florence University of the Arts (FUA)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41510",
+      "overview": "This program is a partner provider style program.\nAn 11-week semester at Florence University of the Arts (FUA) is an experiential, academically enriching study abroad experience open to undergraduate students from any major. In addition to a wide range of engaging academics, FUA has strong student support services, a focus on community/local engagement and experiential learning, and a thriving Student Life department.\nFUA is especially unique because of its focus on experiential learning. In addition to traditional-style classes, FUA offers a Department of Professional Studies and Experiential Learning, including internships in 10-20 fields (with more typically being offered in the Fall semester) as well as 30-40 Experiential Learning courses integrating special projects, service learning, and other experiential style courses.\nWith a student body of around 3,500-4,000 per year, FUA has a strong precence of US study abroad students. While you will be with many other Americans in your classes, you'll also meet international students, as about 20% students studying abroad at FUA come from various countries around the world.\nFUA is also a great choice for students looking to integrate some of their academics with community engagement. In fact, FUA is the first academic institution in Italy to establish integration projects affiliated to its academic departments and open to the public, in the form of Community Engagement Member Institutions (CEMI). \nAs an 11-week semester, FUA typically runs from late Septmeber to mid-December (Fall) and late February to mid-May (Spring).",
+      "location": {
+        "city": "Florence",
+        "country": "Italy",
+        "description": "Florence, often referred to as Firenze in Italian, is a city of immense historical and cultural significance located in the heart of Tuscany, Italy. It is celebrated for its rich artistic heritage, stunning architecture, and its pivotal role in the development of the Renaissance, making it one of the most iconic and enchanting cities in the world.",
+        "coordinates": [43.76915623187948, 11.245323082102697]
+      },
+      "student_experience": "The Student Life and Development department at FUA strives to create cultural understanding and immersion between students and the Florentine locals by offering insightful, enlightening and engaging activities to complement the academic sessions. Activities can include weekend excursions, community engagement activities, volunteer opportunities, and more!\nStudent Life encourages mutual respect and understanding between cultures through a series of extracurricular activities aimed at broadening student perspectives for a well-rounded cultural and academic experience."
+    },
+    {
+      "id": "10235",
+      "name": "Istituto Lorenzo de' Medici (LdM)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38501",
+      "overview": "Istituto Lorenzo de' Medici (LdM) offers students the opportunity to study the Italian Renaissance in its birthplace, Florence, Italy. A 13th-century palace in the historical center of Florence houses the primary home of the study abroad institute with a primarily American student body. The program in Florence is one of the oldest programs offered by the UNC Study Abroad Office.",
+      "location": {
+        "city": "Florence",
+        "country": "Italy",
+        "description": "Florence (\"Firenze\"\u00a0in Italian; pronounced fee-ren-dze)\u00a0is a traditional cultural center for Renaissance art and Italian language study. The city reflects centuries of art and architecture, from streets based on the original Roman settlement to 19th-century avenues surrounding the city.\u00a0The LdM school buildings are centrally located in downtown Florence, near the Duomo and San Lorenzo market.",
+        "coordinates": [43.76610838679335, 11.247300674243444]
+      },
+      "student_experience": "Students studying at LdM have a wide variety of Student Clubs and Activities they can join."
+    },
+    {
+      "id": "11776",
+      "name": "UNC Computer Science in Copenhagen (COMP 311)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38641",
+      "overview": "Calling all Computer Science majors! Study abroad for seven weeks and earn UNC credit! Learn about Computer Organization in Denmark's lovely Copenhagen. Immerse yourself in Danish design and embrace its functionalism while learning about the design of CPUs. Cultural engagement opportunities will integrate participants into the local culture where they will gain academic knowledge and intercultural skills to prepare for a globalized world. Priority will be given to students that have at least a 3.1 GPA. Rolling interviews with the faculty will take place once your application is submitted.",
+      "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "description": "The program is based in the heart of Copenhagen, Denmark at the DIS study center. Copenhagen is one of the most livable cities in the world, where locals enjoy a high quality of life in a vibrant capital. Copenhagen matches 16th-century architecture with modern and inventive urban spaces – well-planned bike lanes, harbor baths, skate parks, food markets, and more. Constantly on the cusp of new ideas, the Danish capital is changing the global agenda for sustainability, design, architecture, and food. Yet locals still embrace their cultural roots in many ways, such as gathering for smørrebrød lunches with schnapps on a weekend with family and friends.",
+        "coordinates": [55.6761, 12.5683]
+      },
+      "student_experience": "Participants will live together in one of DIS's student residence halls. The rooms are furnished and include access to kitchen, laundry, and internet.\n\nTransportation to and from classes: Part of living and studying in Scandinavia means that you commute by bike, bus, train, or metro, as the locals do. Whether traveling to and from classes, field studies, or other activities, you can expect that commuting will be a part of your daily life. The public transportation is clean, safe, punctual, and efficient. The program includes welcome and farewell dinners and cultural activities such as a bicycle tour of Copenhagen and a small group dinner with a Danish family.\n\nThe Computer Science course pulls inspiration from Copenhagen and includes outings to local museums and businesses."
+    }
+  ]
+}

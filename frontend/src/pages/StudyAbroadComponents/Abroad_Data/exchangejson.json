@@ -1,0 +1,901 @@
+{
+  "universities": [
+    {
+      "id": "12534",
+      "name": "Monash University (Media & Journalism)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=54196",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThis program is only open to students who have been accepted as majors into the UNC School of Media and Journalism. Applicants must also have completed MEJO 153: Newswriting to participate in the program. \nIn partnership with the renowned School of Media, Film and Journalism at Monash University, this program is designed for MEJO students to further their journalism training while experiencing life in one of the most diverse and exciting cities in the world. Students will directly enroll at Monash for a semester and fully integrate into the academic, social, and cultural life of Monash.",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "description": "Melbourne is Australia's second largest city with approximately 5 million inhabitants. In Melbourne, which is the capital city of the state of Victoria, students will experience a vibrant youth culture. A thriving artistic community exists within Melbourne, and many theatres, galleries, and music venues exist throughout the city. Melbourne is a clean city with a temperate climate which encourages the availability of many sporting and recreational opportunities. Australia boasts a blend of Asian and European lifestyles. Students can use semester breaks, and the time before or after their Monash experience, to travel around Victoria, Australia and the Asia-Pacific region.",
+        "coordinates": [-37.8044990850383, 144.96304335604856]
+      },
+      "student_experience": "The Monash Overseas and Exchange Club (aka MOVE) is an organization that helps introduce incoming study abroad students to life at Monash, organized by Monash students who have either studied abroad themselves or are interested in doing so. In past semesters, MOVE has organized events like a trips to Phillip Island and the Healesville Sanctuary."
+    },
+    {
+      "id": "11855",
+      "name": "Pontificia Universidad Catolica de Chile (SILS)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68325",
+      "overview": "This program is available for exchange. \nThis exchange program is open to graduate students who have been accepted into the UNC School of Information and Library Science. \nThe language prerequisite is 4 semesters, completed by the start of the program.  \nPontificia Universidad Católica de Chile was originally founded in 1888. Since then, it has grown to one of South America’s premier universities with over 30,000 students, 18 faculties and 4 campuses spread across Chile’s capital city, Santiago.   \nPlease note that the first semester at UC Chile runs from March to July and the second semester runs from August to December.",
+      "location": {
+        "city": "Santiago",
+        "country": "Chile",
+        "description": "Santiago is home to more than 6 million people and lies in a valley surrounded by the Andes mountains and the Chilean Coast Range. Its proximity to beaches, mountains, rivers and rich culture/history allows one to enjoy all that Chile has to offer in this South American capital.",
+        "coordinates": [-33.43235852983608, -70.64600453302764]
+      },
+      "student_experience": "The MAI Buddy Program is a voluntary program that connects visiting students with UC Chile students to support them throughout their time in Chile."
+    },
+    {
+      "id": "10676",
+      "name": "Seoul National University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55780",
+      "overview": "This program is available for exchange.\nSeoul National University (SNU), founded in 1946, is the first national university in South Korea and the only public university in the Seoul metropolitan area. It is also one of the most prestigious institutions, along with Korea University and Yonsei University (where UNC also has exchange programs). Together, these three universities form \"SKY\" - Seoul, Korea, and Yonsei. SNU has over 16,000 students throughout its 16 undergraduate Colleges.",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "The university has three campuses: the main campus in Gwanak-gu and two additional campuses in Daehangno and Pyeongchang. The university comprises sixteen colleges, one graduate school and nine professional schools. The student body consists of nearly 17,000 undergraduate and 11,000 graduate students The city of Seoul offers immense cultural resources, and with excellent bus and subway systems it is easy for students to move about the city. Korean culture and history come to life in the National Museum, the Folklore Museum, and the Buddhist temples. Within Seoul, students can visit museums, palaces, temples, and attend Korean traditional music and dance performances. Outside of Seoul, students can gain an appreciation of modern history by visiting the Demilitarized Zone.",
+        "coordinates": [37.56957010089971, 126.98800934678846]
+      },
+      "student_experience": "The SNU Buddy Program pairs students with a local buddy and hosts various activities and programs throughout the academic year."
+    },
+    {
+      "id": "10328",
+      "name": "Universidad de Navarra (Media & Journalism)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=45591",
+      "overview": "This program is available for exchange.\nThis program is only open to MEJO Majors or Pre-MEJO Majors who have taken at least two MEJO courses. \nThe School of Communication at the Universidad de Navarra (UNAV) was the first school in Spain to offer journalism at the university level, opening its doors in 1958. UNAV has been training communication professionals with thoroughness and precision. Among the school's graduates are many of Spain's foremost journalists and researchers.",
+      "location": {
+        "city": "Pamplona",
+        "country": "Spain",
+        "description": "The city of Pamplona, known for the Running of the Bulls, is home to approximately 200,000 inhabitants. It is the capital of Navarra and is nicely situated an hour from the mountains and an hour from the ocean. Pamplona has a walkable, historic city with opportunities to visit museums, see beautiful cathedrals, and taste test a variety of locally inspired pinxtos.  ",
+        "coordinates": [42.80948091898173, -1.6511498240104714]
+      },
+      "student_experience": "Students studying at UNAV will have the opportunity to participate in sports clubs, volunteer programs, and student organizations. Check out some of UNAV’s Campus Life Activities Here. The UNAV program also offers a Buddy System which allows UNC students to connect with UNAV students upon arrival to campus."
+    },
+    {
+      "id": "10303",
+      "name": "Universidad de Montevideo",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38442",
+      "overview": "This program is available for exchange and direct enroll.  \nFounded in 1986, the University de Montevideo (UM) is a private institutuion committed to academic excellence, research, technological innovation, and social responsibility. International students who choose UM can expect engaging classes taught by distinguished scholars in their fields and professions. Students can take courses within Media and Journalism, Communications, Economics, Philosophy, Mathematics, Computer Science, and History.",
+      "location": {
+        "city": "Montevideo",
+        "country": "Uruguay",
+        "description": "Uruguay is one of the smallest Hispanic countries in South America and is bordered by Brazil and Argentina. Located on the Río de la Plata and only a few hours by ferry from Buenos Aires, Argentina, the costal city of Montevideo is lively and modern city. Motevideo is known for it's artistic flare, specifically theatre and cinema production. Although a small and walkable city, Montevideo's bus system makes it easy find transportation to and from class. ",
+        "coordinates": [-34.878172559943906, -56.174446228474395]
+      },
+      "student_experience": "UM has created a new Buddy Program where each international student is paired with an local UM student upon arrival to help integrate them with the University’s community and develop a support network. Students also have the opportunity to participate in a variety of sports such as futbol, field hockey, and even an \"Adventurer's Club\" that organizes outdoor activities around the country as well as an international excursion to hike Machu Pichu in Peru. UM also encourages community engagement by offering volunteer and internship opportunities to international students.\nTo learn more about student life at UM, click here.\n \n*Please Note this program has a Southern Hemisphere Calendar:\n\nFall Semster is from March to August\nSpring Semester is from August to December"
+    },
+    {
+      "id": "10310",
+      "name": "University College London",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48659",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange.  \nOn this program, UNC students have the opportunity to fully integrate into the academic, social, and cultural life of the University College London. UCL is renowned for its world-class research, global influence, and impact in a variety of academic disciplines. Also known as London’s Global University, UCL boasts a student population of more than 42,000 students from over 150 different countries. \nThe UCL program is open to UNC students in the following majors: \n\nAnthropology/Archaeology \nArt History\nBiology \nEconomics (NOTE: Updated requirements for entry listed here)\nPhysical and Mathematical Sciences \nLiberal Arts and Sciences",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "While living in one of the world's most renowned cities, you will be able to take advantage of a huge diversity of cultural activities - museums, historical sites, fine arts performances, theater, and nightlife. UCL itself is located in Bloomsbury, a central district of London known for being a literary and intellectual hub.",
+        "coordinates": [51.50125676363018, -0.13144516462820086]
+      },
+      "student_experience": "When you first arrive at UCL, the UCL International Student Support group organizes an orientation program, to help you get acclimated to your new life in London. Throughout your time at UCL, The Students’ Union at UCL (UCLU) hosts a variety of events like virtual speed friending, walking tours of London, a cultural food festival and much more!"
+    },
+    {
+      "id": "10312",
+      "name": "University of Aberdeen",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48140",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \n \nThe University of Aberdeen is a public research university located in the city of Aberdeen, Scotland. Founded in 1495, Aberdeen is Scotland’s third oldest university and the fifth oldest in the English-speaking world. The total student population is roughly 14,750, with approximately 10,250 undergraduate students. Aberdeen is consistently ranked among the top 150 universities in the world. The campus, located just outside of the city center in historic Old Aberdeen, was recently named among the top ten most beautiful historic universities in the UK. In addition to the architectural treasures, the university has invested heavily in new teaching, research, and recreational facilities in recent years, including a new library and sports village.",
+      "location": {
+        "city": "Aberdeen",
+        "country": "Scotland",
+        "description": "Aberdeen is Scotland’s third-largest city with a population of 220,000. Aberdeen is big enough for students to have a city experience but compact enough for new students to easily navigate and make friends. In recent years Aberdeen has been ranked as Scotland’s safest University City, the happiest city to live in, and one of Scotland’s sunniest cities. With two universities, Aberdeen is home to 50,000 students and has plenty to offer a young demographic.",
+        "coordinates": [57.155221949278726, -2.111614548447026]
+      },
+      "student_experience": "From racing to Paris for charity, volleyball or the Opera Society... there is something out there for YOU! \nAUSA has a huge variety of different sports clubs and societies, a whole range of volunteering opportunities, a second-hand bookshop to buy and sell course texts and other literature, and coordinates many events throughout the year including events during Welcome Week and the Graduation Ball. \nWithin the University it is easy to find out about volunteering opportunities. The Careers and Employability Service and AUSA offer lots of long-term projects and one-off events to get involved in."
+    },
+    {
+      "id": "10255",
+      "name": "Queen's University Belfast",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48467",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange.   \nStudy at Queen's University Belfast (\"QUB\") for a semester or academic year for an opportunity to fully integrate into the academic, social, and cultural life at the university. Take courses along-side degree-seeking QUB students, live in student housing, and participate in all aspects of student life. \n \nWatch this video to see the QUB campus and learn more about the program.",
+      "location": {
+        "city": "Belfast",
+        "country": "Northern Ireland",
+        "description": "Located in the capital of Northern Ireland, QUB is considered the Oxbridge of Ireland with a combination of Irish and British identities. Belfast has a rich political history, and the university earned an international reputation for academic excellence in social justice, peace, and reconciliation studies. ",
+        "coordinates": [54.600257460725864, -5.938808566941067]
+      },
+      "student_experience": "The Students’ Union regularly hosts bands, comedy shows and other forms of entertainment. Additionally, if you are ever missing the feel of Franklin Street, right past the grounds of the University you’ll find Botanic Avenue. Many students spend their free time here to do some shopping, enjoy international cuisines, or enjoy a coffee at the numerous cafés."
+    },
+    {
+      "id": "10257",
+      "name": "University of Groningen",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55561",
+      "overview": "Founded in 1614, Rijksuniversiteit Groningen (RUG or University of Groningen) has played an important part in the city of Groningen as one of the most traditional and prestigious universities in the Netherlands. Currently rated as one of the top 100 universities in the world, the University of Groningen provides high-quality facilities, teaching, and research to roughly 20,000 students and takes pride in its worldwide partnerships that also includes international students from 60 countries.",
+      "location": {
+        "city": "Groningen",
+        "country": "Netherlands",
+        "description": "With a population of over 200,000, Groningen is considered the cultural, regional, and business capital of the northern area of the Netherlands. Situated close to Belgium, France, and Denmark, Groningen is sometimes called The Student City, since 25% of its population is students (the average age in the city is 34). Groningen is a compact city, making it easy to explore the city’s well-known lively atmosphere at restaurants, cafes, and bars. Groningen also has dozens of museums, local theatres, book shops, and art galleries, so there is something for everyone to enjoy! . RUG also provides a great guide to help you discover all the unique gems that Groningen has to offer.",
+        "coordinates": [53.22288525198798, 6.561859078028663]
+      },
+      "student_experience": "Upon arrival, the University of Groningen hosts a series of Introduction Events to help students get acclimated and network with fellow students and faculty. RUG also offers a wide array of opportunities for students to get involved in extracurricular activities, student-run clubs on campus as well as cultural events on campus during their stay. For city-lovers, Groningen is also well-known for its artsy vibe and hosts a number of world class festivals each year. When class is in session, students can take advantage of the university’s resources and facilities like AV services, university newspaper, language center, worship facilities, and three different libraries. \nStudent Life \nStudent Resources \nIntroduction to the Netherlands \nBachelor’s International Students"
+    },
+    {
+      "id": "10244",
+      "name": "University of Galway",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67149",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nEstablished in 1845, the University of Galway is a leading public research university in Ireland. Formerly known as the National University of Ireland, Galway has over 19,000 students, 4,000 of which are international students, contributing to a diverse University community and city. Furthermore, there are more than 150 student societies that add to a vibrant student life. The University has a special responsibility in the country to help preserve the Irish language.",
+      "location": {
+        "city": "Galway",
+        "country": "Ireland",
+        "description": "Located on the western coast of Ireland, Galway itself is often regarded as the cultural capital of Ireland and is a vibrant and cosmopolitan compact city where University of Galway students are assured of a warm welcome. The city's lively arts and social scene, rich sporting culture, and reputation as a laid-back festival town mean there is something to suit all interests. Galway is close to the Connemara Gaeltacht, one of several Irish-speaking regions in Ireland, and the location also provides a perfect base for those who want to explore the rugged beauty of the West Coast of Ireland. Galway is well-connected to Dublin and other cities in the Irish Republic by train and bus. It also has a small airport serving flights within Ireland and to a small number of airports in the UK.",
+        "coordinates": [53.268741572716024, -9.042102258331926]
+      },
+      "student_experience": "When you first arrive in Galway, the International Office at the University will provide an academic and support services orientation. The support services orientation is aimed at introducing study abroad students to local life. In addition to helping with practical matters, students are also introduced to sports clubs and student societies offered by the University."
+    },
+    {
+      "id": "10223",
+      "name": "King's College London",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38495",
+      "overview": "This program is available for exchange only.\nKing’s is one of the oldest universities in England, and it’s also one of the largest, with a student population over 23,000. King’s is an urban campus, meaning instead of a contained campus, university buildings are located in the heart of the city and housing is scattered throughout the city.\nKing's is also one of the UK’s most distinguished universities, with an outstanding reputation for learning, teaching, and research, specifically in the fields of Humanities and Sciences.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "King’s is located in central London, with its main campus on “The Strand” along the River Thames. London is one of the world’s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+        "coordinates": [51.50000443660578, -0.13093381703931095]
+      },
+      "student_experience": "With hundreds of international students studying at King's each year, King's offers a robust orientation program and schedule of events to ensure visiting students are able to make the most of their experience. A very common way to become more involved at King's is by joining clubs and societies. To learn more about these organizations, please see here."
+    },
+    {
+      "id": "10172",
+      "name": "Pontificia Universidad Catolica de Chile",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68325",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe language prerequisite is 5 semesters, completed by the start of the program. \nPontificia Universidad Católica de Chile (UC Chile) was originally founded in 1888. Since then, it has grown to one of South America’s premier universities with over 30,000 students, 18 faculties and 4 campuses spread across Chile’s capital city, Santiago.  \nPlease note that the first semester at UC Chile runs from March to July and the second semester runs from August to December.",
+      "location": {
+        "city": "Santiago",
+        "country": "Chile",
+        "description": "Santiago is home to more than 6 million people and lies in a valley surrounded by the Andes mountains and the Chilean Coast Range. Its proximity to beaches, mountains, rivers and rich culture/history allows one to enjoy all that Chile has to offer in this South American capital.",
+        "coordinates": [-33.429449184331745, -70.65532353508677]
+      },
+      "student_experience": "The MAI Buddy Program is a voluntary program that connects visiting students with UC Chile students to support them throughout their time in Chile."
+    },
+    {
+      "id": "10171",
+      "name": "Pontificia Universidad Catolica de Argentina (Media & Journalism)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38689",
+      "overview": "This program is available for exchange and direct enroll.  \nOn this program, UNC students directly enroll at the Pontificia Universidad Catolica de Argentina (UCA) for a semester or academic year for an opportunity to fully integrate into the academic, social, and cultural life in vibrant Buenos Aires. Students will be able to take courses that satisfy UNC MEJO requirements, while studying in Spanish alongside Argentine students. Additionally, UNC students are welcome to take courses in any of the various departments and facultades at UCA.",
+      "location": {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "description": "The city of Buenos Aires, often called the Paris of the Americas, is the cultural, political, and commercial capital of Argentina. An excellent public transportation system makes it easy for students to take advantage of Buenos Aire's cultural riches, such as visiting the opera or ballet, going to a soccer match, or touring one of the city's many museums. From the delicious food to the diverse architecture, students will notice Spanish, Italian, and German cultural influences on the development of this metropolitan city.",
+        "coordinates": [-34.59498361005372, -58.38370981735974]
+      },
+      "student_experience": "At UCA students can enjoy a more independent and self-guided experience to studying abroad. UCA's International Office has an established PAL Program which pairs UNC students with a local UCA student to provide support during their exchange. Students will also have many opportunities to experience other cities in Argentina through independent travel as well as excursions organized by the International Office. \nTo learn a little more about life at UCA and in Buenos Aires, click here.\n \n*Please Note this program has a Southern Hemisphere Calendar:\n\nFall Semster is from March to July\nSpring Semester is from August to December"
+    },
+    {
+      "id": "10326",
+      "name": "University of Manchester",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48802",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of Manchester was formed in 2004 as the result of a merger between the Victoria University of Manchester, which was commonly known as the University of Manchester, and UMIST (University of Manchester Institute of Science and Technology). Spanning the bustling Oxford Road, Manchester is a campus-based university located in a collegiate area of the city center. With just under 40,000 students (28,000 of which are undergraduates), Manchester has the largest student community in the UK.",
+      "location": {
+        "city": "Manchester",
+        "country": "England",
+        "description": "A lively, multicultural city in northern England, Manchester hosts a population of around 512,000 within the city, climbing to 2.5 million including suburbs. Manchester is considered England's second largest city after London, with a lower cost of living than the capital. Manchester caters to a variety of tastes with its abundance of cultural events, cinemas, exhibitions, and social outlets.",
+        "coordinates": [53.48720829842221, -2.2505982906900384]
+      },
+      "student_experience": "Each visiting student has the opportunity to be paired with a University of Manchester student mentor, who has also studied abroad. Mentors are there to provide advice and information about the University and the city but mostly to provide a friendly face for the incoming student."
+    },
+    {
+      "id": "10329",
+      "name": "University of New South Wales",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38315",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of New South Wales (UNSW) in Sydney, Australia is one of the largest universities in Australia, with a total enrollment of over 60,000 students.  \nAs a public research university, UNSW has an international reputation for teaching and research. It offers a comprehensive range of liberal arts and management programs, extensive science, technology, and engineering based courses, and a specialization in studies of the Asia-Pacific region.",
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "description": "Sydney is a vibrant and diverse city, offering a wide range of activities for varied interests. A city framed by the world’s largest natural harbor, Sydney showcases its multiculturalism through food, shopping, and an expansive cultural scene. The public transit system in Sydney allows students to stay well-connected, within the city and to numerous day trips (and beyond)! ",
+        "coordinates": [-33.86994789945385, 151.21668823544243]
+      },
+      "student_experience": "Students studying at UNSW will benefit from a comprehensive orientation and set of social activities on arrival. Students can also opt-in for courses that offer pre-session field excursions, such as the Sustainable Tourism in Regional Australia course that takes students to Lady Elliot Island in the Great Barrier Reef.  \nInterested in learning more about Australia? UNSW offers a variety of Australian Studies courses, with topics like Aboriginal Sydney and The Marine Environment."
+    },
+    {
+      "id": "10319",
+      "name": "University of Edinburgh",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38519",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of Edinburgh was established in 1583, and has since then provided its students with a world-renowned education. Known to many as the Oxford of Scotland, Edinburgh is one of the top five universities in the United Kingdom.\nEdinburgh's urban location allows international students to learn both from the city and the campus. Often, in fact, the two are one. University buildings stand next to city buildings; ancient buildings share walls with more modern ones. Edinburgh manages a balance of the old and the new, the beautiful and the necessary.\nInternational students have long been welcome at Edinburgh; for decades, students from over eighty countries have pursued studies at Edinburgh. All the courses that are open to study abroad students are also open to British students, creating greater educational opportunities for both.",
+      "location": {
+        "city": "Edinburgh",
+        "country": "Scotland",
+        "description": "Often referred to as the \"Athens of the North,\"  Edinburgh is a remarkable city whose history can be felt around every corner. Edinburgh provides unmatched beauty with parks, lochs, and castles just minutes away, and the Scottish highlands just 50 miles away. Additionally, London is only an hour's ride by air, or five hours by train. With an easily accessible airport, Edinburgh serves not only as a starting place for exploring Great Britain, but the rest of Europe.",
+        "coordinates": [55.953506769983285, -3.194731745326135]
+      },
+      "student_experience": "With hundreds of exchange and direct enroll students studying at Edinburgh each year, Edinburgh offers a robust orientation program and schedule of events to ensure visiting students are able to make the most of their experience. A very common way to become more involved at Edinburgh is by joining clubs and societies. To learn more about these organizations, please see here."
+    },
+    {
+      "id": "10193",
+      "name": "Ulm University (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68067",
+      "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters of German, completed by the start of the program. Students will be attending regular university classes with degree-seeking students, and almost all courses are taught in German.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from early April to mid-July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+      "location": {
+        "city": "Ulm",
+        "country": "Germany",
+        "description": "More than 180,000 people live in the cities of Ulm and Neu-Ulm (neighboring city across the Danube in Bavaria). The birthplace of Albert Einstein offers an exciting mix between architecture that dates back centuries and developments that reflect the new, modern Germany.",
+        "coordinates": [48.3971054140468, 9.99069127321164]
+      },
+      "student_experience": "When going to Ulm, there is the opportunity to sign up for the Buddy Programme. A buddy mentor is a full-time student in Ulm who helps you with things such as filling out forms to finding your way around campus and the city. At the same time, you and your buddy can not only learn each other´s language and culture, but also to share your experiences abroad."
+    },
+    {
+      "id": "10189",
+      "name": "Karlsruhe Institute of Technology (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67985",
+      "overview": "This program is available for exchange.\nAt KIT, students should expect to take their classes mostly in German. Each department requires a different level of German for enrollment, with many requiring 3-4 semesters of German, completed by the start of the program. More information about language requirements for departments can be found here. \nPlease note that English is not spoken everywhere in Germany/at KIT. Participation in the pre-semester German course offered at KIT is highly recommended to all applicants.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from mid-April to late July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+      "location": {
+        "city": "Karlsruhe",
+        "country": "Germany",
+        "description": "Karlsruhe is a major tech hub and offers an abundance of opportunities for its inhabitants and visitors to take advantage of. Located just North of the Black Forest and less than less than 13 miles to the French border, this city is in an ideal location for anyone looking for adventure. The city is warm and sunny in the summer, with lots of opportunities for hiking and cycling, with over 102 kilometers of bicycle paths! The majority of the classes at KIT are held close to the city, well-connected by the bus system.",
+        "coordinates": [49.0099086524435, 8.412088410937065]
+      },
+      "student_experience": "The Erasmus Student Network Karlsruhe (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Karlsruhe. In addition to their Buddy Program, the ESN regularly hosts events like language cafes, Stammtisch and a trip to one of Germany’s most beautiful towns, Heidelberg. To learn more about ESN Karlsruhe, see here."
+    },
+    {
+      "id": "10187",
+      "name": "Heidelberg University (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55529",
+      "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters of German, completed by the start of the program. \nFounded in 1386, Heidelberg University is Germany’s oldest university. It is a\ncomprehensive research-oriented institution with a strong focus on\ninterdisciplinary studies. Heidelberg University offers over 160 study programs in\nthe humanities, the social sciences, law, natural sciences, and the life sciences.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from mid-April to late July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+      "location": {
+        "city": "Heidelberg",
+        "country": "Germany",
+        "description": "Heidelberg – the name stands for the world-famous castle, the picturesque Old Town with all its charm, the inviting landscape between the Odenwald and the Rhine Valley, and for Germany’s oldest university and an internationally known centre of science and research. Set on the Neckar River, Heidelberg, with its famous castle, creates a historic setting for study of the humanities, medicine, natural sciences, and social sciences.",
+        "coordinates": [49.418979092737025, 8.722857581334273]
+      },
+      "student_experience": "In cooperation with the departments of the university, the International Relations Office offers a Buddy Programme for international students. \nAs part of this initiative, students from Heidelberg provide the newly arrived international students with active advice and assistance. International new arrivals will receive individual support from the moment they arrive, including information on recreational activities, creating a timetable and finding a room. The aim of the Buddy Programme is to promote intercultural encounters between German and international students. \nStudents can also get involved in sports and fitness programs, music, drama, language learning, and excursions. Trips normally take place on weekends and are a good opportunity to experience German culture and meet other international students. Read more about excursions here! The Studierendenwerk also offers a large selection of activities outside of the University."
+    },
+    {
+      "id": "10256",
+      "name": "Radboud University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55395",
+      "overview": "This program is open to all majors/minors.\nAwarded as one of the best traditional universities in the Netherlands, Radboud University offers over 250 courses in several areas of study, including Arts, Social Sciences, Economics, Communication and Marketing to an estimated 24,000 students. Located just south of the Nijmegen city center, Radboud University is a great exchange program for students looking for a unique European experience.\nDue to the semester dates, this exchange is only offered in the Spring. The Spring semester typically runs from late January to early July; the current year's academic calendar can be viewed here.",
+      "location": {
+        "city": "Nijmegen",
+        "country": "Netherlands",
+        "description": "The unofficial slogan of Nijmegen is \"Old City, Young Vibe\". Located on the Waal River close to the German border, Nijmegen is the largest city in the Dutch province of Gelderland. Being one of the oldest cities in the Netherlands, Nijmegen offers a rich history with Roman connections, but also has lots of events and festivals that are popular with students. Read more about Nijmegen here!",
+        "coordinates": [51.85250176240809, 5.8584112866222045]
+      },
+      "student_experience": "Radboud University prides itself on being a truly international institution with students from all over the world. The semester starts with an optional Orientation Week for international exchange students that is highly recommended students attend. During the year, several on- and off-campus social activities are organized so international students can get to know the Netherlands. Excursions, social activities, debates, and lectures are shared on the ‘RadboudInternationalStudents’ and ‘ESN Nijmegen’ Facebook pages to offset coursework and studying."
+    },
+    {
+      "id": "10000",
+      "name": "University of Copenhagen",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38641",
+      "overview": "This program is available for exchange, and is open to students from all majors/minors. \nRanked as the top university in Scandinavia and among the top 100 universities worldwide, The University of Copenhagen, or KU, offers a best-in-class education at the oldest university in Denmark. With student enrollment of nearly 37,000, and a campus spread out across the heart of Denmark’s bustling capital, Copenhagen, the University of Copenhagen exchange program is an excellent choice for students wanting an immersive experience in a large European city.",
+      "location": {
+        "city": "Copenhagen",
+        "country": "Denmark",
+        "description": "Over the years, Denmark’s capital, Copenhagen has transformed from a small fishing town to a bustling city of over 1.5 million residents. Today, Copenhagen is Denmark’s cultural, commercial and political center, but it certainly hasn’t lost its charm. Copenhagen is still known for its winding cobblestone streets, busy market squares, and harbors filled with historical wooden boats, lined with pastel-colored historical houses. ",
+        "coordinates": [55.672777671585536, 12.574432055131235]
+      },
+      "student_experience": "Being an exchange student at the University of Copenhagen offers a unique window into life in Denmark. By enrolling in classes with other Danish students and taking classes with Danish professors, you’ll get to experience living in Copenhagen in one of the most immersive ways possible."
+    },
+    {
+      "id": "11742",
+      "name": "University of Gothenburg",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38651",
+      "overview": "This program is available for exchange only. \nThe University of Gothenburg is one of Sweden’s largest and most influential universities, boasting an enrollment of over 47,000 students, with over 6000 faculty members. This program is a great fit for students looking to be immersed in Swedish culture, and are interested in studying at a large university in one of the country's largest cities that's slightly off the beaten path.",
+      "location": {
+        "city": "Gothenburg",
+        "country": "Sweden",
+        "description": "Situated on the Götta Ålv River on Sweden’s west coast, Gothenburg is the country’s second largest city, and is one of the key seaports on the Baltic Sea. While many travelers only visit Stockholm during their time in Sweden, studying in Gothenburg provides an immersive look into Swedish culture that many never get a chance to experience.",
+        "coordinates": [57.70575926826892, 11.974688173397565]
+      },
+      "student_experience": "Gothenburg offers the best of both worlds, offering a bustling urban lifestyle, with the stunning Swedish countryside located just minutes away. The archipelagos that line Sweden’s west coast, and the deep evergreen Scandinavian forests are a quick train ride away. For travelers, Gothenburg is connected by train to Oslo and Copenhagen, and Gothenburg’s airport is well-connected to the rest of Europe."
+    },
+    {
+      "id": "10678",
+      "name": "Nagoya University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67332",
+      "overview": "This program is available for exchange.  \nNagoya University was founded in 1871, chartered in 1939 and is one of the “Imperial Universities” (the Japanese equivalent of the Ivy League). NU currently has more than 15,500 students enrolled in its 9 undergraduate schools and 13 graduate schools. The institution is one of the top research universities in Japan, especially with regard to physics, chemistry, and biology and biochemistry. In addition to Japanese language and culture courses, the university offers a comprehensive STEM curriculum caught in English.",
+      "location": {
+        "city": "Nagoya",
+        "country": "Japan",
+        "description": "NU is located in Nagoya, the capital of the Chubu region and in the geographical heart of Japan. The third largest city in Japan with a population of 2.3 million people, it offers all the conveniences of a major urban center. Easily accessible to and from other areas in Japan, it is approximately three hours to Tokyo and just over an hour to Kyoto via Shinkansen high speed rail. The NU campus has its own metro stop and is merely 10 minutes from central Nagoya.",
+        "coordinates": [35.19085505884975, 136.90362719312893]
+      },
+      "student_experience": "Each student has the opportunity to get a tutor/buddy while they are at Nagoya. This tutor is a degree-seeking Nagoya student who will be able to help you with everything from university paperwork to adjusting to daily life in Nagoya."
+    },
+    {
+      "id": "12403",
+      "name": "Queen Mary University London",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=70571",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. In-state students not selected for exchange have the option of attending via direct enroll (same student experience), but should note the cost difference under the \"Cost/Scholarship\" tab.\nQueen Mary University of London is a renowned public research university located in London, United Kingdom. Founded in 1785 and serving roughly 20,000 students, it has a rich history of academic excellence and is part of the prestigious Russell Group of universities.\nQueen Mary offers a diverse range of programs across various disciplines, including humanities, social sciences, and natural sciences. Queen Mary is an excellent choice for students considering a study abroad destination, offering a diverse range of academic coursework and a globally recognized reputation for research and teaching.",
+      "location": {
+        "city": "London",
+        "country": "United Kingdom",
+        "description": "London is one of the world’s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. ",
+        "coordinates": [51.51475202878874, -0.130784692961274]
+      },
+      "student_experience": "Why Queen Mary University London?\nQueen Mary offers a wide range of clubs, societies, and extracurricular activities, providing ample opportunities for international students to make friends and engage in cultural exchange. Additionally, the campus is located in close proximity to various attractions and landmarks in London, allowing students to explore the city's vibrant art, music, and culinary scenes."
+    },
+    {
+      "id": "10333",
+      "name": "University of Otago",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=53667",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of Otago has an international reputation for the quality of its teaching and research and is a world leader in many academic fields. Students from around the world rate Otago's reputation and the quality of its study environment as its strongest attractions. The University is strongly committed to international education. The University has collaborative teaching, research and exchange agreements with major institutions in Asia, South America, the United States, Canada and Europe. The University of Otago has a rich cultural life, with a diverse international student community and over 1,200 international students from 70 countries enrolled in a wide range of courses at all levels of study.",
+      "location": {
+        "city": "Dunedin",
+        "country": "New Zealand",
+        "description": "The University of Otago campus is just a few blocks from the center of Dunedin. Dunedin offers students the best of both worlds. It has all the facilities, entertainment and variety of larger cities, but is small enough to be friendly, uncrowded and safe. The city's commerce, music and environment, and most of its sport, have evolved around its student culture.",
+        "coordinates": [-45.875389352112116, 170.51241717037072]
+      },
+      "student_experience": "The International Student Advisers at Otago provide incoming exchange students provides students assistance with adjusting to life in Dunedin and New Zealand in general. For more information, see here."
+    },
+    {
+      "id": "10339",
+      "name": "University of Sydney (Short Term Study Abroad)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38313",
+      "overview": "Note: Exchange has been temporarily suspended for this program. Students may still apply via direct enroll.\nThis program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nStudy at the University of Sydney over the summer (winter in Australia) and participate in a short-term program designed to give international students an opportunity to experience the University’s academic, social, and cultural life. Boasting a student population of 73,000, the University of Sydney is one of the country’s leading-research intensive universities and the oldest member of the prestigious Group of Eight.",
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "description": "Sydney is consistently ranked among the best cities in the world for quality of life. With almost five million inhabitants, it is the second largest city in Australia (after Melbourne). From visiting the renowned Sydney Opera House to taking a ferry through the harbor to visit Manly Beach, there is always something to do in Sydney! ",
+        "coordinates": [-33.85929254556877, 151.20672316858534]
+      },
+      "student_experience": "The University of Sydney offers a buddy program called Mates Abroad, which pairs you with a local student mentor to ease your transition to life in Sydney. Also, this program provides incoming students with the opportunity to partake in activities like a surfing camp or city tours."
+    },
+    {
+      "id": "10339",
+      "name": "University of Sydney (Short Term Study Abroad)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38313",
+      "overview": "Note: Exchange has been temporarily suspended for this program. Students may still apply via direct enroll.\nThis program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nStudy at the University of Sydney over the summer (winter in Australia) and participate in a short-term program designed to give international students an opportunity to experience the University’s academic, social, and cultural life. Boasting a student population of 73,000, the University of Sydney is one of the country’s leading-research intensive universities and the oldest member of the prestigious Group of Eight.",
+      "location": {
+        "city": "Sydney",
+        "country": "Australia",
+        "description": "Sydney is consistently ranked among the best cities in the world for quality of life. With almost five million inhabitants, it is the second largest city in Australia (after Melbourne). From visiting the renowned Sydney Opera House to taking a ferry through the harbor to visit Manly Beach, there is always something to do in Sydney! ",
+        "coordinates": [-33.87505779027911, 151.2062515174243]
+      },
+      "student_experience": "The University of Sydney offers a buddy program called Mates Abroad, which pairs you with a local student mentor to ease your transition to life in Sydney. Also, this program provides incoming students with the opportunity to partake in activities like a surfing camp or city tours."
+    },
+    {
+      "id": "10324",
+      "name": "University of Hong Kong",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44174",
+      "overview": "This program is available for exchange.\nThe University of Hong Kong (HKU) is the oldest tertiary education institution in Hong, founded in 1911. HKU is ranked 30th overall in the Times Higher Education - QS World University Rankings and is considered to be one of the best English-language institutions in all of Asia. \n \nThe variety of academic choice, combined with the quality of academics make HKU a great study abroad choice for UNC students. Our students fully integrate into undergraduate life at HKU and Hong Kong, as one of the true “global cities,” is a fascinating location to spend a semester or year.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.307342211460714, 114.20637073363865]
+      },
+      "student_experience": "When you arrive in Hong Kong, you are highly encouraged to attend the Orientation Day. There you’ll be able to familiarize yourself with the city and university and have a chance to meet the other exchange students."
+    },
+    {
+      "id": "10265",
+      "name": "Sungkyunkwan University (SILS)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48172",
+      "overview": "This program is available for exchange.\nThis program is open only to graduate and undergraduate (major or minor) students from UNC-CH School of Information and Library Science. \nSungkyunkwan University (SKKU) was founded over 600 years ago and is one of Asia's oldest institutions of higher learning. The literal meaning of \"Sungkyunkwan\" is \"an institution for building a harmonious society of perfected human beings\". Students attending this semester-long program will have access to one of the most respected Library and Information Science programs in Asia. Gaining an international perspective will greatly enhance their understanding of Information Science, and thus will be crucial in giving students a competitive edge as they continue in the field.",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "SKKU is located in Jongno-Do, a central district South Korea’s capital, Seoul. This area is the embodiment of how culture and tradition can thrive in a fast-paced modern city, as it is home to several historical landmarks like Gyeongbokgung Palace, Changdeokgung and Secret Garden, Bukchon Hanok Village, and the Cheonggyecheon Stream.",
+        "coordinates": [37.55990988158426, 126.98442269702808]
+      },
+      "student_experience": "The Global Student Network: Help & Information Club (GSN HI-CLUB) is a volunteer student buddy group that supports exchange students to adapt to living in Korea. HI-CLUB also organizes a number of cultural events where exchange and SKKU students can get together with each other."
+    },
+    {
+      "id": "10242",
+      "name": "National Taiwan University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67536",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nNational Taiwan University (NTU) is the flagship university of Taiwan, providing many opportunities to develop your potential alongside some of Taiwan's best students and faculty. \nAt NTU, you can focus on learning Chinese language and linguistics, or you may take Chinese courses in addition to any other academic program of your choice. Around 800 courses are taught in English. With advanced language skills, you're also eligible to take content courses in Chinese. No matter what subject you are interested in, there's likely to be a significant number of high-quality courses and programs for you.",
+      "location": {
+        "city": "Taipei",
+        "country": "Taiwan",
+        "description": "NTU's main campus is large, green, and is located in the center of Taipei, easily accessible by public transportation. Dedicated to excellence and leadership since 1928, National Taiwan University has contributed significantly to Taiwan’s rapid development into one of the world’s most competitive economies and democratic societies. Over the years, the University has acquired a reputation for academic excellence and cutting-edge research. NTU is home to a lively community of more than 30,000 students (17,000 undergraduate and 15,000 graduate) developing their talents across 11 colleges, 2 professional schools, 54 departments, 103 graduate institutes and 66 research centers. On its campuses, one can take advantage of the fullest range of academic programs in Taiwan. The University also benefits from Taiwan’s rich Chinese heritage and strategic regional position to offer initiatives and solutions that bridge East and West. Among NTU’s many popular courses are its widely acclaimed Chinese language programs.",
+        "coordinates": [25.032129141418135, 121.55790215522893]
+      },
+      "student_experience": "There is never a dull moment at NTU. With more than 400 student clubs, covering activities from business consulting to balloon art creating, you are more than likely to meet like-minded friends, both local and international. Students often find a second home at NTU among these clubs, no matter their interests. Even if none of these clubs catch your eye, there is always the option of starting your own club instead!"
+    },
+    {
+      "id": "10232",
+      "name": "Lancaster University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48900",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nOn this program, UNC students directly enroll at Lancaster University for a semester or academic year for an opportunity to fully integrate into the academic, social, and cultural life. Lancaster is a comprehensive university offering courses that would be a good fit for many UNC students. No matter your classification, you will take courses alongside degree-seeking Lancaster students, have access to student housing, and participate in all aspects of student life. \nA \"new\" university, Lancaster University was chartered in 1964, and has quickly gained an excellent reputation as both a teaching and a research university. The university is known for its flexible, innovative curricula, and as a research center it ranks in the top 10 universities in the UK. The student body numbers about 6,500 undergraduates, of whom about 200 are likely to be North Americans. Lancaster won the Queen's Award in 1994 for its work in special needs; students with mobility disabilities will find the campus highly accessible.",
+      "location": {
+        "city": "Lancaster",
+        "country": "England",
+        "description": "Lancaster is located on the west coast of England, near the beautiful mountains and lakes of the Lake District and the valleys of the Yorkshire Dales. The capital city of North Lancashire, Lancaster offers a wealth of historic, academic, and cultural opportunities.  Lancaster is also less than an hour away from Manchester, the fifth largest city in the United Kingdom.",
+        "coordinates": [54.05186552429093, -2.8094062853320927]
+      },
+      "student_experience": "Lancaster University Students’ Union is committed to ensuring you have a fulfilling student life. The Students’ Union works towards that goal by getting involved in every bit of the life of the university, providing a huge number of services designed to make your time here as fun, fulfilling, and fantastic as it can be. They support student clubs and societies, provide recreational and competitive sporting opportunities, coordinate volunteering projects, run environmental and sustainability projects and so much more."
+    },
+    {
+      "id": "10237",
+      "name": "Mahidol University",
+      "image": "https://maps.googleapis.com/maps/api/staticmap?zoom=3&markers=13.802,100.32111&size=400x400&key=AIzaSyAcUyEc-kprTSTcmHTVfYcmT53Ec2_oYhA",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nMahidol University International College, located just outside of Thailand's capital city of Bangkok, was founded in 1887. As Thailand's first institute of higher education and is currently one of the nation's most highly respected centers of education and research. Roughly 65% of all internationally published research conducted in Thailand is done by Mahidol. \nMahidol's International College uses English as its medium of instruction and is comprised of faculty and students from Thailand and around the world. UNC students will take an introduction to Thai language and culture course and can choose their other courses from a wide variety of disciplines. International students are fully integrated into the social and academic life at MUIC, allowing for a richer experience and a deeper understanding of Thai people and society.",
+      "location": {
+        "city": "Salaya",
+        "country": "Thailand",
+        "description": "The MUIC campus is ideally situated 12 miles outside of the center of Bangkok, in the city of Salaya in Nakhon Pathom province, giving students easy access to the vibrant cultural, social, and political center of the country while allowing them to relax among the scenic beauty and serenity of Salaya.  Close to the campus is Nakhon Pathom, the oldest city in Thailand and home to Phra Patham Chedi, the tallest Buddhist Monument in the world.  Also nearby is Khao Yai National Park, the largest in Thailand, and the province of Kanchanaburi, where students can walk on the famous Bridge over the River Kwai.  Further afield, the opportunities are endless.  From relaxing on a tropical island beach in the south, to exploring hill tribes on elephant or river rafting in the north, visitors will be amazed by the variety of experiences available in Thailand.",
+        "coordinates": [13.809037356714354, 100.32454402483599]
+      },
+      "student_experience": "The MUIC Buddy Program pairs incoming exchange students with Mahidol students who have or planned to study abroad. The Mahidol students will show incoming students around campus and help with any practicalities when settling into life in Thailand."
+    },
+    {
+      "id": "10226",
+      "name": "King's College London (Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=41606",
+      "overview": "This program is available for exchange and direct enroll. In-state students will automatically be considered for exchange.\nKing’s College London is one of the oldest and most respected universities in England. The King's Undergraduate Summer School welcomes students from over 40 countries and from over 200 universities around the globe; a truly international environment. With the campus and accommodation in the very heart of central London, students will have an unbeatable summer enjoying both an intense academic experience and everything else that London has to offer.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "King’s is located in central London, with its main campus on “The Strand” along the River Thames. London is one of the world’s leading business and financial centers and home to many universities. With a population of 9 million, it is a major global city and one of the most cosmopolitan in the world. London boasts a rich culture and many attractions and lends itself to an atmosphere of excitement and sophistication.",
+        "coordinates": [51.51030817352572, -0.13364655535766445]
+      },
+      "student_experience": "With hundreds of international students descending upon London to study at King's each summer, including a sizeable cohort of UNC students, King's offers a robust program and schedule of events to ensure visiting students are able to make the most of their experience."
+    },
+    {
+      "id": "10205",
+      "name": "Chinese University of Hong Kong (International Summer School)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44174",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThis program is eligible for the Phillips Ambassadors Scholarship.  \nThe Chinese University of Hong Kong’s (CUHK) International Summer School (ISS) brings international students and faculty together to provide students with excellent courses in a variety of disciplines, paired with cultural activities and excursions to acquaint students with Hong Kong society and Chinese culture. This popular program enables Carolina students to immerse themselves in a multicultural study environment. A number of sought-after courses in business, humanities, and social science with an Asian or Chinese perspective are offered, in addition to optional Mandarin and Cantonese courses. \n \nCUHK offers various summer terms and programs. UNC students attend CUHK's ISS July Session.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.291269734966257, 114.20183689686333]
+      },
+      "student_experience": "A variety of activities will be offered so you can experience the local culture, engage with the local community and learn about the different sectors which weave in harmony to create the vibrant cosmopolitan. Typical cultural activities include a Chinese calligraphy workshop, a Big Buddha & Lantau Island tour and a a Legislative Council tour."
+    },
+    {
+      "id": "10169",
+      "name": "McGill University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55510",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. This program has an early application deadline for Spring term.\n \nMcGill University is one of Canada's best-known institutions of higher learning and one of Canada’s leading research-intensive universities. The oldest university in Montreal, McGill was founded in 1821. Since that time, McGill has grown from a small college to a large university with two campuses, 11 faculties, some 300 programs of study, and more than 33,000 students. It is now ranked among the top public research universities in the world. \nThe UNC-Chapel Hill exchange with McGill University is particularly attractive for students interested in the humanities, social sciences, francophone (Quebecois) studies, and music.",
+      "location": {
+        "city": "Montreal",
+        "country": "Canada",
+        "description": "Montreal's 3.6 million people are renowned for their international flair and joie de vivre. It is home to the second-largest population of native French speakers in the world, behind Paris. The city has a thriving arts and cultural scene, and it is home to one of the largest student populations on the continent.  It boasts a vibrant nightlife, the old-world charm of historic architecture set in a modern metropolis, and the multilingual, multicultural buzz of one of the world's great French cities.  Montreal has an affordable and efficient public transportation system and features an extensive network of bicycle paths and underground pedestrian walkways.",
+        "coordinates": [45.516144668267636, -73.55988630594051]
+      },
+      "student_experience": "At McGill University, you will have opportunities to get engage, encourage your development, and support your learning. There are a variety of ways to get involved on campus ranging from student societies and associations to campus advocacy and engaging in local community projects. Check out the Support & Resources for more information on involvement opprotunities."
+    },
+    {
+      "id": "10337",
+      "name": "University of Sussex",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=49678",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of Sussex was founded in 1961 as part of an initiative to make higher education more accessible in Britain. Decidedly global, the 9,000-member student body at Sussex includes about 1,500 international students from over 120 countries. Sussex is a “campus university” meaning that it is self-contained and set just outside the city of Brighton in the town of Falmer. On-campus housing is available, and the campus provides many useful amenities such as banks, eateries, and a supermarket.",
+      "location": {
+        "city": "Brighton",
+        "country": "England",
+        "description": "The vibrant city of Brighton is just a ten-minute train ride or 30-minute bus ride from campus. Sprawling down a gentle slope to the pebbly coast of the English Channel, Brighton hosts a distinctive beachfront including the iconic Brighton Marine Palace and Pier. Brighton is also known for a thriving independent music and arts scene and a strong interest in local and sustainable goods.",
+        "coordinates": [50.8297167952322, -0.13490653803902122]
+      },
+      "student_experience": "The Buddy Scheme is a peer-to-peer support scheme coordinated by the Students’ Union that aims to help new students settle into life at Sussex and in Brighton. The scheme offers all Sussex students the opportunity to make new friends and be a part of something that celebrates diversity in an informal, fun, and sociable way. They offer a series of exclusive events for Buddies to enjoy, which have now moved online in the form of a wide variety of virtual events during this pandemic. These vary from online yoga and cooking classes to weekly coffee and games meetups, quizzes, films nights, and more."
+    },
+    {
+      "id": "11751",
+      "name": "University of Limerick",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55864",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange.  \nStudy and live alongside Irish students for a semester or year at the University of Limerick (UL). Immerse yourself and engage with the locals by participating in UL's service-learning program and/or getting involved in the many athletic opportunities in Ireland's sports capital. At UL, students can expect state of the art facilities, world class research, hands-on experiences, and 80+ extracurricular activities to help them succeed academically as well as jumpstart endless professional career opportunities. Still not convinced? Check out more of what the University has to offer here as well as student testimonials!",
+      "location": {
+        "city": "Limerick",
+        "country": "Ireland",
+        "description": "Limerick is Ireland's third largest city and offers a mix of modern city life and medieval treasures. There's plenty of entertainment with lively festivals, music, and shopping, along with a castle and museum that give a glimpse into the town's history. Students enjoy the contained campus just a mile from the city center. There's even a path to stroll along the River Shannon which runs through campus and to the city center. Limerick is located in the heart of Ireland's Midwest region. With a train, bus station, and close proximity to the Shannon airport, it is easy to explore all of Ireland from Limerick!",
+        "coordinates": [52.66572213789334, -8.615963367722424]
+      },
+      "student_experience": "The University of Limerick International Buddy Program is an initiative which matches incoming international students with a student volunteer from UL based on similar interests. The aim of the program is to help international students settle in during their first few weeks by providing them with insider tips and sharing your experiences as a new student at UL. The University seeks volunteers who have a genuine interest in getting to know and helping new students from all over the world succeed on campus. Additional resources for incoming students can be found here, along with common frequently asked questions."
+    },
+    {
+      "id": "10327",
+      "name": "University of Melbourne",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=53454",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nStudents can spend a semester or a year experiencing Australian life, culture, and academics at the University of Melbourne in the state of Victoria, Australia. Opening in 1855, the University of Melbourne was Victoria's first university and Australia's second. It is considered to be Australia's leading research university.  Students will join approximately 22,000 undergraduate students, including 1,700 international students, at the University. The main campus is in a prime location, only a fifteen-minute walk to the Melbourne city center itself. The campus consists of historic and modern buildings set among open spaces for recreation, with brick-paved walks and nearby parklands.",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "description": "In the thriving city of Melbourne, students can enjoy varied ethnic cuisine, many sports events, the Melbourne Symphony Orchestra, the Melbourne Zoo, and the acclaimed Victorian Arts Centre. Outside of Melbourne, daytrips and longer camping trips can bring students to Victoria's beaches, the desert country near the Wyperfield National Park, the temperate rain forests of Croajingolong National Park, and the snowy high country of the Victorian Alps.",
+        "coordinates": [-37.81026819706553, 144.9583451323141]
+      },
+      "student_experience": "Housed within the University of Melbourne Student Union, International provides study abroad students the opportunity to meet other international students and make lifelong friendships. In the past, International has hosted events like a Night Market and Orientation-Week Events!"
+    },
+    {
+      "id": "10309",
+      "name": "University College Dublin",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48559",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nUCD is Ireland's largest and most diverse university, with a combined undergraduate enrollment of over 19, 000. Its modern, vibrant campus is situated 3km south of the Dublin city-center, providing study abroad students with an ideal location to explore the thriving capital of Ireland. UCD offers a lively campus community in which to live and study, with state-of-the-art buildings and first class academic and sporting facilities. It has a busy extracurricular life and study abroad students are encouraged to become actively involved in the wide range of social, cultural and sporting activities available. \n \nAttention Dramatic Art Students! Participants on the University College Dublin exchange program may be eligible for the Elizabeth Malone Roughton Study Abroad Scholarship. This UNC scholarship is awarded to a student pursuing a Dramatic Art focused study abroad program in Dublin, Ireland. To apply, open an application for \"Study Abroad Office General Scholarships.\"",
+      "location": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "description": "The city of Dublin is the capital of the Republic of Ireland and the nation's principal seaport. With its wide streets and gracious architecture, Dublin is a capital city offering numerous theatres, museums, art galleries and cinemas, and is also the setting for many international sporting events and rock concerts. The main site of UCD is at Belfield, a beautifully landscaped 300-acre campus, about three miles from the center of Dublin. The campus libraries contain over a million volumes, including premiere collections of Irish manuscripts. The main campus houses a state-of-the-art sports complex and numerous playing fields. Also, there are more than a hundred student Clubs and Societies that UNC-CH students can participate in. UCD's terrific location enhances the study abroad experience.",
+        "coordinates": [53.35440881033228, -6.256585206008126]
+      },
+      "student_experience": "To experience Irish culture and traditions, UCD provides a complimentary Cultural & Social Program! These excursions are completely FREE to attend, and students are encouraged to sign up for as many as they would like. At the beginning of each term the University will send a calendar of events that students can sign up for at any time during the trimester. Examples of past excursions include castle tours; visits to national parks and heritage sites; music, theater and comedy shows."
+    },
+    {
+      "id": "12446",
+      "name": "University of Zurich",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=74651",
+      "overview": "This program is available for exchange.  \nA semester or academic year exchange at the University of Zurich is a unique and exciting opportunity for students to immerse themselves in an international academic environment, explore Swiss culture, and gain a global perspective on their studies. This program is designed to foster academic and personal growth through a semester-long exchange at one of Switzerland's leading universities.\nProgram Highlights:\n\n\nAcademic Excellence: The University of Zurich is one of Europe's top research institutions, known for its strong academic programs and innovative research. Participants will have access to a wide range of courses, taught by renowned professors in various fields.\n\n\nDiverse Course Offerings: Students can choose from a broad selection of courses across disciplines, allowing them to tailor their academic experience to their interests and major. Whether you're studying business, science, humanities, or social sciences, you'll find relevant courses.\n\n\nCultural Immersion: Zurich, the largest city in Switzerland, offers a rich cultural experience. Participants will have the chance to explore its historic sites, museums, and vibrant arts scene. Additionally, students will have opportunities to interact with local students and experience Swiss traditions firsthand.\n\n\nLanguage Opportunities: While many courses are offered in English, students can also take advantage of this opportunity to improve their language skills by studying in German or French. Language courses are available to help participants become more proficient in the local languages.",
+      "location": {
+        "city": "Zurich",
+        "country": "Switzerland",
+        "description": "Nestled at the heart of Europe, Zurich is the largest city in Switzerland and one of the most vibrant and economically powerful cities in the world. This city, with its picturesque landscapes, rich history, and contemporary charm, offers a unique blend of old-world European charm and cutting-edge modernity.",
+        "coordinates": [47.37195302732856, 8.536313813887965]
+      },
+      "student_experience": "Students begin their semester with a Welcome Program for Exchange Students to help you find your way around Zurich and the university: Information sessions about registration and health insurance, presentations of the most important offices and contact points, introductions to the main libraries, intercultural workshops, and so forth. As an exchange student you will receive a detailed schedule a few weeks before your studies at UZH begin.\nCheck out this video about exchange student experiences."
+    },
+    {
+      "id": "10331",
+      "name": "University of Oslo",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=70630",
+      "overview": "This program is available for Exchange only.\nFounded in 1811, the University of Oslo is Norway’s oldest and largest university. The University has approximately 28,000 students. As Norway's largest and most comprehensive research institution, the University of Oslo offers visiting students the opportunity to study at a quality research university where there have been four Nobel Prize winners.",
+      "location": {
+        "city": "Oslo",
+        "country": "Norway",
+        "description": "Oslo, the capital of Norway, is home to over 650,000 and is quickly becoming the most international and multicultural city in Norway.  It is known as a livable and friendly European city with a relatively mild climate. The Blindern campus is in pleasant surroundings, ten minutes from the city center by subway-to-surface rails and only minutes away from the lakes and wooded hills of Nordmarka.",
+        "coordinates": [59.906628721180574, 10.742335787449907]
+      },
+      "student_experience": "As a new exchange student, you will automatically be assigned to a buddy group within your faculty. The university also hosts a series of onboarding events like First Night in Oslo, Welcome Week, and Digital Orientation Day, which all help students acclimate to life in Oslo. International students are also encouraged to check out the ‘Before Arrival’ and ‘International Students at the University of Oslo’ pages for information on upcoming events and other student-related updates."
+    },
+    {
+      "id": "10301",
+      "name": "Universidad Torcuato Di Tella",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38397",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe language prerequisite is 5 semesters, completed by the start of the program. All undergraduate courses are taught in Spanish. \nThe Universidad Torcuato Di Tella (UTDT) is a private non-profit institution founded in 1991, with the mission of contributing to academic life and higher education in Argentina through research and teaching in the arts and sciences. \nPlease note that UTDT’s first semester runs from March through July and their second semester runs from August through December.",
+      "location": {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "description": "Buenos Aires is a culturally and socially vibrant city. It is a place to be young: the city never stops. It is modern and traditional, exciting, frenetic, and fun. Buenos Aires is an unending labyrinth of elegant residential neighborhoods, beautiful parks and plazas, and the Río de la Plata. Tango, art and antiques are offered in open air and markets along the streets, where you will also find bookstores, cafés, restaurants, and theaters. The porteños, as people who live in Buenos Aires are called, love to go out to eat, dance, see a movie or attend a concert. Buenos Aires has a \"café culture\" that rivals that of many European cities, you are welcome to stay as long as you want reading, chatting, working, or hanging out with friends.",
+        "coordinates": [-34.59715831558414, -58.38918496956153]
+      },
+      "student_experience": "The orientation program for all incoming international students is a great opportunity to meet each other and connect before the semester starts. And hopefully by that point you will feel comfortable to be able to participate in university clubs & sports and organize excursions to see the local sights and try Argentine dishes."
+    },
+    {
+      "id": "10301",
+      "name": "Universidad Torcuato Di Tella",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38397",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe language prerequisite is 5 semesters, completed by the start of the program. All undergraduate courses are taught in Spanish. \nThe Universidad Torcuato Di Tella (UTDT) is a private non-profit institution founded in 1991, with the mission of contributing to academic life and higher education in Argentina through research and teaching in the arts and sciences. \nPlease note that UTDT’s first semester runs from March through July and their second semester runs from August through December.",
+      "location": {
+        "city": "Buenos Aires",
+        "country": "Argentina",
+        "description": "Buenos Aires is a culturally and socially vibrant city. It is a place to be young: the city never stops. It is modern and traditional, exciting, frenetic, and fun. Buenos Aires is an unending labyrinth of elegant residential neighborhoods, beautiful parks and plazas, and the Río de la Plata. Tango, art and antiques are offered in open air and markets along the streets, where you will also find bookstores, cafés, restaurants, and theaters. The porteños, as people who live in Buenos Aires are called, love to go out to eat, dance, see a movie or attend a concert. Buenos Aires has a \"café culture\" that rivals that of many European cities, you are welcome to stay as long as you want reading, chatting, working, or hanging out with friends.",
+        "coordinates": [-34.60720794154695, -58.37622894171884]
+      },
+      "student_experience": "The orientation program for all incoming international students is a great opportunity to meet each other and connect before the semester starts. And hopefully by that point you will feel comfortable to be able to participate in university clubs & sports and organize excursions to see the local sights and try Argentine dishes."
+    },
+    {
+      "id": "10307",
+      "name": "Universite Jean Moulin Lyon 3",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38319",
+      "overview": "The Université Lyon 3 is often cited as one of the top French universities in the humanities and arts.  Lyon 3 is divided into two campuses:\n\n\"Les Quais\", a series of beautiful 19th-century buildings downtown, is located along the banks of the Rhone River in the heart of the city, with architecture from the 19th century.\nThe \"Manufacture des Tabacs\", a renovated ancient Tobacco Manufactury, is the more modern part of the university with easy access to the city.\n\n\nOn this semester exchange program, students will take classes at the university and be surrounded every day by native speakers of French. If you are thinking of spending an entire year in France, this is an excellent place to do it. There are many international students, but not many Americans. \nUNC students cannot take courses in the SELF program (Study English in Lyon, France).",
+      "location": {
+        "city": "Lyon",
+        "country": "France",
+        "description": "Lyon is a vibrant, culturally rich city. Hardly a month goes by without some sort of big fete, and it has an immense range of attractions in film, theater, and music. Lyon has its own distinctive cuisine, and its shopping opportunities include everything from flea markets and street stalls to boutiques. Lyon is well situated within France. Paris is two hours away by the TGV train, the Alpine slopes are also just two hours distant, and Avignon, Orange, and Dijon are perfect for weekend trips.",
+        "coordinates": [45.76621406465528, 4.844974832124685]
+      },
+      "student_experience": "Exchange students are welcome to join student organizations and clubs.  See Associations de l'Université Jean Moulin for more info."
+    },
+    {
+      "id": "10345",
+      "name": "Yonsei University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48172",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. Student must have completed two semesters at UNC at time of application to be considered. \n \nExperience Korea, one of the Little Dragons of East Asia, with its dynamic culture and fast-growing economy! The program at Yonsei University in Seoul, Korea opens up a world of possibilities for study abroad students! Yonsei is proud of its history and reputation as a leading institution of higher education and research in Asia.",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "Yonsei University, located in the heart of Seoul, is the leading private university in Korea. Founded as a medical college in 1885, Yonsei has developed into a large university of 81 different departments with 35,000 students. Despite its location in Seoul, a city of 12 million people, the university has a large, quiet, wooded campus which is near the city centers of government, culture, and business. The city of Seoul offers immense cultural resources, and with excellent bus and subway systems, it is easy for students to move about the city. Korean culture and history come to life in the National Museum, the Folklore Museum, and the Buddhist temples. Within Seoul, students can visit museums, palaces, temples, and attend Korean traditional music and dance performances. Outside of Seoul, students can gain an appreciation of modern history by visiting the Demilitarized Zone.",
+        "coordinates": [37.561400030437206, 126.98237625470344]
+      },
+      "student_experience": "Yonsei embraces the energy of youth with large-scaled festivals such as Muak Festival, Yonsei-Korea Games, Onnuri and other cultural events held by student organizations. The Yonsei culture of harmony and community is becoming a tradition that encourages creative thinking, individuality, and pride as a Yonseian."
+    },
+    {
+      "id": "10227",
+      "name": "Korea University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55804",
+      "overview": "This program is available for exchange and direct-enroll. In-state students will automatically be considered for in-state tuition.  \nKorea University's (KU) variety of academic choices, combined with the quality of academics and level of student support offered by KU’s Office of International Affairs, make this exchange an excellent option, particularly for our students who wish to spend a semester or year advancing their Korean language skills. Culture courses and activities are offered through KU’s Korean Language and Culture Center. Additionally, KU offers over 100 student organizations that welcome international student participation. Seoul is a vibrant and exciting international city that is a great location for students to explore and put their language study into action!",
+      "location": {
+        "city": "Seoul",
+        "country": "South Korea",
+        "description": "KU campus covers over 182 acres and its home to more than 36,000 students from all over the nation and the world. With its stately stone architecture sprawling lawns, seasonal trees and natural flora, KU is known to be one of the most beautiful campuses in Korea. The students of KU represent Korea’s dream as they are among the nation’s brightest and most ambitious. KU is nationally recognized for its commitment to teaching and academic excellence.",
+        "coordinates": [37.56982529176603, 126.98827246300377]
+      },
+      "student_experience": "Interact with student assistants and buddies! The KU Buddy Program is designed to ensure that students are comfortable in their new surroundings. With their KU buddies, students can practice Korean language skills, and at the same time, be easily introduced to the local culture. They can taste the unique culture of Korea by going on various day trips to places like the DMZ, Gyeongbok Palace, and Lotte World. Also, there are extra-curricular activities such as Taekwondo and K-Pop dance."
+    },
+    {
+      "id": "10683",
+      "name": "Stockholm University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55461",
+      "overview": "This program is open to all majors/minors.\nRated as one of the top 100 universities in the world and one of the top 50 in Europe, Stockholm University is one of Sweden’s largest institutions and offers a first-class experience to all students at different education levels. Stockholm University offers an open and stimulating environment in one of the most beautiful and dynamic capital cities in the world, as well as gives international  students direct interaction with leading researchers in their field along with access to current findings. Students will gain invaluable experience by developing their ability to think independently to analyze and solve real-world problems.",
+      "location": {
+        "city": "Stockholm",
+        "country": "Sweden",
+        "description": "Stockholm is one of the world's most dynamic capital cities, ranked among the top five in the world when it comes to intellectual capital, innovation, and quality of life. As one of Scandinavia's most exciting cultural cities, Stockholm is famous for its craft and design, music production and international cuisine. Stockholm is a cultural hub and Sweden's business center with many green areas surrounded by water, making it an ideal place to enjoy a relaxed and exciting student life.",
+        "coordinates": [59.327074162694196, 18.07783395855656]
+      },
+      "student_experience": "Stockholm University organizes a series of welcome and orientation activities at the beginning of each semester to help students acclimate to university life in Sweden and network with fellow classmates. Individual departments may also arrange activities, which can be found here. To see more information for new students on things like sports/extracurricular activities, getting around, and studying with a disability, check here. The university also has a Facebook page for international students to find friends and discuss questions related to the move to Stockholm."
+    },
+    {
+      "id": "10335",
+      "name": "University of Sheffield",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=54110",
+      "overview": "This program is available for exchange.  In-state students will automatically be considered for exchange. \nWith around 30,000 students from more than 144 countries, the University of Sheffield is one of the largest universities in the UK.  The University is also a member of the Russell Group, a self-selected group of 24 universities in the United Kingdom that receive over 75% of all university research grant funding in the UK.",
+      "location": {
+        "city": "Sheffield",
+        "country": "England",
+        "description": "The city center of Sheffield, a fifteen-minute walk from campus, always offers something to do! Whether it is shopping in the traditional street markets, taking advantage of the nightlife, going to the theater, using the Olympic-class sports facilities or enjoying one of the city’s parks, you’ll never be bored! Additionally, the Peak District National Park is within walking distance of the university. Sheffield's location in England also makes travel to other parts of the UK convenient, with London located only 2 hours away.",
+        "coordinates": [53.38134497936945, -1.4763304514264917]
+      },
+      "student_experience": "The Global Campus program at Sheffield organizes events and activities to help you adapt to life in Sheffield and make new friends from around the globe!"
+    },
+    {
+      "id": "10341",
+      "name": "University of Wollongong",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=54130",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nSince 1960, the University of Wollongong has been committed to creating an enjoyable and productive experience for study abroad students. The University of Wollongong, with its enrollment of 12,000 students, is a modern learning center with a reputation for high-quality teaching and research. Currently, 2,000 international students are part of the student body, coming from all over the world.",
+      "location": {
+        "city": "Wollongong",
+        "country": "Australia",
+        "description": "The University is located near several national parks, the beautiful scenery of the South Coast and the Southern Highlands. Also nearby are many clean, beautiful beaches where students can enjoy swimming or surfing. Additionally, the campus is only five kilometers from the cosmopolitan atmosphere of Wollongong, Australia's 9th largest city. A 15-minute walk from campus brings students to a train station, from which an hour's ride will bring them to Sydney, the site of the 2000 Olympics.",
+        "coordinates": [-34.42636003632275, 150.88493869080207]
+      },
+      "student_experience": "The Buddy program pairs incoming study abroad students with a University of Wollongong student, to help with adjustment to life in Australia. All students will also have the opportunity to attend the Buddy Program Meet & Greet to kick-off the semester with Australians and internationals alike!"
+    },
+    {
+      "id": "10342",
+      "name": "Waseda University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55776",
+      "overview": "This program is available for exchange students.  \nThis program is not accepting applications for Spring 2025. \nThe next open applicaiton cycle for Waseda will be Academic Year 2025-2026. (Applicaiton will open November 15, 2024) \n \nFounded in 1882, Waseda University now consists of 11 undergraduate schools, 17 graduate schools and various affiliated research institutes. It has about 2,500 full-time faculty members and about 50,000 students. Its history, tradition, the number and achievements of its graduates and the standard of its teaching and research make it one of the most prestigious and most respected private universities in Japan. \nInternational education is a high priority of the university, with a very well-established study abroad program, based at the Center for International Education. UNC students are well-supported by the CIE advising team, and the CIE arranges numerous activities for students to take part in, including cultural showcases, volunteer activities, local excursions, sporting events, and more.",
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "description": "UNC students will study at the main Shinjuku campus, which has a beautiful garden, extensive library, and museum on-site, along with campus cafes and shops. The scenic and peaceful Waseda campus is located centrally in downtown Tokyo, just minutes from the heart of the famous Shinjuku district. Waseda has a Tokyo metro stop right outside its main entrance, so students are ideally situated for exploring Tokyo, the political, cultural, and economic hub of Japan, as well as the rest of the country.",
+        "coordinates": [35.695787100164, 139.695458883504]
+      },
+      "student_experience": "The Intercultural Communication Center (ICC) organizes events and programs for exchange students and Japanese students alike. In the past, the ICC has hosted events like a Bamboo Shoot Hunt (edible bamboo) and café hours!"
+    },
+    {
+      "id": "10325",
+      "name": "University of Hong Kong (Media & Journalism)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=44176",
+      "overview": "This program is available for exchange.\nThis program is only open to Media & Journalism students. \nThe University of Hong Kong (HKU) is the oldest tertiary education institution in Hong, founded in 1911. HKU is ranked 30th overall in the Times Higher Education - QS World University Rankings and is considered to be one of the best English-language institutions in all of Asia. \n \nThe University of Hong Kong's Journalism and Media Studies Center (JMSC), founded in 1999, provides instruction in print, audio, video, multimedia and online journalism with a local, regional and international mindset. The Center is committed to producing passionate, highly trained journalists to provide an impartial Asian voice in the global media landscape. \nJMSC’s international faculty are at the leading edge of the journalism industry, bringing many years of top-level media experience into the classroom. Many courses are small seminars that focus on deep understanding of practical techniques and close interaction with faculty. All courses are taught in English.",
+      "location": {
+        "city": "Hong Kong",
+        "country": "Hong Kong",
+        "description": "Hong Kong is a special administrative region of China with a population of more than 7 million people. While its harbor, trade and expats are what the city is well known for, it still has retained its Cantonese roots and this is very apparent in the cuisine, lively street markets and culture throughout the city.",
+        "coordinates": [22.301325921686317, 114.20773663920038]
+      },
+      "student_experience": "When you arrive in Hong Kong, you are highly encouraged to attend the Orientation Day. There you’ll be able to familiarize yourself with the city and university and have a chance to meet the other exchange students."
+    },
+    {
+      "id": "10313",
+      "name": "University of Auckland",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38978",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of Auckland (also known as UoA) was established in 1883, and with over 40,000 undergraduate and graduate students, it is the largest university in New Zealand. It is also consistently ranked the highest universities globally. The University is made up of eight faculties spread over six campuses, with the City campus being the largest and where study abroad students from UNC will spend most of their time. A key difference to note about the New Zealand academic system is that Semester 1 runs from February to June & Semester 2 runs from July to November.",
+      "location": {
+        "city": "Auckland",
+        "country": "New Zealand",
+        "description": "Auckland is located on the North Island of New Zealand.  With a population over one million, it is the largest and most populous urban area in the country; and with most major international corporations having an Auckland office, it is considered the economic capital of New Zealand. What’s more, Auckland consistently ranks high amongst the world’s most livable cities.",
+        "coordinates": [-36.84527699631924, 174.74452739298917]
+      },
+      "student_experience": "Even before orientation starts at UoA, the Waipapa Noho Marae program gives you the opportunity to spend a night at the center of Māori life at the University, the Waipapa Marae, learn more about the indigenous Māori people and connect with your fellow exchange students. This night of cultural immersion will include a pōwhiri (welcoming ceremony), learning some phrases in te reo Māori (Māori language), singing waiata (songs), and performing poi and haka (performing arts)."
+    },
+    {
+      "id": "10315",
+      "name": "University of Bristol",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=48684",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. No matter your classification, you will take courses alongside degree-seeking Bristol students, have access to student housing, and participate in all aspects of student life.\nThe University of Bristol was founded in 1872. As a city-based university, Bristol does not have a formal campus in the traditional U.S. sense; rather, university buildings are roughly grouped in a “University precinct,” alongside other, non-university buildings. For students tired of the \"fishbowl\" environment of U.S. campuses, Bristol is a refreshing departure.",
+      "location": {
+        "city": "Bristol",
+        "country": "England",
+        "description": "Though home to some 441,000 people, Bristol is a fairly compact city, and many areas of interest are within walking distance of the city center and the University area. A student-friendly city, Bristol is home to thriving local art and music scenes including a wide array of graffiti and street art. Bristol is also a major center for media with plenty of venues for viewing films and theater performances. For students interested in exploring on the weekends, Bristol has excellent road, rail and air connections with the rest of the UK and is only 90 minutes from Heathrow airport and London.",
+        "coordinates": [51.459965566937626, -2.596175345572372]
+      },
+      "student_experience": "When you first arrive in Bristol, the Bristol Student Union hosts Welcome Week for incoming visiting students! This impressive range of activities includes events ranging from live music to pub quizzes. Throughout your time at the University of Bristol, Bristol SU boasts over 300 societies, 60 sports clubs, volunteering opportunities and more to get involved in."
+    },
+    {
+      "id": "10318",
+      "name": "University of East Anglia",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=49515",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThe University of East Anglia is a campus-based university, built on 320 acres of rolling parkland just two miles from the center of Norwich. Open views across the river to woods, meadows, and fields are available from all parts of University Plain. Though established as a university in the early 1960’s, East Anglia’s campus hosts buildings ranging from the 16th-century Earlham Hall (housing the School of Law) to the modern Sainsbury Centre for Visual Arts, containing one of the world's leading university art galleries. UEA is also a leading member of the Norwich Research Park, one of Europe's biggest concentrations of researchers in the fields of environment, health and plant science.",
+      "location": {
+        "city": "Norwich",
+        "country": "England",
+        "description": "An ideal destination for anyone with an interest in English history, Norwich is home to over thirty medieval churches, two cathedrals, and a Norman castle. Norwich was recently voted the safest UK city and one of the top ten cities for shopping in the UK, with two large shopping centers, major department stores, and Norwich Lanes, a thriving independent area full of boutiques and cafes.",
+        "coordinates": [52.627481501479494, 1.2864806790649244]
+      },
+      "student_experience": "UEA is a top-ranked international university, and the Student Union works to help students integrate, grow and adapt during their time at UEA. There are over 200 societies and clubs offered by the Student Union. The wide range of societies and clubs means that there is something for everyone. If you cannot find something, the Student Union offers you the chance to start something new. Societies, clubs, and peer support groups are great opportunities to meet like-minded people or try something you have never done before."
+    },
+    {
+      "id": "10262",
+      "name": "Sciences Po Paris",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38357",
+      "overview": "This is a highly competitive programs in the UNC portfolio, therefore all parts of the student application will be highly scrutinized. Applicants should be majors in public policy, political science, peace, war, and defense (PWAD) or global studies. \nOne of France's elite 'Grandes Ecoles,' Sciences Po is one of Europe's most distinguished universities. The vast majority of French politicians, as well as a great number of leaders of French business, are Sciences Po alumni. Sciences Po educates the best young minds not only of France but also the world for leadership positions.\nSciences Po has an urban 'campus' in the heart of Paris composed of seventeenth- and eighteenth-century buildings. Its neighborhood is one of the decision centers of French life. In addition to the advantages Sciences Po's setting provides, its students are exposed to the strong cultural life of the quartier St. Germain des Pres: renowned cafes sheltering a new generation of philosophers, art galleries, shops, movie theaters, and restaurants where les plus chics sip coffee and watch the world go by.",
+      "location": {
+        "city": "Paris",
+        "country": "France",
+        "description": "",
+        "coordinates": [48.85940921825151, 2.345482141272898]
+      },
+      "student_experience": "Exchange students can join Student Associations, Sports Activities, and Cultural Activities while studying at Sciences Po Paris."
+    },
+    {
+      "id": "10264",
+      "name": "Sophia University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67343",
+      "overview": "This program is available for exchange.\nSophia University, one of Japan's finest private universities, is dedicated to international education. From its beginnings in 1913 as a Jesuit university, the University's program has been to prepare people of different national origins to recognize the unity of the human race that lies in different cultural traditions. Sophia University's aim is to provide academic knowledge to students with a basis of Christian Humanism. \n \nThis exchange program is situated within the Faculty of Liberal Arts at Sophia University. There are four curriculum areas in this faculty: Japanese Studies, Comparative Culture, Social Studies, and International Business and Economics.",
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "description": "Sophia University is located in Yotsuya, the literal heart of Tokyo. The downtown area of Tokyo reflects Western influences, while the rest of the city displays the full range of Japanese culture in its architecture, festivals, food, and daily life. Farther afield lie the beautiful mountains and lakes of the Kanto Region, the name of the area surrounding Tokyo.",
+        "coordinates": [35.69392830992407, 139.686177017364]
+      },
+      "student_experience": "Before even coming to Tokyo, exchange students can sign up for the Student Supporter program. Student supporters are the first Sophia students that exchange students will meet. These students will not only help exchange students with their needs at the beginning of the semester but are there to help throughout one’s entire stay at Sophia. \nOnce you have arrived at Sophia, you can take part in various events by the Global-Network also known as GL-Net. This student-run organization works to bring local and international students together at Sophia University."
+    },
+    {
+      "id": "10239",
+      "name": "Monash University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=54196",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nA Monash University study abroad experience means you get the best from an established educational leader, which has the vigor and relevance of a modern, international university. The Monash Study Abroad Program offers you the opportunity to enhance your academic journey while studying in Melbourne, Australia's sporting, educational and cultural capital. Melbourne's affordable living costs and accessibility as a transport hub, makes it the logical base for your Australian experience. \nClayton is the largest Monash campus and was the first of the University's eight campuses. Clayton, 20kms southeast of Melbourne, was the original campus of Monash University. It was established in 1958 and opened its doors for the first time to 363 students in 1961. In less than 40 years, the campus has grown in both size and student population and is now the largest of Monash's eight campuses with more than 20,000 students. The Clayton campus offers a unique environment for research, teaching, learning and cultural enrichment where students study in a variety of faculties represented on campus.",
+      "location": {
+        "city": "Melbourne",
+        "country": "Australia",
+        "description": "Melbourne is Australia's second largest city with approximately 5 million inhabitants. In Melbourne, which is the capital city of the state of Victoria, students will experience a vibrant youth culture. A thriving artistic community exists within Melbourne, and many theatres, galleries, and music venues exist throughout the city. Melbourne is a clean city with a temperate climate which encourages the availability of many sporting and recreational opportunities. Australia boasts a blend of Asian and European lifestyles. Students can use semester breaks, and the time before or after their Monash experience, to travel around Victoria, Australia and the Asia-Pacific region.",
+        "coordinates": [-37.809398759203205, 144.95433744464606]
+      },
+      "student_experience": "The Monash Overseas and Exchange Club (aka MOVE) is an organization that helps introduce incoming study abroad students to life at Monash, organized by Monash students who have either studied abroad themselves or are interested in doing so. In past semesters, MOVE has organized events like a trips to Phillip Island and the Healesville Sanctuary."
+    },
+    {
+      "id": "10222",
+      "name": "Keio University",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55830",
+      "overview": "This program is not accepting applications until Fall 2024. \nThis program is available for exchange. In-state students will automatically be considered for exchange.  \nKeio University is unique in that it is one component in an educational corporation, Keio Gijuku, that also operates an elementary school, eight high schools, a professional school, a junior college, and other research institutions. The university is composed of eight undergraduate departments: Letters, Economics, Law, Business and Commerce, Medicine, Science and Technology, Policy Management, and Environmental Information.",
+      "location": {
+        "city": "Tokyo",
+        "country": "Japan",
+        "description": "Keio University is located on the south side of Tokyo, near the Tokyo Tower. The university's location allows students to experience different aspects of Japanese life. The downtown area of Tokyo reflects Western influences, while the rest of the city displays the full range of Japanese culture in its architecture, festivals, food, and daily life. Farther afield lie the beautiful mountains and lakes of the Kanto Region, the name of the area surrounding Tokyo.",
+        "coordinates": [35.68717124534921, 139.68272931594885]
+      },
+      "student_experience": "If you are looking to truly immerse yourself into the culture of Keio & Japan, consider joining the Keio Tomodachi Program (Buddy)! You will be matched with 2-3 buddies (Keio University students) and up to 3 other international students. In addition to activities, you do as a group, the program itself offers several programs, like watching the baseball game between Keio and Waseda (rival university)."
+    },
+    {
+      "id": "10163",
+      "name": "Universita Bocconi",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=45713",
+      "overview": "This program is available for exchange.  \nThis program is only available to Economics Majors, Philosophy, Politics, and Economics (PPE) Minors, or Entrepreneurship Minors.\nUniversità Bocconi is considered one of Europe's leading educational institutions in Economics, Management, Finance and Law. Many U.S. universities have Bocconi graduates on their faculty.  Università Bocconi was the first university in Italy to grant a degree in Economics. The University receives around 1200 international students every year from all over the world and send over 3000 of its own students to study abroad. There are over 100 courses taught in English each semester.",
+      "location": {
+        "city": "Milan",
+        "country": "Italy",
+        "description": "Milan, located in northern Italy, is the second most poplulous city after Rome. The city is divided into \"corsos\", or neighborhoods which students can easily navigate. Milan is home to many interesting sites such as the Duomo di Minalo cathedral and La Scala opera house. The train station is centrally located and will allow students to easily travel all over Italy. ",
+        "coordinates": [45.466926189397284, 9.195697947303493]
+      },
+      "student_experience": "Similar to UNC, the Universita Bocconi offers students the opportunity to immerse themselves in the campus environment through sports, volunteer groups, and culture club activities. The International Student Desk is committed to helping incoming exchange students make the most of their stay on campus. Their team will help students acclimate to the University and support them throughout their stay in Milan."
+    },
+    {
+      "id": "10321",
+      "name": "University of Glasgow",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38532",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nFounded in 1451, the University of Glasgow is one of the oldest institutions of higher learning in the United Kingdom. Many famous names such as economist Adam Smith, steam engine inventor James Watt, physicist & mathematician Lord Kelvin and Nobel Prize winner Sir James Black have been associated with it.\nWith over 15,000 students, Glasgow is one of the largest universities in the UK, but its staff/student ratios are still very low: usually around 1:12. Despite its long history, Glasgow's campus is relatively modern, dating from 1870. It is located in the vibrant and student-friendly West End of Glasgow, near a residential neighborhood and several art galleries, museums, and Kelvingrove Park.",
+      "location": {
+        "city": "Glasgow",
+        "country": "Scotland",
+        "description": "Glasgow, a city of immense multicultural flavor and beautiful Victorian architecture, is home to roughly 600,000 inhabitants. Its\"not too big, not too small\" feel provides a wonderful home for students looking for the benefits of a large city, without the overwhelming crowds. ",
+        "coordinates": [55.85635216603999, -4.2446489177638025]
+      },
+      "student_experience": "With hundreds of exchange and direct enroll students studying at Glasgow each year, Glasgow offers a robust orientation program and schedule of events to ensure visiting students are able to make the most of their experience. A very common way to become more involved at Glasgow is by joining clubs and societies. To learn more about these organizations, please see here."
+    },
+    {
+      "id": "10275",
+      "name": "Trinity College Dublin",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38499",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nFounded in 1592 and consistently ranked first in Ireland and highly globally, TCD is Ireland’s oldest and most prestigious university. Undergraduate and graduate enrollment at TCD is currently over 16,000 with close to 3,000 international students representing 90 different nationalities.\nLocated in the heart of Dublin, TCD maintains a campus atmosphere despite its location in the city center. Its stunning 47-acre campus is a unique blend of historical and modern. Upon entering the campus’ oak front gate, you will find state-of-the-art libraries, research centers, labs, IT facilities, and a sports center alongside architecturally beautiful and historic buildings.\nNOTE: While TCD's GPA requirement is 3.1 for most areas of study, some areas of study may require a slightly higher GPA. Examples include Economics & Philosophy (3.5) and Political Science (3.3).",
+      "location": {
+        "city": "Dublin",
+        "country": "Ireland",
+        "description": "Ireland was voted the ‘best place to live’ by The Economist in 2005 in part because of its growing population and booming economy. With over 1.2 million inhabitants, Dublin contains over a quarter of Ireland’s population. However, with most of the population living in the suburbs, Dublin’s city center is relatively small and easy to navigate by foot. Dublin offers many theaters, museums, and galleries, and is famous for its literary tradition and renowned for its theatrical life. Another attractive feature of the city is the presence of live music in every possible venue from the street to formal halls and of course in pubs.",
+        "coordinates": [53.350793712440414, -6.254726866952346]
+      },
+      "student_experience": "With hundreds of exchange and direct enroll students studying at TCD each year, TCD offers a robust orientation program and schedule of events to ensure visiting students are able to make the most of their experience. A very common way to become more involved at TCD is by joining clubs and societies. To learn more about these organizations, please see here."
+    },
+    {
+      "id": "10190",
+      "name": "University of Konstanz (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=70665",
+      "overview": "This program is available for exchange.\nThere is no language prerequisite, but note that English is not spoken everywhere in Germany/at Konstanz. Thus participation in the pre-semester German course offered is strongly recommended to all applicants who don’t have German language proficiency. Read more about this in \"Academics\".\nThe University of Konstanz is a great choice for students looking for an interdisciplinary focused campus that has a small-community feel, in a town about the size of Chapel Hill. Students should also be open to attending their Spring semester abroad closer to the summer, with classes running from mid-April to mid-July, followed by exams in July and August. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+      "location": {
+        "city": "Konstanz",
+        "country": "Germany",
+        "description": "Konstanz is best known for its lake, Lake Konstanz, which stretches over 40 miles and is surrounded by Germany, Austria and Switzerland. Aside from its natural beauty, it is a university town similar to the size of Chapel Hill; about ¼ of its inhabitants are students, giving it a youthful and lively atmosphere. In the summer, students often spend time outside and participating in watersports; in the winter, skiing and other winter sports are popular, with the Swiss Alps just 2 hours away by bus! A popular town for German citizens to vacation in, Konstanz also has plenty of restuarants, theaters, and activities to take advantage of.",
+        "coordinates": [47.66288785748137, 9.187852541159742]
+      },
+      "student_experience": "The Erasmus Student Network Konstanz (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Konstanz. In addition to their Buddy Program, the ESN regularly hosts events like pub crawls, a trip to Oktoberfest in Stuttgart and a trip to Europa-Park, Germany’s biggest amusement park. To learn more about ESN Konstanz, see here."
+    },
+    {
+      "id": "10191",
+      "name": "University of Mannheim (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=67896",
+      "overview": "This program is available for exchange.\nThere is no language prerequisite as many courses are taught in English, but the pre-semester language preparatory course is STRONGLY recommended.  \nThe only German exchange that UNC students can attend in the Fall semester (in addition to the Spring), the University of Mannheim is a great choice for students looking for an immersive experience at a German university with the option to take classes in English, German, or both! Classes are a great fit for students studying business, economics, humanities, math, media studies, and information systems, with the added benefit of a Fall or Spring semester held during dates that are much closer to a typical UNC semester than many other German universities.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.\n \nNote: Mannheim is the only exchange program in Germany offered in the fall term, due to the academic calendar lining up with UNC's.",
+      "location": {
+        "city": "Mannheim",
+        "country": "Germany",
+        "description": "Nestled between the Rhine and Neckar rivers, Mannheim is the second largest city in Baden-Württemberg with a population of over 300,000. In addition to only being a 30-minute train ride from Frankfurt Airport, international travel is made is with Mannheim’s train station having trains continue on to some of the biggest cities in Austria, Italy, and Switzerland.",
+        "coordinates": [49.493262452053585, 8.46850557721608]
+      },
+      "student_experience": "The Erasmus Student Network Mannheim (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Mannheim. In addition to their Buddy Program, the ESN regularly hosts events like pub quizzes, language cafes and going to watch a game of the local soccer team, SV Waldhof Mannheim. To learn more about ESN Mannheim, see here."
+    },
+    {
+      "id": "10192",
+      "name": "University of Stuttgart (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68006",
+      "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters, completed by the start of the program. \nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here.\nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from early April to late July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+      "location": {
+        "city": "Stuttgart",
+        "country": "Germany",
+        "description": "Home of Mercedes and Porsche, Baden-Wuerttemberg's capital is the perfect combination of culture, cars and nature. Additionally, it is situated in ideal part of Germany to visit neighboring countries like Austria, France, Switzerland via train and other destinations in Europe via plane.",
+        "coordinates": [48.77042724994081, 9.178636207616684]
+      },
+      "student_experience": "The Erasmus Student Network Stuttgart (ESN) is a non-profit organization run by local students to help incoming international students adapt to life in Stuttgart. The ESN regularly hosts events like pub crawls, a city tour of Stuttgart and a Stammtisch. To learn more about ESN Stuttgart, check out their Instagram!"
+    },
+    {
+      "id": "10188",
+      "name": "University of Hohenheim (BW-UNCG)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68078",
+      "overview": "This program is available for exchange.\nThe language prerequisite is 4 semesters of German, completed by the start of the program. \nThe University of Hohenheim is a great fit for students looking for a very immersive experience at German university who are comfortable taking their classes in German. Courses are focused mainly on STEM and social sciences.\nThis exchange is part of the BW-UNCG program, which offers students the opportunity to pursue coursework at one of the nine German universities in the state of Baden-Württemberg. All universities in the BW-UNCG program include a recommended one-month pre-session language and orientation program before you begin to study at the university. Students participating in the BW-UNCG exchange are eligible to receive a 700 Euro scholarship, paid once they arrive in Germany. The number of scholarships is limited and offered on a first come basis for complete applications.\nFor more information on the BW-UNCG program, click here. \nStudents should also be open to attending their Spring semester abroad closer to the summer, with classes running from early April to mid-July. Students will return to UNC in time for the Fall semester, completing exams virtually if necessary.\nSpecial application notes: When you apply to a BW-UNCG university, you will be applying to your top three choices. You only need to complete one application in Heels Abroad (apply via your top choice university's brochure), but the application will require you to list two backup options, so be sure to do your research on the other BW-UNCG options.",
+      "location": {
+        "city": "Stuttgart",
+        "country": "Germany",
+        "description": "Located in the south of Stuttgart, the university is beautifully situated in a castle perched on a hill overlooking its agricultural grounds and only half an hour from the city center. For those looking to travel while in Europe, Stuttgart is situated in an ideal part of Germany to visit neighboring countries like Austria, France, Switzerland via train and other destinations in Europe via plane.",
+        "coordinates": [48.76790683091394, 9.177816686415003]
+      },
+      "student_experience": "To help adjust to life at the University of Hohenheim, students are encouraged to join the Buddy Program organized by the International Students Organization (ISO). A Buddy is a Hohenheim student who offers help and advice to a small group of foreign students studying the same subject. They help you to find your way around the campus, with important formalities and other questions you may have throughout your time in Germany."
+    },
+    {
+      "id": "10323",
+      "name": "University of Helsinki",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=55607",
+      "overview": "Founded in 1640, The University of Helsinki is a public research university located in the heart of Finland’s capital city, Helsinki and is open to students from all majors/minors. With 3,000+ international and exchange students, 4,500+ educators and researchers, and 11 faculties, the University is the oldest and largest institution in the country. At the University of Helsinki, students can expect high-quality research-based teaching that helps them hone their academic skills and apply them to real-world scenarios.",
+      "location": {
+        "city": "Helsinki",
+        "country": "Finland",
+        "description": "Helsinki sits on a beautiful peninsula in the Gulf of Finland and is surrounded by breathtaking city and waterfront views. The rich history of the city can be explored at one of its many museums, like the National Museum, which outlines Finland’s roots all the way back to the Stone Age! For city dwellers, you can enjoy the variety of events that celebrate the city’s innovative underground art subculture that is on the rise. If you find yourself needing a break from the hustle of city life, Finland offers tons of unique experiences like seeing the Northern Lights. With everything Finland has to offer, it’s no wonder why people always refer to it as the happiest country in the world!",
+        "coordinates": [60.16731206608582, 24.931086269193163]
+      },
+      "student_experience": "The University hosts a series of events like Orientation Week before each term with activities to help incoming exchange and international students get to know the campus and its resources. To help students excel in their studies, there are different resources available like learning facilities, digital learning environments, and Student Tutors. During their stay, students are also encouraged to get involved in on-campus activities and join student-run organizations like the Student Union (HYY), which is a community that strives to protect students’ interests and provide services. \nStudent Blog \nInformation for Exchange and Visiting Students \nFrequently Asked Questions"
+    },
+    {
+      "id": "12315",
+      "name": "University of Bergen",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=61406",
+      "overview": "This program is available for exchange and open to Social Science majors and minors with academic interest in European politics. This FUNDED program is highly competitive and only 1-2 students will be selected each semester.\nThe University of Bergen (UiB) is the second oldest university in Norway and an international research university with major interdisciplinary width. The university is located in the middle of Bergen, and has been involved in shaping the history of the city. \nThanks to a joint project between UiB's Department of Comparative Politics and UNC-Chapel Hill's Center for European Studies, UNC-Chapel Hill students who are selected for this opportunity receive a monthly stipend of NOK 11487 (~$1,100) for the duration of the semester for housing and living expenses. Additionally, round-trip international travel (maximum NOK 30 000) and visa costs (maximum NOK 5000) are covered (as a reimbursement).  \nFor questions about this program, contact:\nKathleen Lindner, klindner@email.unc.edu\nExecutive Director, Center for European Studies",
+      "location": {
+        "city": "Bergen",
+        "country": "Norway",
+        "description": "Bergen is the second largest city in Norway and located on the west coast in the heart of the fjords. As a UNESCO World Heritage City and a European City of Culture, the Bergen region has the ideal combination of nature, culture and exciting urban life all year around.",
+        "coordinates": [60.39276732832682, 5.338665541365285]
+      },
+      "student_experience": "During the academic year, the city of Bergen is home to about 25,000 students (roughly 10% of the city’s population). Around 17,500 of them attend the University of Bergen (UiB), one of Norway’s most international institutions. UiB fosters an international environment where students come in contact with people and knowledge from all over the world.\nThe University of Bergen is also the most urban university in Norway, with most of its campus concentrated in the heart of the city. The prevelance of students in Bergen gives the city a youthful and modern feel, and creates an atmosphere of enthusiasm and optimism."
+    },
+    {
+      "id": "10173",
+      "name": "Pontificia Universidad Catolica de Chile (Media & Journalism)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=68325",
+      "overview": "This program is available for exchange. \nThe language prerequisite is 5 semesters, completed by the start of the program.  \nThis program is an exchange option exclusively for Media & Journalism students. \nPontificia Universidad Católica de Chile (UC Chile) was originally founded in 1888. Since then, it has grown to one of South America’s premier universities with over 30,000 students, 18 faculties and 4 campuses spread across Chile’s capital city, Santiago.   \nPlease note that the first semester at UC Chile runs from March to July and the second semester runs from August to December.",
+      "location": {
+        "city": "Santiago",
+        "country": "Chile",
+        "description": "Santiago is home to more than 6 million people and lies in a valley surrounded by the Andes mountains and the Chilean Coast Range. Its proximity to beaches, mountains, rivers and rich culture/history allows one to enjoy all that Chile has to offer in this South American capital.",
+        "coordinates": [-33.44378759847388, -70.65702026261953]
+      },
+      "student_experience": "The MAI Buddy Program is a voluntary program that connects visiting students with UC Chile students to support them throughout their time in Chile."
+    },
+    {
+      "id": "10207",
+      "name": "City St George's, University London (Media & Journalism)",
+      "image": "https://heelsabroad.unc.edu/_customtags/ct_Image.cfm?Image_ID=38495",
+      "overview": "This program is available for exchange and direct enroll.  In-state students will automatically be considered for exchange. \nThis program is only open to students who have been accepted as majors into the UNC School of Media and Journalism. Applicants must also have completed MEJO 153: Newswriting to participate in the program. \nIn partnership with the internationally renowned Department of Journalism at City St George's, University of London, this program is designed for MEJO students to further their journalism training while experiencing life in one of the most diverse and exciting cities in the world. Students will directly enroll at City for a semester and fully integrate into the academic, social, and cultural life at City.",
+      "location": {
+        "city": "London",
+        "country": "England",
+        "description": "City St George's, University London is situated on Northampton Square in Islington, close to the financial district and the up-and-coming areas of east London. Whether you are interested in museums or galleries, theaters or music venues, pubs or restaurants, there are numerous options on your doorstep. Studying in one of the most diverse and vibrant cities in the world makes every day exciting with countless opportunities to learn, have fun, and explore.",
+        "coordinates": [51.50076353872193, -0.12562397932950653]
+      },
+      "student_experience": "A great way to get involved at City St George's is to join one of the many social clubs or social societies housed in their Students’ Union! From playing futsal to joining the Anime Society, there is an opportunity for each student to meet others with similar interests. To learn about all the Student’s Union has to offer, see here."
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 import MainMap from "./StudyAbroadComponents/MainMap.jsx";
 import AbroadUserInterface from "./StudyAbroadComponents/AbroadUserInterface.jsx";
 import { useState } from "react";
-import ExchangeData from "./StudyAbroadComponents/utils/exchangejson.json";
-import CheapData from "./StudyAbroadComponents/utils/cheapjson.json";
-import SummerData from "./StudyAbroadComponents/utils/summerjson.json";
-import DirectData from "./StudyAbroadComponents/utils/directjson.json";
+import ExchangeData from "./StudyAbroadComponents/Abroad_Data/exchangejson.json";
+import CheapData from "./StudyAbroadComponents/Abroad_Data/cheapjson.json";
+import SummerData from "./StudyAbroadComponents/Abroad_Data/summerjson.json";
+import DirectData from "./StudyAbroadComponents/Abroad_Data/directjson.json";
 import Dropdown from "./StudyAbroadComponents/Dropdown.jsx";
 import "./StudyAbroadComponents/abroad.css";
 function StudyAbroadPlanner() {
