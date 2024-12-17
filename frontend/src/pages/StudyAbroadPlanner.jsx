@@ -1,6 +1,6 @@
+import { useState } from "react";
 import MainMap from "./StudyAbroadComponents/MainMap.jsx";
 import AbroadUserInterface from "./StudyAbroadComponents/AbroadUserInterface.jsx";
-import { useState } from "react";
 import ExchangeData from "./StudyAbroadComponents/Abroad_Data/exchangejson.json";
 import CheapData from "./StudyAbroadComponents/Abroad_Data/cheapjson.json";
 import SummerData from "./StudyAbroadComponents/Abroad_Data/summerjson.json";
