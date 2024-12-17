@@ -10,6 +10,7 @@ import { useDispatch, useSelector } from "react-redux";
 import Loader from "../ui/Loader";
 import { GiKitchenKnives } from "react-icons/gi";
 import SearchBar from "../ui/SearchBar";
+import "../index.css";
 
 function ClassRegistration() {
   const dispatch = useDispatch();
@@ -107,7 +108,7 @@ function ClassRegistration() {
             onChange={(e) => setSelectedClassTime(e.target.value)}
           />
           <button
-            className="w-38 gray-200 ml-4 rounded-xl border-2 border-slate-500 bg-blue-400 p-2 text-center text-slate-500 text-white"
+            className="w-38 gray-200 hover-btn ml-4 rounded-xl border-2 border-slate-500 bg-blue-400 p-2 text-center text-white"
             type="submit"
           >
             Add

@@ -20,9 +20,7 @@ body {
 
 @layer components {
   .input {
-    @apply rounded-full border border-stone-200 px-4 py-2 text-sm
-            transition-all duration-300 placeholder:text-stone-400 focus:outline-none
-            focus:ring focus:ring-yellow-400  md:px-6 md:py-3
+    @apply rounded-full border border-stone-200 px-4 py-2 text-sm transition-all duration-300 placeholder:text-stone-400 focus:outline-none focus:ring focus:ring-yellow-400 md:px-6 md:py-3;
   }
 }
 
@@ -30,28 +28,43 @@ body {
   width: 45px;
   aspect-ratio: 0.75;
   --c: no-repeat linear-gradient(#333 0 0);
-  background: var(--c) 0% 50%, var(--c) 50% 50%, var(--c) 100% 50%;
+  background:
+    var(--c) 0% 50%,
+    var(--c) 50% 50%,
+    var(--c) 100% 50%;
   background-size: 20% 50%;
   animation: loading 1s infinite linear;
 }
 
 @keyframes loading {
   20% {
-    background-position: 0% 0%, 50% 50%, 100% 50%;
+    background-position:
+      0% 0%,
+      50% 50%,
+      100% 50%;
   }
   40% {
-    background-position: 0% 100%, 50% 0%, 100% 50%;
+    background-position:
+      0% 100%,
+      50% 0%,
+      100% 50%;
   }
   60% {
-    background-position: 0% 50%, 50% 100%, 100% 0%;
+    background-position:
+      0% 50%,
+      50% 100%,
+      100% 0%;
   }
   80% {
-    background-position: 0% 50%, 50% 50%, 100% 100%;
+    background-position:
+      0% 50%,
+      50% 50%,
+      100% 100%;
   }
 }
 
 .navLink {
-  @apply flex items-center gap-4 text-carolina-blue text-lg font-medium py-3 px-6 transition-colors duration-300 hover:text-blue-600 hover:bg-gray-50 active:text-gray-800 active:bg-gray-50 rounded-sm
+  @apply flex items-center gap-4 rounded-sm px-6 py-3 text-lg font-medium text-carolina-blue transition-colors duration-300 hover:bg-gray-50 hover:text-blue-600 active:bg-gray-50 active:text-gray-800;
 }
 
 @keyframes animate {
@@ -83,4 +96,12 @@ body {
 
 .link-animated:hover::before {
   width: 100%;
+}
+
+.hover-btn {
+  transition: background-color 0.3s ease;
+}
+
+.hover-btn:hover {
+  background-color: #367cd8;
 }
