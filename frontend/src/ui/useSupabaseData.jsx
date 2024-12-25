@@ -30,6 +30,7 @@ function useSupabaseData(query) {
         setIsLoading(false);
       }
     }
+    fetchData();
   }, [query]);
 
   return { data, isLoading, error };

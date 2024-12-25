@@ -1,11 +1,13 @@
-import { useState } from "react";
-import ExchangeData from "../StudyAbroadComponents/Abroad_Data/exchangejson.json";
-import CheapData from "../StudyAbroadComponents/Abroad_Data/cheapjson.json";
-import SummerData from "../StudyAbroadComponents/Abroad_Data/summerjson.json";
-import InternshipsData from "../StudyAbroadComponents/Abroad_Data/internshipsjson.json";
-import DirectData from "../StudyAbroadComponents/Abroad_Data/directjson.json";
+import { useState, useContext } from "react";
+import ExchangeData from "../StudyAbroadComponents/utils/Abroad_Data/exchangejson.json";
+import CheapData from "../StudyAbroadComponents/utils/Abroad_Data/cheapjson.json";
+import SummerData from "../StudyAbroadComponents/utils/Abroad_Data/summerjson.json";
+import InternshipsData from "../StudyAbroadComponents/utils/Abroad_Data/internshipsjson.json";
+import DirectData from "../StudyAbroadComponents/utils/Abroad_Data/directjson.json";
+import { AbroadContext } from "./utils/AbroadContextProvider";
 import "./abroad.css";
-function Dropdown({ setDataset, setHeader }) {
+function Dropdown() {
+  const { setDataset, setHeader } = useContext(AbroadContext);
   const [selectedValue, setSelectedValue] = useState("Exchange");
   const handleChange = (event) => {
     const value = event.target.value;

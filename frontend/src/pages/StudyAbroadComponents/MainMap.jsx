@@ -1,5 +1,6 @@
+import { AbroadContext } from "./utils/AbroadContextProvider";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
 import "leaflet/dist/leaflet.css";
 import "./abroad.css";
 import L from "leaflet";
@@ -13,7 +14,8 @@ const pastelColors = [
   "#8A5ECC",
 ];
 
-function MainMap({ universities, onSelectUniversity }) {
+function MainMap() {
+  const { universities, onSelectUniversity } = useContext(AbroadContext);
   const [colors, setColors] = useState([]);
 
   useEffect(() => {

@@ -7,7 +7,8 @@ function Header() {
     <>
       <header className="flex items-center justify-between bg-gradient-to-r from-sidebar-apurwa1 to-sidebar-apurwa2 px-4 py-3 font-pizza uppercase shadow-header sm:px-6">
         <Link
-          to="/"
+          to="https://www.unc.edu/"
+          target="_blank"
           className="duration-250 relative z-10 inline-block tracking-wider transition-all ease-in-out"
         >
           <span className="link-animated relative z-10 inline-block">

@@ -1,7 +1,11 @@
 import "./abroad.css";
 import uncImage from "./unc_image.jpeg";
+import { useContext } from "react";
+import { AbroadContext } from "./utils/AbroadContextProvider";
 
-function PinInfo({ universityName, overview, studentExperience, image, id }) {
+function PinInfo() {
+  const { universityName, overview, studentExperience, image, id } =
+    useContext(AbroadContext);
   console.log(overview);
   return (
     <div className="all-text">
