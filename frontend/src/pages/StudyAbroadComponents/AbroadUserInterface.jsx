@@ -3,8 +3,7 @@ import PinInfo from "./PinInfo";
 import { useContext } from "react";
 import { AbroadContext } from "./utils/AbroadContextProvider";
 function AbroadUserInterface() {
-  const { universityName, overview, studentExperience, image, header, id } =
-    useContext(AbroadContext);
+  const { header } = useContext(AbroadContext);
   return (
     <>
       <h1 className="header">{header} Opportunities</h1>
