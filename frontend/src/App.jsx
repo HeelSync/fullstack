@@ -3,7 +3,7 @@ import Home from "./ui/Home";
 import store from "./state/store";
 import { Provider } from "react-redux";
 
-import AppLayout from "./ui/AppLayout";
+import AppLayout from "./layout/AppLayout";
 import Dashboard from "./pages/Dashboard";
 import CalendarTool from "./pages/CalendarTool";
 import ClassRegistration from "./pages/ClassRegistration";

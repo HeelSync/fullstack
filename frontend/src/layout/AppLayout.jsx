@@ -1,7 +1,7 @@
-import Header from "./Header";
+import Header from "../layout/Header";
 import { Outlet } from "react-router-dom";
-import Loader from "./Loader";
-import Sidebar from "./Sidebar";
+import Loader from "../ui/Loader";
+import Sidebar from "../layout/Sidebar";
 
 function AppLayout() {
   return (
