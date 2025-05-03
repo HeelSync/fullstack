@@ -10,11 +10,13 @@ HeelSync is a productivity web application designed to help UNC students manage 
 
 HeelSync is built using the MERN stack (MongoDB, Express, React, Node.js)
 
-## Things Left For Me to Do...
+## Things Left For Me to Do... (in order)
 
-- Fully Integrate ConnectCarolina for real-time class data
+- Implement MongoDB Database
+- Populate DB w/ course data
+- Build REST APIs to interact with DB requests and responses
 - Create login and security system
-- Implement the MongoDB Database
+- Build User Database
 - Implement Working Calendar
 - Dark Mode and customizable themes
 - Media Queries for Mobile and Tablet Support
